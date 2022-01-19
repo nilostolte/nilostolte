@@ -16,7 +16,8 @@ In addition to that graphics designers are much cheaper and more creative than p
 
 ### Future high resolution screens
 
-But these are not the only advantages of using vector graphics for GUI creation. Its known intrinsic characteristic is of being insensitive to the resolution of the screen. One can for example zoom the whole interface without any lost of quality. This not only means that one can design far different GUIs having zooming as part of its interactive process but also that the same interface can run in a variety of diffrerent screen resolutions. With the advent of 4K and 8K monitors and panels this is a fundmental feature for the portability of the same interface in different screen resolution.
+But these are not the only advantages of using vector graphics for GUI creation. Its known intrinsic characteristic is of being insensitive to the resolution of the screen. One can for example zoom the whole interface without any lost of quality. This not only means that one can design far different GUIs having zooming as part of its interactive process but also that the same interface can run in a variety of different screen resolutions. With the advent of 4K and 8K monitors and panels this is a fundamental feature for the portability of the same interface in different screen resolutions. With 
+screen technology growing faster than the hardware to display the information, vector graphics can be seen as the graal for solving this kind of problem. What's amazing is that barely no one is using it nowadays, and we will eventually have a problem where all applications will need to migrate to vector GUIs anyway. 
 
 
 

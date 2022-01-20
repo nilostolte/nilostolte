@@ -6,9 +6,9 @@
   - [Future high resolution screens](https://github.com/nilostolte#future-high-resolution-screens)
   - [Google did it: Dart and Flutter](https://github.com/nilostolte#google-did-it-dart-and-flutter)
   - [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter-is-just-skia-disguised-behind-the-scenes-could-dart-survive)
-- [**Activities**]()
-  - [**Current Activities**]()
-    - [𝝅 **desktop calculator**]()
+- [**Activities**](https://github.com/nilostolte#activities)
+  - [**Current Activities**](https://github.com/nilostolte#current-activities)
+    - [𝝅 **desktop calculator**](https://github.com/nilostolte#)
 - [**Hints and programming hacks**](https://github.com/nilostolte#hints-and-programming-hacks)
   - [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#java-graphics2d-you-dont-need-double-buffering)
 
@@ -46,7 +46,7 @@ This also brings us to the ultimate conclusion that there is probably no way to 
 ## Activities
 
 ### Current Activities
-- 𝝅 **desktop calculator**: revamping of my [previous multi-precision scientific calculator](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system) for Android known as MaxCalc. This version is desktop version that is a much more flexible application, not only integrating new features such as complex numbers, parenthesis prioritized operations, new computation claculus libraries, copy-pasting of values, etc., but it also implements a GUI entirely based on vector graphics primitives (previously it used a homemade framework library of widgets as explained [here](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system)), uses a much 
+- 𝝅 **desktop calculator**: <a name="maxcalc"></a>revamping of my [previous multi-precision scientific calculator](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system) for Android known as MaxCalc. This version is desktop version that is a much more flexible application, not only integrating new features such as complex numbers, parenthesis prioritized operations, new computation claculus libraries, copy-pasting of values, etc., but it also implements a GUI entirely based on vector graphics primitives (previously it used a homemade framework library of widgets as explained [here](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system)), uses a much 
 more flexible and extensible approach for function implementations using lambda expressions, variable sized and zoomable window,etc. This application is going to be offered as an open source software on GitHub once it is completed. The main idea is to use it as a demo for vector graphics GUI.
 
 ### Future Activities

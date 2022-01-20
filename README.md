@@ -13,8 +13,8 @@
     - [thinking about it](https://github.com/nilostolte#future_activity_1_html_anchor)
   - [**Previous Activities**](https://github.com/nilostolte#previous_activities_html_anchor)
     - [thinking about it](https://github.com/nilostolte#previous_activity_1_html_anchor) 
-- [**Hints and programming hacks**](https://github.com/nilostolte#hints-and-programming-hacks)
-  - [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#java-graphics2d-you-dont-need-double-buffering)
+- [**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)
+  - [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)
 
 ## Introduction
 
@@ -61,9 +61,9 @@ more flexible and extensible approach for function implementations using lambda 
 
 <a name="previous_activity_1_html_anchor"></a>
 ### Previous Activities
-- thinking about it
+- thinking about it <a name="hints_html_anchor"></a>
 
-## Hints and programming hacks
+## Hints and programming hacks <a name="hint_1_html_anchor"></a>
 
 ### Java `Graphics2D`: you don't need double buffering
 

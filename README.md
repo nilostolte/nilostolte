@@ -9,6 +9,10 @@
 - [**Activities**](https://github.com/nilostolte#activities_html_anchor)
   - [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)
     - [𝝅 **desktop calculator**](https://github.com/nilostolte#current_activity_1_html_anchor)
+  - [**Future Activities**](https://github.com/nilostolte#future_activities_html_anchor)
+    - [thinking about it]()
+  - [**Previous Activities**](https://github.com/nilostolte#future_activities_html_anchor)
+    - [thinking about it]() 
 - [**Hints and programming hacks**](https://github.com/nilostolte#hints-and-programming-hacks)
   - [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#java-graphics2d-you-dont-need-double-buffering)
 
@@ -49,7 +53,7 @@ This also brings us to the ultimate conclusion that there is probably no way to 
 <a name="current_activity_1_html_anchor"></a>
 ### Current Activities
 - 𝝅 **desktop calculator**: a revamping of my [previous multi-precision scientific calculator](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system) for Android known as MaxCalc. This version is desktop version that is a much more flexible application, not only integrating new features such as complex numbers, parenthesis prioritized operations, new computation claculus libraries, copy-pasting of values, etc., but it also implements a GUI entirely based on vector graphics primitives (previously it used a homemade framework library of widgets as explained [here](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system)), uses a much 
-more flexible and extensible approach for function implementations using lambda expressions, variable sized and zoomable window,etc. This application is going to be offered as an open source software on GitHub once it is completed. The main idea is to use it as a demo for vector graphics GUI.
+more flexible and extensible approach for function implementations using lambda expressions, variable sized and zoomable window,etc. This application is going to be offered as an open source software on GitHub once it is completed. The main idea is to use it as a demo for vector graphics GUI.<a name="future_activities_html_anchor"></a>
 
 ### Future Activities
 

@@ -46,6 +46,7 @@ This also brings us to the ultimate conclusion that there is probably no way to 
 
 ## Activities 
 <a name="current_activities_html_anchor"></a>
+
 <a name="current_activity_1_html_anchor"></a>
 ### Current Activities
 - 𝝅 **desktop calculator**: a revamping of my [previous multi-precision scientific calculator](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system) for Android known as MaxCalc. This version is desktop version that is a much more flexible application, not only integrating new features such as complex numbers, parenthesis prioritized operations, new computation claculus libraries, copy-pasting of values, etc., but it also implements a GUI entirely based on vector graphics primitives (previously it used a homemade framework library of widgets as explained [here](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system)), uses a much 

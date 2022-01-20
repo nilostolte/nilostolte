@@ -1,13 +1,16 @@
 # Welcome to the GitHub Space of Dr Nilo Stolte
 ## Summary
-- [Introduction](https://github.com/nilostolte#introduction)
-  * [Vector graphics as a portable solution for GUIs](https://github.com/nilostolte#vector-graphics-as-a-portable-solution-for-guis)
-  * [Graphics designers as vector graphics GUI creators.](https://github.com/nilostolte#graphics-designers-as-vector-graphics-gui-creators)
-  * [Future high resolution screens](https://github.com/nilostolte#future-high-resolution-screens)
-  * [Google did it: Dart and Flutter](https://github.com/nilostolte#google-did-it-dart-and-flutter)
-  * [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter-is-just-skia-disguised-behind-the-scenes-could-dart-survive)
-- [Hints and programming hacks](https://github.com/nilostolte#hints-and-programming-hacks)
-  * [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#java-graphics2d-you-dont-need-double-buffering)
+- [**Introduction**](https://github.com/nilostolte#introduction)
+  - [Vector graphics as a portable solution for GUIs](https://github.com/nilostolte#vector-graphics-as-a-portable-solution-for-guis)
+  - [Graphics designers as vector graphics GUI creators.](https://github.com/nilostolte#graphics-designers-as-vector-graphics-gui-creators)
+  - [Future high resolution screens](https://github.com/nilostolte#future-high-resolution-screens)
+  - [Google did it: Dart and Flutter](https://github.com/nilostolte#google-did-it-dart-and-flutter)
+  - [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter-is-just-skia-disguised-behind-the-scenes-could-dart-survive)
+- [**Activities**]()
+  - [**Current Activities**]()
+    - [𝝅 **desktop calculator**]()
+- [**Hints and programming hacks**](https://github.com/nilostolte#hints-and-programming-hacks)
+  - [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#java-graphics2d-you-dont-need-double-buffering)
 
 ## Introduction
 
@@ -39,6 +42,16 @@ We have already seen that frameworks are **complex** as well as **difficult to c
 What is behind Flutter is **Skia**, a vector graphics library for **C++**. It is a quite complex and heavy library but it can be seen as a very good alternative for building vector graphics GUIs in C++ instead of **Qt**, since Qt is just a framework. This bring us to the fundamental limitation of Flutter and Dart for this score. It is designed to generate **machine language**, not **high level** and **portable** building blocks like vector graphics primitives.
 
 This also brings us to the ultimate conclusion that there is probably no way to escape from **vector graphics primitives** to produce applications that have really portable GUIs. Does that mean that **Dart is a dead end?** Not necessarily. We know Flutter and Dart are **open source**. If Dart doesn't limit any vector graphics primitives for being accessed directly there is a chance to shortcircuit the compiler to accept only these constructions and to use it as a transcompiler. If it does limit them, direct access to these primitives must be added, but a new language would be created, since it is not actually Dart. In this way, in the case of a compiled language the normal compilation would take place to generate machine language. In the case one wishes to use a language having acces to its own vector graphics primitives, the compiler would generate high level code in that language, thus totally bypassing Skia.
+
+## Activities
+
+### Current Activities
+- 𝝅 **desktop calculator**: revamping of my [previous multi-precision scientific calculator](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system) for Android known as MaxCalc. This version is desktop version that is a much more flexible application, not only integrating new features such as complex numbers, parenthesis prioritized operations, new computation claculus libraries, copy-pasting of values, etc., but it also implements a GUI entirely based on vector graphics primitives (previously it used a homemade framework library of widgets as explained [here](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system)), uses a much 
+more flexible and extensible approach for function implementations using lambda expressions, variable sized and zoomable window,etc. This application is going to be offered as an open source software on GitHub once it is completed. The main idea is to use it as a demo for vector graphics GUI.
+
+### Future Activities
+
+### Previous Activities
 
 ## Hints and programming hacks
 

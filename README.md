@@ -14,8 +14,8 @@
 
 ## Introduction
 
-Citizen of Canada and France, I am creative, autonomous, experienced, self-motivated, and after an entire career of **software engineer**, **researcher in Computer Science**, and **university professor**, having extensive experience in **C++** and **Java** programming (desktop and Android), in enterprise management, and in research, I am nowadays focusing in improving graphics user interfaces (GUIs) using **vector graphics** in Java desktop applications as well as in Android, with impressive results in appearance, performance and display independence.<a name="vg_guis_html_anchor"></a>
-
+Citizen of Canada and France, I am creative, autonomous, experienced, self-motivated, and after an entire career of **software engineer**, **researcher in Computer Science**, and **university professor**, having extensive experience in **C++** and **Java** programming (desktop and Android), in enterprise management, and in research, I am nowadays focusing in improving graphics user interfaces (GUIs) using **vector graphics** in Java desktop applications as well as in Android, with impressive results in appearance, performance and display independence.
+<a name="vg_guis_html_anchor"></a><br><br>
 ### Vector graphics as a portable solution for GUIs
 
 Since vector graphics paths are very high level abstractions, although able to define complex low level shapes, they can also be seen as part of a **generic metalanguage** which is platform, operating system and language independent. In other words, one can define GUIs using vector graphics primitives which are at the same time efficient (since we are actually dealing with the lowest level layer of vector graphics pipeline) and portable, since these primitives are practically universal, having only tiny differences between different languages and platforms. 

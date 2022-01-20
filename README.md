@@ -8,7 +8,7 @@
   - [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter-is-just-skia-disguised-behind-the-scenes-could-dart-survive)
 - [**Activities**](https://github.com/nilostolte#activities)
   - [**Current Activities**](https://github.com/nilostolte#current-activities)
-    - [𝝅 **desktop calculator**](https://github.com/nilostolte#)
+    - [𝝅 **desktop calculator**](https://github.com/nilostolte#maxcalc)
 - [**Hints and programming hacks**](https://github.com/nilostolte#hints-and-programming-hacks)
   - [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#java-graphics2d-you-dont-need-double-buffering)
 

@@ -6,7 +6,8 @@
   * [Future high resolution screens](https://github.com/nilostolte#future-high-resolution-screens)
   * [Google did it: Dart and Flutter](https://github.com/nilostolte#google-did-it-dart-and-flutter)
   * [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter-is-just-skia-disguised-behind-the-scenes-could-dart-survive)
-- Hints and programming hacks
+- [Hints and programming hacks](https://github.com/nilostolte#hints-and-programming-hacks)
+  * [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#java-graphics2d-you-dont-need-double-buffering)
 
 ## Introduction
 

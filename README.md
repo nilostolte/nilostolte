@@ -1,6 +1,6 @@
 # Welcome to the GitHub Space of Dr Nilo Stolte
 ## Summary
-- [**Introduction**](https://github.com/nilostolte#introduction)
+- [**Introduction**](https://github.com/nilostolte#introduction_html_anchor)
   - [Vector graphics as a portable solution for GUIs](https://github.com/nilostolte#vg_guis_html_anchor)
   - [Graphics designers as vector graphics GUI creators.](https://github.com/nilostolte#graphics_designers_html_anchor)
   - [Future high resolution screens](https://github.com/nilostolte#hd_screens_html_anchor)
@@ -14,7 +14,7 @@
   - [**Previous Activities**](https://github.com/nilostolte#previous_activities_html_anchor)
     - [thinking about it](https://github.com/nilostolte#previous_activity_1_html_anchor) 
 - [**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)
-  - [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)
+  - [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)<a name="introduction_html_anchor"></a><br>
 
 ## Introduction
 

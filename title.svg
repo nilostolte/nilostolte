@@ -11,7 +11,7 @@
 
             @keyframes mymove {
                 from {
-                    color: red;
+                    color: blue;
                 }
                 to {
                     color: #51bd96;

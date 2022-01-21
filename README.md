@@ -1,6 +1,8 @@
 <hr>
 
-# Welcome to the GitHub Space of Dr Nilo Stolte
+<img src="title.svg" width="710" height="80" alt="css-in-readme">
+
+
 ## Summary
 ★ &nbsp;[**Introduction**](https://github.com/nilostolte#introduction_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Vector graphics as a portable solution for GUIs](https://github.com/nilostolte#vg_guis_html_anchor)\

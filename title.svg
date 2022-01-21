@@ -6,7 +6,7 @@
             h1 {
                 color: red;
                 animation: mymove 2s infinite;
-                font-family: SFMono-Regular;
+                font-family: Arial, Helvetica, sans-serif;
             }
 
             @keyframes mymove {

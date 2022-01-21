@@ -1,7 +1,5 @@
 <hr>
-
 <img src="title.svg" width="710" height="80" alt="css-in-readme">
-
 
 ## Summary
 ★ &nbsp;[**Introduction**](https://github.com/nilostolte#introduction_html_anchor)\

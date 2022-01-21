@@ -14,7 +14,7 @@
                     color: red;
                 }
                 to {
-                    color: black;
+                    color: green;
                 }
             }
             </style>

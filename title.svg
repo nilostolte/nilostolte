@@ -14,7 +14,7 @@
                     color: red;
                 }
                 to {
-                    color: green;
+                    color: #51bd96;
                 }
             }
             </style>

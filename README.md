@@ -71,7 +71,7 @@ more flexible and extensible approach for function implementations using lambda 
 
 If you are into Java programming this might sound to you as a big surprise and almost as a huge heresy. No, you just don't need a `JPanel` and you definitely don't need double buffering.
 
-What you need is just a `JFrame` and buffering with a `BufferedImage`, where you save your `Graphics2D` using `createImage`. You then use `drawImage` to display the saved buffer whenever you need to refresh the whole `JFrame`. Never redisplay your whole `JFrame` with `Graphics2`D primitives, but only with the `BufferedImage`. You can redisplay only parts of the `JFrame`. In this case your `JFrame` "paint" method must know what part to update by selective painting (like highlighting a button when clicked).
+What you need is just a `JFrame` and buffering with a `BufferedImage`, where you save your `Graphics2D` using `createImage`. You then use `drawImage` to display the saved buffer whenever you need to refresh the whole `JFrame`. Never redisplay your whole `JFrame` with `Graphics2D` primitives, but only with the `BufferedImage`. You can redisplay only parts of the `JFrame`. In this case your `JFrame` "paint" method must know what part to update by selective painting (like highlighting a button when clicked).
 
 This is far much faster than double buffering and you will never see any flickering. Thus you will have the best performance with the same result as using a `JPanel` and double buffering.
 

@@ -7,6 +7,7 @@
                 color: red;
                 animation: mymove 2s infinite;
                 font-family: sans-serif;
+                vertical-align: text-top;
             }
 
             @keyframes mymove {

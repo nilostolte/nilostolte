@@ -18,9 +18,8 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [thinking about it](https://github.com/nilostolte#previous_activity_1_html_anchor)
   
 ★ &nbsp;[**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)<a name="introduction_html_anchor"></a>
  
-<a name="introduction_html_anchor"></a>
 <hr>
 
 ## Introduction

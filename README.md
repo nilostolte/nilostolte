@@ -1,20 +1,20 @@
 # Welcome to the GitHub Space of Dr Nilo Stolte
 ## Summary
-- [**Introduction**](https://github.com/nilostolte#introduction_html_anchor)
-  - [Vector graphics as a portable solution for GUIs](https://github.com/nilostolte#vg_guis_html_anchor)
-  - [Graphics designers as vector graphics GUI creators.](https://github.com/nilostolte#graphics_designers_html_anchor)
-  - [Future high resolution screens](https://github.com/nilostolte#hd_screens_html_anchor)
-  - [Google did it: Dart and Flutter](https://github.com/nilostolte#dart_flutter_html_anchor)
-  - [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter_skia_html_anchor)
-- [**Activities**](https://github.com/nilostolte#activities_html_anchor)
-  - [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)
-    - [𝝅 **desktop calculator**](https://github.com/nilostolte#current_activity_1_html_anchor)
-  - [**Future Activities**](https://github.com/nilostolte#future_activities_html_anchor)
-    - [thinking about it](https://github.com/nilostolte#future_activity_1_html_anchor)
-  - [**Previous Activities**](https://github.com/nilostolte#previous_activities_html_anchor)
-    - [thinking about it](https://github.com/nilostolte#previous_activity_1_html_anchor) 
-- [**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)
-  - [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)<a name="introduction_html_anchor"></a><br>
+★ &nbsp;[**Introduction**](https://github.com/nilostolte#introduction_html_anchor)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Vector graphics as a portable solution for GUIs](https://github.com/nilostolte#vg_guis_html_anchor)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Graphics designers as vector graphics GUI creators.](https://github.com/nilostolte#graphics_designers_html_anchor)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Future high resolution screens](https://github.com/nilostolte#hd_screens_html_anchor)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Google did it: Dart and Flutter](https://github.com/nilostolte#dart_flutter_html_anchor)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter_skia_html_anchor)<br>
+★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [𝝅 **desktop calculator**](https://github.com/nilostolte#current_activity_1_html_anchor)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Future Activities**](https://github.com/nilostolte#future_activities_html_anchor)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [thinking about it](https://github.com/nilostolte#future_activity_1_html_anchor)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Previous Activities**](https://github.com/nilostolte#previous_activities_html_anchor)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[thinking about it](https://github.com/nilostolte#previous_activity_1_html_anchor)<br>
+★ &nbsp;[**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)<a name="introduction_html_anchor"></a><br>
 
 ## Introduction
 

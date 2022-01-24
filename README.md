@@ -69,8 +69,15 @@ more flexible and extensible approach for function implementations using lambda 
 
 <a name="previous_activity_1_html_anchor"></a>
 ### Previous Activities
-- thinking about it <a name="hints_html_anchor"></a>
-
+- **Examples of vector graphics in Java**
+  -  [**ClockWidget**](https://github.com/nilostolte/ClockWidget): analog vector graphics clock in Java that gives the real time on a desktop (wholly developped in Java, but the design was inspired by a vector clock from freepik)
+  -  [**ExclamationIcon**](https://github.com/nilostolte/PostScript/tree/main/Examples/Convertion%20to%20Java): static icon used as an error warning (automatically converted to Java from PostScript - [process described here](https://github.com/nilostolte/PostScript/tree/main/Examples/Convertion%20to%20Java/ExclamationIcon)).
+  -  [**Java Vector GUI**](https://github.com/nilostolte/Java-Vector-GUI)
+     -  [MenuInfographics6](https://github.com/nilostolte/Java-Vector-GUI/tree/main/MenuInfographics6): example of a complete menu wholly developed in Java inspired from a vector design from freepik. The example contains menu items with an original shape, vector texts and exclusive vector icons, also providing interactions by clicking and rolling mouse wheel.
+- [**Functionalities using PDFBox**](https://github.com/nilostolte/PDFBox)
+  - [PDFBoxCompact](https://github.com/nilostolte/PDFBox/tree/main/PDFBoxCompact): 
+    - [ShowJustifiedFormattedBook](https://github.com/nilostolte/PDFBox/blob/main/PDFBoxCompact/src/org/apache/pdfbox/examples/pdmodel/ShowJustifiedFormattedBook.java): example that generates automatic documentation from text file using a Latex-like simple language.
+- [**Functionalities using FreeHEP**]()<a name="hints_html_anchor"></a>
 <hr>
 
 ## Hints and programming hacks <a name="hint_1_html_anchor"></a>

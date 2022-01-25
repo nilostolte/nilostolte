@@ -15,7 +15,10 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Future Activities**](https://github.com/nilostolte#future_activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [thinking about it](https://github.com/nilostolte#future_activity_1_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Previous Activities**](https://github.com/nilostolte#previous_activities_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [thinking about it](https://github.com/nilostolte#previous_activity_1_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Examples of vector graphics in Java**](https://github.com/nilostolte#previous_activity_1_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Functionalities using PDFBox**](https://github.com/nilostolte#previous_activity_2_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Functionalities using FreeHEP**](https://github.com/nilostolte#previous_activity_3_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Major recent projects**](https://github.com/nilostolte#previous_activity_4_html_anchor)
   
 ★ &nbsp;[**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)<a name="introduction_html_anchor"></a>
@@ -73,11 +76,20 @@ more flexible and extensible approach for function implementations using lambda 
   -  [**ClockWidget**](https://github.com/nilostolte/ClockWidget): analog vector graphics clock in Java that gives the real time on a desktop (wholly developped in Java, but the design was inspired by a vector clock from freepik)
   -  [**ExclamationIcon**](https://github.com/nilostolte/PostScript/tree/main/Examples/Convertion%20to%20Java): static icon used as an error warning (automatically converted to Java from PostScript - [process described here](https://github.com/nilostolte/PostScript/tree/main/Examples/Convertion%20to%20Java/ExclamationIcon)).
   -  [**Java Vector GUI**](https://github.com/nilostolte/Java-Vector-GUI)
-     -  [MenuInfographics6](https://github.com/nilostolte/Java-Vector-GUI/tree/main/MenuInfographics6): example of a complete menu wholly developed in Java inspired from a vector design from freepik. The example contains menu items with an original shape, vector texts and exclusive vector icons, also providing interactions by clicking and rolling mouse wheel.
+     -  [MenuInfographics6](https://github.com/nilostolte/Java-Vector-GUI/tree/main/MenuInfographics6): example of a complete menu wholly developed in Java inspired from a vector design from freepik. The example contains menu items with an original shape, vector texts and exclusive vector icons, also providing interactions by clicking and rolling mouse wheel.<a name="previous_activity_2_html_anchor"></a>
 - [**Functionalities using PDFBox**](https://github.com/nilostolte/PDFBox)
   - [PDFBoxCompact](https://github.com/nilostolte/PDFBox/tree/main/PDFBoxCompact): 
-    - [ShowJustifiedFormattedBook](https://github.com/nilostolte/PDFBox/blob/main/PDFBoxCompact/src/org/apache/pdfbox/examples/pdmodel/ShowJustifiedFormattedBook.java): example that generates automatic documentation from text file using a Latex-like simple language.
-- [**Functionalities using FreeHEP**]()<a name="hints_html_anchor"></a>
+    - [ShowJustifiedFormattedBook](https://github.com/nilostolte/PDFBox/blob/main/PDFBoxCompact/src/org/apache/pdfbox/examples/pdmodel/ShowJustifiedFormattedBook.java): example that generates automatic documentation from text file using a Latex-like simple language.<a name="previous_activity_3_html_anchor"></a>
+- [**Functionalities using FreeHEP**]()
+  - [Java2PPT](https://github.com/nilostolte/Java2PPT): Java vector information shown on the screen, such as a Graphics User interface, is automatically converted to PowerPoint by using an intermediate language, MicroVBA. 
+  - [MicroVBA-PowerPoint](https://github.com/nilostolte/MicroVBA-PowerPoint): VBA interpreter written in VBA to be used in PowerPoint in order to be able to import large vector graphics files, notably Java vector information from Java2PPT.<a name="previous_activity_4_html_anchor"></a>
+- [**Major recent projects**](https://github.com/nilostolte/Projects-Presentations)
+  - [π Vector GUI for Java and Android](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#%CF%80-vector-gui-for-java-and-android): This project is about the development of a system for creating Graphics User Interfaces (GUI) for Java applications on Windows, Linux or Android using vector primitives and vectorized fonts.
+  - [Automatic Vector Fonts Generator Project – Glyphs, their widths and kerning pairs](https://github.com/nilostolte/Projects-Presentations/blob/main/Automatic%20Vector%20Fonts%20Generator%20Project.md#automatic-vector-fonts-generator-project--glyphs-their-widths-and-kerning-pairs): This project is about the development of a tool to transform Truetype and Opentype fonts to an embedded proprietary compact font format in Java.
+  - [String Vectorizer Project](https://github.com/nilostolte/Projects-Presentations/blob/main/String%20Vectorizer.md#string-vectorizer-project): This project is about a program that vectorizes strings into Java Path2D.Float paths.
+  - [BreakIntoLines](https://github.com/nilostolte/Projects-Presentations/blob/main/BreakIntoLines.md#breakintolines): This project is about a Java program that vectorizes a string into Java Path2D.Float paths, breaking it into lines and right justifying the text.
+  - [Converting PostScript to Java](https://github.com/nilostolte/PostScript/tree/main/Examples/Convertion%20to%20Java/ExclamationIcon#exclamationicon): This project shows how to convert PostScript files into Java classes semi-automatically.
+  - [Java Vector GUI](https://github.com/nilostolte/Java-Vector-GUI/tree/main/MenuInfographics6#menuinfographics6): This project shows how a vector GUI can be coded. This code has been used for other projects like in MicroVBA.<a name="hints_html_anchor"></a>
 <hr>
 
 ## Hints and programming hacks <a name="hint_1_html_anchor"></a>

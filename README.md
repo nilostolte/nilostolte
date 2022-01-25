@@ -2,7 +2,7 @@
 <img src="title.svg" width="470" height="80" alt="css-in-readme">
 
 ## Summary
-★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf)\
+★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf): This letter is a foreword to the work I have been doing lately in terms of research and development, which is the use of vector graphics in innovative graphics user interfaces. This work has a tremendous reach in terms of longevity as well as in reduction of costs of graphics user interfaces. The vector graphics paradigm is almost universal and has been available in some languages and it has been recently migrating to hardware in the form of standard APIs\
 ★ &nbsp;[**Introduction**](https://github.com/nilostolte#introduction_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Vector graphics as a portable solution for GUIs](https://github.com/nilostolte#vg_guis_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Graphics designers as vector graphics GUI creators.](https://github.com/nilostolte#graphics_designers_html_anchor)\

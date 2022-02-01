@@ -23,8 +23,8 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Major recent projects](https://github.com/nilostolte#previous_activity_4_html_anchor)
   
 ★ &nbsp;[**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)<a name="introduction_html_anchor"></a>
- 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [UTF-8 the ultimate standard for UNICODE texts](https://github.com/nilostolte#hint_1_html_anchor">) <a name="introduction_html_anchor"></a>
 <hr>
 
 ## Introduction
@@ -107,4 +107,9 @@ But that is not the only advantage. It also allows easily zooming your entire wi
 
 It might sound weird to talk about vector graphics and a pixelized `BufferedImage` at the same time. However, a `Shape` is first scan-converted before being displayed and an `Area` is nothing more than a bitmap representation. By using a buffer you are just anticipating and cutting down scan-conversion time. This is extremely useful in complex vector graphics interfaces. It is a know fact that what is deterring the generalized use of vector graphics in GUIs, either in embedded applications, either on the web, is that it is quite time consuming.
 
-This will likely change in the near future when hyper high resolution screens will appear and programs will have to deal with a wide range of screen resolutions. Vector graphics will then be the most elegant solution to this problem. Using lots of photos and images in your web sites? If they are only for decoration you will probably be in trouble when this arrives.
+This will likely change in the near future when hyper high resolution screens will appear and programs will have to deal with a wide range of screen resolutions. Vector graphics will then be the most elegant solution to this problem. Using lots of photos and images in your web sites? If they are only for decoration you will probably be in trouble when this arrives.<a name="hint_2_html_anchor"></a>
+
+
+### UTF-8 the ultimate standard for UNICODE texts
+
+[This project](https://github.com/nilostolte/UTF-8) allows to read UTF-8 encoded UNICODE files. It implements an infinite buffer file reader where one can recover the text word by word, which is converted from UTF-8, skipping blanks. The blanks can be recovered since they are all counted (feature used in the test program). By skipping blanks the reader is able to identify the start and the end of the words because they are different than blank. The fact that the text is encoded is totally transparent to the reader. The test program reads an UTF-8 testing file and prints it over the console. A batch file is provided to help running the jar. The source files are also given and they are all for free with no license of any kind. 

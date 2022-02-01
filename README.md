@@ -107,7 +107,7 @@ But that is not the only advantage. It also allows easily zooming your entire wi
 
 It might sound weird to talk about vector graphics and a pixelized `BufferedImage` at the same time. However, a `Shape` is first scan-converted before being displayed and an `Area` is nothing more than a bitmap representation. By using a buffer you are just anticipating and cutting down scan-conversion time. This is extremely useful in complex vector graphics interfaces. It is a know fact that what is deterring the generalized use of vector graphics in GUIs, either in embedded applications, either on the web, is that it is quite time consuming.
 
-This will likely change in the near future when hyper high resolution screens will appear and programs will have to deal with a wide range of screen resolutions. Vector graphics will then be the most elegant solution to this problem. Using lots of photos and images in your web sites? If they are only for decoration you will probably be in trouble when this arrives.<a name="hint_2_html_anchor"></a>
+This will likely change in the near future when hyper high resolution screens will appear and programs will have to deal with a wide range of screen resolutions. Vector graphics will then be the most elegant solution to this problem. Using lots of photos and images in your web sites? If they are only for decoration you will probably be in trouble when this arrives. <a name="hint_2_html_anchor"></a>
 
 
 ### UTF-8 the ultimate standard for UNICODE texts

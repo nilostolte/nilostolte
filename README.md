@@ -1,6 +1,9 @@
 <hr>
 <img src="title.svg" width="470" height="80" alt="css-in-readme">
 
+★ &nbsp;DEV [Profile](https://dev.to/nilostolte)\
+★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)
+
 ## Summary
 ★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf): this letter is a foreword to the work I have been doing lately in terms of research and development.
 

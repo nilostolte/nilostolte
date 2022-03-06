@@ -117,7 +117,7 @@ This will likely change in the near future when hyper high resolution screens wi
 
 ### UTF-8 the ultimate standard for UNICODE texts
 
-[This project](https://github.com/nilostolte/UTF-8) allows to read UTF-8 encoded UNICODE files. It implements an infinite buffer file reader where one can recover the text word by word, which is converted from UTF-8, skipping blanks. The blanks can be recovered since they are all counted (feature used in the test program). By skipping blanks the reader is able to identify the start and the end of the words because they are different than blank. The fact that the text is encoded is totally transparent to the reader. The test program reads an UTF-8 testing file and prints it over the console. A batch file is provided to help running the jar. The source files are also given and they are all for free with no license of any kind. <a name="meme_html_anchor"></a>\
+[This project](https://github.com/nilostolte/UTF-8) allows to read UTF-8 encoded UNICODE files. It implements an infinite buffer file reader where one can recover the text word by word, which is converted from UTF-8, skipping blanks. The blanks can be recovered since they are all counted (feature used in the test program). By skipping blanks the reader is able to identify the start and the end of the words because they are different than blank. The fact that the text is encoded is totally transparent to the reader. The test program reads an UTF-8 testing file and prints it over the console. A batch file is provided to help running the jar. The source files are also given and they are all for free with no license of any kind. <a name="meme_html_anchor"></a>
 
 ## Meme
 

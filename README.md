@@ -31,7 +31,7 @@
   
 ★ &nbsp;[**Art**](https://github.com/nilostolte#art_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Art-Vector](https://github.com/nilostolte#art_html_anchor): Vector Art portfolio showing several vector graphics designs I have developed for different reasons.\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Meme](https://github.com/nilostolte#meme_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Meme](https://github.com/nilostolte#meme_html_anchor): some humor to start with?
 <hr>
 
 ## Introduction

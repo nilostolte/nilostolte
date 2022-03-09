@@ -29,7 +29,9 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [UTF-8 the ultimate standard for UNICODE texts](https://github.com/nilostolte#hint_2_html_anchor) <a name="introduction_html_anchor"></a>
   
-★ &nbsp;[**Art**](https://github.com/nilostolte#art_html_anchor)
+★ &nbsp;[**Art**](https://github.com/nilostolte#art_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Art-Vector](https://github.com/nilostolte#art_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Meme](https://github.com/nilostolte#meme_html_anchor)
 <hr>
 
 ## Introduction
@@ -123,7 +125,11 @@ This will likely change in the near future when hyper high resolution screens wi
 
 ### Vector-Art
 
-[Vector-Art repository](https://github.com/nilostolte/Vector-Art#vector-art) 
+[Vector-Art repository](https://github.com/nilostolte/Vector-Art#vector-art)
+
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/80269251/111004449-130dd880-8357-11eb-972c-35b9618ce2ac.jpg" width="464" height="443">
+</p> <a name="meme_html_anchor"></a>
 
 ### Meme
 

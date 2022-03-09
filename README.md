@@ -29,7 +29,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [UTF-8 the ultimate standard for UNICODE texts](https://github.com/nilostolte#hint_2_html_anchor) <a name="introduction_html_anchor"></a>
   
-★ &nbsp;[**Meme**](https://github.com/nilostolte#meme_html_anchor)
+★ &nbsp;[**Art**](https://github.com/nilostolte#art_html_anchor)
 <hr>
 
 ## Introduction
@@ -117,9 +117,15 @@ This will likely change in the near future when hyper high resolution screens wi
 
 ### UTF-8 the ultimate standard for UNICODE texts
 
-[This project](https://github.com/nilostolte/UTF-8) allows to read UTF-8 encoded UNICODE files. It implements an infinite buffer file reader where one can recover the text word by word, which is converted from UTF-8, skipping blanks. The blanks can be recovered since they are all counted (feature used in the test program). By skipping blanks the reader is able to identify the start and the end of the words because they are different than blank. The fact that the text is encoded is totally transparent to the reader. The test program reads an UTF-8 testing file and prints it over the console. A batch file is provided to help running the jar. The source files are also given and they are all for free with no license of any kind. <a name="meme_html_anchor"></a>
+[This project](https://github.com/nilostolte/UTF-8) allows to read UTF-8 encoded UNICODE files. It implements an infinite buffer file reader where one can recover the text word by word, which is converted from UTF-8, skipping blanks. The blanks can be recovered since they are all counted (feature used in the test program). By skipping blanks the reader is able to identify the start and the end of the words because they are different than blank. The fact that the text is encoded is totally transparent to the reader. The test program reads an UTF-8 testing file and prints it over the console. A batch file is provided to help running the jar. The source files are also given and they are all for free with no license of any kind. <a name="art_html_anchor"></a>
 
-## Meme
+## Art
+
+### Vector-Art
+
+[Vector-Art repository](https://github.com/nilostolte/Vector-Art#vector-art) 
+
+### Meme
 
 <p align="left">
   <img src="https://user-images.githubusercontent.com/80269251/156929643-db1e72e8-c622-4a80-8f8a-6c57d1b6d42d.jpg" width="414" height="453">

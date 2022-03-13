@@ -12,7 +12,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Graphics designers as vector graphics GUI creators.](https://github.com/nilostolte#graphics_designers_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Future high resolution screens](https://github.com/nilostolte#hd_screens_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Google did it: Dart and Flutter](https://github.com/nilostolte#dart_flutter_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter_skia_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter_skia_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [The problem of typography on the web](https://github.com/nilostolte#typoweb_html_anchor)
     
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
@@ -71,7 +71,12 @@ This also brings us to the ultimate conclusion that there is probably no way to 
 There is no better example of how typography performs badly on the web than this video from Kevin Powell about "responsive typography" on the web:
 
 <a href="https://www.youtube.com/watch?v=fs9uJ7I4a70"><img src="https://user-images.githubusercontent.com/80269251/158063377-7dcceb74-6909-4a0b-9bce-1653bf12e67b.png"></a>
-<a name="activities_html_anchor"></a>
+
+What is really wrong there? What's wrong is that when one modifies the size of the window the text never scales properly. What they use to try to paliate the problem is a complex animation based scale change of fonts to make it appear similar to actually scaling the page, but that obviously not what is happening there. Why not scaling the page entirely? Because it requires vector graphics and in the web nowadays it is not enoughly "responsive".
+
+What is needed is actual WYSIWYG (What You See Is What You Get) in the web experience. One can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can only be obtained by rendering the window contents as vector graphics that are very easily scalable.
+
+The solution is maybe through an open source library offering to render vector graphics in WebAssembly. Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. When a software is open source it is scrutinized by programmers who will identify malicious code if is exists. <a name="activities_html_anchor"></a>
 
 
 <hr>

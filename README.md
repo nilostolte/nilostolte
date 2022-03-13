@@ -13,8 +13,10 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Future high resolution screens](https://github.com/nilostolte#hd_screens_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Google did it: Dart and Flutter](https://github.com/nilostolte#dart_flutter_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter_skia_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [The problem of typography on the web](https://github.com/nilostolte#typoweb_html_anchor)
-    
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [The problem of responsive vector graphics in the web](https://github.com/nilostolte#vectweb_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [The problem of typography on the web](https://github.com/nilostolte#typoweb_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Vaadin - How to not use Java on the web](https://github.com/nilostolte#vaadin_html_anchor)
+  
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [𝝅 desktop calculator](https://github.com/nilostolte#current_activity_1_html_anchor)<br>
@@ -64,20 +66,33 @@ We have already seen that frameworks are **complex** as well as **difficult to c
 
 What is behind Flutter is **Skia**, a vector graphics library for **C++**. It is a quite complex and heavy library but it can be seen as a very good alternative for building vector graphics GUIs in C++ instead of **Qt**, since Qt is just a framework. This bring us to the fundamental limitation of Flutter and Dart for this score. It is designed to generate **machine language**, not **high level** and **portable** building blocks like vector graphics primitives.
 
-This also brings us to the ultimate conclusion that there is probably no way to escape from **vector graphics primitives** to produce applications that have really portable GUIs. Does that mean that **Dart is a dead end?** Not necessarily. We know Flutter and Dart are **open source**. If Dart doesn't limit any vector graphics primitives for being accessed directly there is a chance to shortcircuit the compiler to accept only these constructions and to use it as a transcompiler. If it does limit them, direct access to these primitives must be added, but a new language would be created, since it is not actually Dart. In this way, in the case of a compiled language the normal compilation would take place to generate machine language. In the case one wishes to use a language having acces to its own vector graphics primitives, the compiler would generate high level code in that language, thus totally bypassing Skia.<a name="typoweb_html_anchor"></a>
+This also brings us to the ultimate conclusion that there is probably no way to escape from **vector graphics primitives** to produce applications that have really portable GUIs. Does that mean that **Dart is a dead end?** Not necessarily. We know Flutter and Dart are **open source**. If Dart doesn't limit any vector graphics primitives for being accessed directly there is a chance to shortcircuit the compiler to accept only these constructions and to use it as a transcompiler. If it does limit them, direct access to these primitives must be added, but a new language would be created, since it is not actually Dart. In this way, in the case of a compiled language the normal compilation would take place to generate machine language. In the case one wishes to use a language having acces to its own vector graphics primitives, the compiler would generate high level code in that language, thus totally bypassing Skia.<a name="vectweb_html_anchor"></a>
 
-### The problem of typography on the web
+### The problem of responsive vector graphics in the web<a name="typoweb_html_anchor"></a>
+
+#### The problem of typography on the web
 
 There is no better example of how typography performs badly on the web than this video from Kevin Powell about "responsive typography" on the web:
 
-<a href="https://www.youtube.com/watch?v=fs9uJ7I4a70"><img src="https://user-images.githubusercontent.com/80269251/158063377-7dcceb74-6909-4a0b-9bce-1653bf12e67b.png"></a>
+<a href="https://www.youtube.com/watch?v=fs9uJ7I4a70">
+  <img src="https://user-images.githubusercontent.com/80269251/158063377-7dcceb74-6909-4a0b-9bce-1653bf12e67b.png" width="683" height="384" >
+</a>
 
 What is really wrong there? What's wrong is that when one modifies the size of the window the text never scales properly. What they use to try to paliate the problem is a complex animation based scale change of fonts to make it appear similar to actually scaling the page, but that obviously not what is happening there. Why not scaling the page entirely? Because it requires vector graphics and in the web nowadays it is not enoughly "responsive".
 
 What is needed is actual WYSIWYG (What You See Is What You Get) in the web experience. One can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can only be obtained by rendering the window contents as vector graphics that are very easily scalable.
 
-The solution is maybe through an open source library offering to render vector graphics in WebAssembly. Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. When a software is open source it is scrutinized by programmers who will identify malicious code if is exists. <a name="activities_html_anchor"></a>
+The solution is maybe through an open source library offering to render vector graphics in WebAssembly. Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. When a software is open source it is scrutinized by programmers who will identify malicious code if is exists.<a name="vaadin_html_anchor"></a>
 
+#### Vaadin - How to not use Java on the web
+
+Vaadin is a tentative to use Java on web programming but unfortunately in the wrong way. Vaadin actually tries to imitate UI frameworks such as the one found in Android or Java Core for desktop, but forgetting the most important stuff: `awt` libraries and vector graphics primitives. In the video below one can clearly see how Vadiin is not the solution for Java UI on the web, because of its very obscure API and vector primitives:
+
+<a href="https://www.youtube.com/watch?v=TGSDz-_dNhI">
+  <img src="https://user-images.githubusercontent.com/80269251/158072042-3b265bda-9db5-456a-9c08-6353bb7e1fc4.png" width="683" height="384">
+</a>
+
+The problem with Vaadin is that exactly the framework aspect is what should be thrown away.<a name="activities_html_anchor"></a>
 
 <hr>
 

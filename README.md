@@ -76,7 +76,7 @@ There is no better example of how typography performs badly on the web than this
 
 <a href="https://www.youtube.com/watch?v=fs9uJ7I4a70">
   <img src="https://user-images.githubusercontent.com/80269251/158063377-7dcceb74-6909-4a0b-9bce-1653bf12e67b.png" width="683" height="384" >
-</a>
+</a><br><br>
 
 What is really wrong there? What's wrong is that when one modifies the size of the window the text never scales properly. What they use to try to paliate the problem is a complex animation based scale change of fonts to make it appear similar to actually scaling the page, but that obviously not what is happening there. Why not scaling the page entirely? Because it requires vector graphics and in the web nowadays it is not enoughly "responsive".
 
@@ -90,7 +90,7 @@ Vaadin is a tentative to use Java on web programming but unfortunately in the wr
 
 <a href="https://www.youtube.com/watch?v=TGSDz-_dNhI">
   <img src="https://user-images.githubusercontent.com/80269251/158072042-3b265bda-9db5-456a-9c08-6353bb7e1fc4.png" width="683" height="384">
-</a>
+</a><br><br>
 
 The problem with Vaadin is that exactly the framework aspect is what should be thrown away.<a name="activities_html_anchor"></a>
 

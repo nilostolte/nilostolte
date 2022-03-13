@@ -86,7 +86,7 @@ The solution is maybe through an open source library offering to render vector g
 
 #### Vaadin - How to not use Java on the web
 
-Vaadin is a tentative to use Java on web programming but unfortunately in the wrong way. Vaadin actually tries to imitate UI frameworks such as the one found in Android or Java Core for desktop, but forgetting the most important stuff: `awt` libraries and vector graphics primitives. In the video below one can clearly see how Vadiin is not the solution for Java UI on the web, because of its very obscure API and vector primitives:
+Vaadin is a tentative to use Java on web programming but unfortunately in the wrong way. Vaadin actually tries to imitate UI frameworks such as the one found in Android or Java Core for desktop, but forgetting the most important stuff: `awt` JRE libraries and vector graphics primitives. In the video below one can clearly see how Vadiin is not the solution for Java UI on the web, because of its very obscure API and framework oriented structure:
 
 <a href="https://www.youtube.com/watch?v=TGSDz-_dNhI">
   <img src="https://user-images.githubusercontent.com/80269251/158072042-3b265bda-9db5-456a-9c08-6353bb7e1fc4.png" width="683" height="384">

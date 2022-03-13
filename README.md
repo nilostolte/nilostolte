@@ -13,6 +13,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Future high resolution screens](https://github.com/nilostolte#hd_screens_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Google did it: Dart and Flutter](https://github.com/nilostolte#dart_flutter_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter_skia_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [The problem of typography on the web](https://github.com/nilostolte#typoweb_html_anchor)
     
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\
@@ -63,7 +64,15 @@ We have already seen that frameworks are **complex** as well as **difficult to c
 
 What is behind Flutter is **Skia**, a vector graphics library for **C++**. It is a quite complex and heavy library but it can be seen as a very good alternative for building vector graphics GUIs in C++ instead of **Qt**, since Qt is just a framework. This bring us to the fundamental limitation of Flutter and Dart for this score. It is designed to generate **machine language**, not **high level** and **portable** building blocks like vector graphics primitives.
 
-This also brings us to the ultimate conclusion that there is probably no way to escape from **vector graphics primitives** to produce applications that have really portable GUIs. Does that mean that **Dart is a dead end?** Not necessarily. We know Flutter and Dart are **open source**. If Dart doesn't limit any vector graphics primitives for being accessed directly there is a chance to shortcircuit the compiler to accept only these constructions and to use it as a transcompiler. If it does limit them, direct access to these primitives must be added, but a new language would be created, since it is not actually Dart. In this way, in the case of a compiled language the normal compilation would take place to generate machine language. In the case one wishes to use a language having acces to its own vector graphics primitives, the compiler would generate high level code in that language, thus totally bypassing Skia.<a name="activities_html_anchor"></a>
+This also brings us to the ultimate conclusion that there is probably no way to escape from **vector graphics primitives** to produce applications that have really portable GUIs. Does that mean that **Dart is a dead end?** Not necessarily. We know Flutter and Dart are **open source**. If Dart doesn't limit any vector graphics primitives for being accessed directly there is a chance to shortcircuit the compiler to accept only these constructions and to use it as a transcompiler. If it does limit them, direct access to these primitives must be added, but a new language would be created, since it is not actually Dart. In this way, in the case of a compiled language the normal compilation would take place to generate machine language. In the case one wishes to use a language having acces to its own vector graphics primitives, the compiler would generate high level code in that language, thus totally bypassing Skia.<a name="typoweb_html_anchor"></a>
+
+### The problem of typography on the web
+
+There is no better example of how typography performs badly on the web than this video from Kevin Powell about "responsive typography" on the web:
+
+<a href="https://www.youtube.com/watch?v=fs9uJ7I4a70"><img src="https://user-images.githubusercontent.com/80269251/158063377-7dcceb74-6909-4a0b-9bce-1653bf12e67b.png"></a>
+<a name="activities_html_anchor"></a>
+
 
 <hr>
 

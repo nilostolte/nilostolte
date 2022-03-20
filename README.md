@@ -1,4 +1,3 @@
-<hr>
 <p align="left">
 <img src="twitter-banner.svg"  width="900" height="300">
 </p>

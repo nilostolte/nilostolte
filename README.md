@@ -1,5 +1,8 @@
 <hr>
-<img src="title.svg" width="470" height="80" alt="css-in-readme">
+<p align="left">
+<img src="twitter-banner.svg"  width="900" height="300">
+</p>
+<!-- <img src="title.svg" width="470" height="80" alt="css-in-readme"> -->
 
 ★ &nbsp;[Twitter](https://twitter.com/nilostolte)\
 ★ &nbsp;DEV [Profile](https://dev.to/nilostolte)\

@@ -1,6 +1,7 @@
 <hr>
 <img src="title.svg" width="470" height="80" alt="css-in-readme">
 
+★ &nbsp;[Twitter](https://twitter.com/nilostolte)\
 ★ &nbsp;DEV [Profile](https://dev.to/nilostolte)\
 ★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)
 

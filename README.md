@@ -6,7 +6,8 @@
 
 ★ &nbsp;[Twitter](https://twitter.com/nilostolte)\
 ★ &nbsp;DEV [Profile](https://dev.to/nilostolte)\
-★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)
+★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)\
+★ &nbsp;[GitHub Page](https://nilostolte.github.io/)
 
 ## Summary
 ★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf): this letter is a foreword to the work I have been doing lately in terms of research and development.

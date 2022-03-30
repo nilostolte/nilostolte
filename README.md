@@ -1,13 +1,12 @@
 <p align="left">
-<img src="twitter-banner.svg"  width="900" height="300">
+<img src="twitter-banner.svg" style="width:100%; height: 100%;>
 </p>
-<!-- <img src="title.svg" width="470" height="80" alt="css-in-readme"> -->
 <hr>
 
-★ &nbsp;[Twitter](https://twitter.com/nilostolte)\
-★ &nbsp;DEV [Profile](https://dev.to/nilostolte)\
-★ &nbsp;[GitHub Page](https://nilostolte.github.io/)
-<!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)\-->
+<a href="https://twitter.com/nilostolte"><img src="twitter-logo.svg" style="width:3%; height: 3%; vertical-align: bottom;"></a>&nbsp;
+<a href="https://nilostolte.github.io/"><img src="github-logo.svg" style="width:3%; height: 3%; vertical-align: bottom;"></a>&nbsp;
+<a href="https://dev.to/nilostolte"><img src="dev-logo.svg" style="width:3%; height: 3%; vertical-align: bottom;"></a>
+<!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)-->
 
 ## Summary
 ★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf): this letter is a foreword to the work I have been doing lately in terms of research and development.

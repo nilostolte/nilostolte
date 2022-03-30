@@ -3,9 +3,9 @@
 </p>
 <hr>
 
-<a href="https://twitter.com/nilostolte"><img src="twitter-logo.svg" style="width:3%; height: 3%; vertical-align: bottom;"></a>&nbsp;
-<a href="https://nilostolte.github.io/"><img src="github-logo.svg" style="width:3%; height: 3%; vertical-align: bottom;"></a>&nbsp;
-<a href="https://dev.to/nilostolte"><img src="dev-logo.svg" style="width:3%; height: 3%; vertical-align: bottom;"></a>
+<a href="https://twitter.com/nilostolte"><img src="twitter-logo.svg" style="width:4%; height: 4%; vertical-align: bottom;"></a>&nbsp;&nbsp;
+<a href="https://nilostolte.github.io/"><img src="github-logo.svg" style="width:4%; height: 4%; vertical-align: bottom;"></a>&nbsp;&nbsp;
+<a href="https://dev.to/nilostolte"><img src="dev-logo.svg" style="width:4%; height: 4%; vertical-align: bottom;"></a>
 <!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)-->
 
 ## Summary

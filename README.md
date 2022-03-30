@@ -1,6 +1,6 @@
-<p align="left">
+<a href="https://nilostolte.github.io/">
 <img src="twitter-banner.svg" style="width:100%; height: 100%;>
-</p>
+</a>
 <hr>
 
 <a href="https://twitter.com/nilostolte"><img src="twitter-logo.svg" style="width:4%; height: 4%; vertical-align: bottom;"></a>&nbsp;

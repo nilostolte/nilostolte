@@ -18,7 +18,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Vaadin - How to not use Java on the web](https://github.com/nilostolte#vaadin_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Figma - The Ultimate Solution](https://github.com/nilostolte#figma_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [HTML 5 Canvas vector Graphics API](https://github.com/nilostolte#html5_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Vector GUI Everywhere](https://github.com/nilostolte#VGUIeverywhere_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Vector GUI Everywhere](https://github.com/nilostolte#VGUIeverywhere_html_anchor)
   
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\

@@ -22,6 +22,7 @@
   
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**GitHub web site**](https://github.com/nilostolte#current_activity_1_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [𝝅 desktop calculator](https://github.com/nilostolte#current_activity_1_html_anchor)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Future Activities**](https://github.com/nilostolte#future_activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [thinking about it](https://github.com/nilostolte#future_activity_1_html_anchor)\
@@ -140,7 +141,7 @@ It is also possible to use Java but its use and compilation to WebAssembly is no
 
 <a name="current_activity_1_html_anchor"></a>
 ### Current Activities
-- [**GitHub web site**](https://nilostolte.github.io/): this website is a proof of concept of the use of vector graphics on the web using HTML 5 Canvas and its vector graphics API. Nowadays using Javascript to build the shapes and to use the API. The objective is to pass to WebAssembly possibly using **Go** language for portability of the code everywhere.
+- [**GitHub web site**](https://nilostolte.github.io/): this website is a proof of concept of the use of vector graphics on the web using HTML 5 Canvas and its vector graphics API. Nowadays using Javascript to build the shapes and to use the API. The objective is to pass to WebAssembly possibly using **Go** language for portability of the code everywhere and for performance.
 - 𝝅 **desktop calculator**: (paused) a revamping of my [previous multi-precision scientific calculator](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system) for Android known as MaxCalc. This version is a desktop version that is a much more flexible application, not only integrating new features such as complex numbers, parenthesis prioritized operations, new computation calculus libraries, copy-pasting of values, etc., but it also implements a GUI entirely based on vector graphics primitives (previously it used a homemade framework library of widgets as explained [here](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system)), uses a much 
 more flexible and extensible approach for function implementations using lambda expressions, variable sized and zoomable window,etc. This application is going to be offered as an open source software on GitHub once it is completed. The main idea is to use it as a demo for vector graphics GUI.<a name="future_activities_html_anchor"></a>
 

@@ -117,7 +117,7 @@ Figma is definitely the ultimate solution of vector graphics for the web and the
 
 Nevertheless, what's behind Figma is nothing more than what is proposed in this site, but not explicitly. In Figma, the marketing gimmick hides all implementation details. As far as one can see, it looks obvious that Figma is using WebAssembly not only to accelerate but also to possibly circumvent some bugs that HTML 5 Canvas vector graphics API (generally used with Javascript) clearly have. These bugs are not generally talked about, but they hind conplex and more professional vector graphics.
 
-The use of WebAssembly in closed enviroments such as Figma gives origin to security issues, because one never knows what a WebAssembly code is actually doing. The solution to this problem is open source code. This will be impossible using Figma though, exctly because it is not open source.<a name="html5_html_anchor"></a>
+The use of WebAssembly in closed enviroments such as Figma gives origin to security issues, because one never knows what a WebAssembly code is actually doing. The solution to this problem is open source code. This will be impossible using Figma though, exactly because it is not open source.<a name="html5_html_anchor"></a>
 
 #### HTML 5 Canvas Vector Graphics API
 

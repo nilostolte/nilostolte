@@ -15,7 +15,9 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter_skia_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [The problem of responsive vector graphics in the web](https://github.com/nilostolte#vectweb_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [The problem of typography on the web](https://github.com/nilostolte#typoweb_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Vaadin - How to not use Java on the web](https://github.com/nilostolte#vaadin_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Vaadin - How to not use Java on the web](https://github.com/nilostolte#vaadin_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Figma - The Ultimate Solution](https://github.com/nilostolte#figma_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [HTML 5 Canvas vector Graphics API](https://github.com/nilostolte#html5_html_anchor)
   
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\
@@ -102,13 +104,13 @@ Vaadin is a tentative to use Java on web programming but unfortunately in the wr
   <img src="https://user-images.githubusercontent.com/80269251/158072042-3b265bda-9db5-456a-9c08-6353bb7e1fc4.png" width="683" height="384">
 </a><br><br>
 
-The problem with Vaadin is that exactly the framework aspect is what should be thrown away.
+The problem with Vaadin is that exactly the framework aspect is what should be thrown away.<a name="figma_html_anchor"></a>
 
 #### Figma - The Ultimate Solution
 
 Figma is definitely the ultimate solution of vector graphics for the web and the future of GUI/UI on the web is in this kind of solution. Although Figma is very good, their solution is quite expensive, because it offers not only an integrated environment for vector graphics production but also to manage and integrate different designs to construct a whole application without any need of programming.
 
-Nevertheless, what's behind Figma is nothing more than what is proposed in this site, but not explicitly. In Figma, the marketing gimmick hides all implementation details. As far as one can see, it looks obvious that Figma is using WebAssembly not only to accelerate but also to possibly circumvent some bugs that HTML 5 Canvas vector graphics API (generally used with Javascript) clearly have. These bugs are not generally talked about, but they hind conplex and more professional vector graphics.
+Nevertheless, what's behind Figma is nothing more than what is proposed in this site, but not explicitly. In Figma, the marketing gimmick hides all implementation details. As far as one can see, it looks obvious that Figma is using WebAssembly not only to accelerate but also to possibly circumvent some bugs that HTML 5 Canvas vector graphics API (generally used with Javascript) clearly have. These bugs are not generally talked about, but they hind conplex and more professional vector graphics.<a name="html5_html_anchor"></a>
 
 #### HTML 5 Canvas vector Graphics API
 

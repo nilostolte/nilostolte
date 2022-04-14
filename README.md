@@ -82,7 +82,11 @@ What is really wrong there? What's wrong is that when one modifies the size of t
 
 I have seen claims that what Temptura is aiming is size-specific adjustments to type designs as proposed by Tim Ahrens and Shoko Mugikura in ["Size-specific adjustments to type designs – An investigation of the principles guiding the design of optical sizes"](https://justanotherfoundry.com/size-specific-adjustments-to-type-designs). In this proposal the _shapes_ of the glyphs change with the scale as it has been observed in typography for many centuries and thanks to new psychological research in this subject. Here it is an example of how a metal typography font would change according to the scale:
 
-![optical-sizes-atf-garamond](https://user-images.githubusercontent.com/80269251/163443530-68295ed5-b39b-4ad5-9aa3-f9338d3a37c9.png)
+
+<p >
+<img = src="https://user-images.githubusercontent.com/80269251/163443530-68295ed5-b39b-4ad5-9aa3-f9338d3a37c9.png" width="70%" height="70%"><br>
+<i>ATF Garamond, from left to right: 6, 8, 10, 12, 14, 16, 18, 24, 72 pt</i>
+</p>
 
 If there is a future of typography on the web or in electronic typography in general, this would be it for sure. But this is not what Typetura is doing. Typetura is merely scaling fonts and not changing their shapes according to the scale as proposed by Tim Ahrens and Shoko Mugikura. In other words, what Typetura is actually doing is just trying to adapt WYSIWYG (What You See Is What You Get) to the web as it is now.
 

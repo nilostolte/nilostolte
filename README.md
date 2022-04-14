@@ -17,7 +17,8 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [The problem of typography on the web](https://github.com/nilostolte#typoweb_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Vaadin - How to not use Java on the web](https://github.com/nilostolte#vaadin_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Figma - The Ultimate Solution](https://github.com/nilostolte#figma_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [HTML 5 Canvas vector Graphics API](https://github.com/nilostolte#html5_html_anchor)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [HTML 5 Canvas vector Graphics API](https://github.com/nilostolte#html5_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Vector GUI Everywhere](https://github.com/nilostolte#VGUIeverywhere_html_anchor)
   
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\
@@ -72,7 +73,7 @@ This also brings us to the ultimate conclusion that there is probably no way to 
 
 ### The problem of vector graphics on the web
 
-Vector graphics on the web exists for a very long time with SVG (Scalable Vector Graphics). SVG, however, is approriate for static designs but not for active and live features such as in animations and widgets. The problem is that it is not efficient enough for real time interactivity. But there is a recent solution nowadays, and I explain that at the [end of this section](html5_html_anchor).
+Vector graphics on the web exists for a very long time with SVG (Scalable Vector Graphics). SVG, however, is approriate for static designs but not for active and live features such as in animations and widgets. The problem is that it is not efficient enough for real time interactivity. But there is a recent solution nowadays, and I explain that at the [end of this section](https://github.com/nilostolte#html5_html_anchor).
 
 Besides active and live contents we also have problems with fonts on the web. Even if the problem of vector fonts is solved as we can see below, it is the structure and the rendering of html itself that became a problem, as far as zooming capabilities are concerned.<a name="typoweb_html_anchor"></a>
 
@@ -123,13 +124,15 @@ This API is significantly faster than SVG and it allows (with some clever workar
 
 But games are not the only applications that can be done with it. One can also code a whole web application using `Canvas` and vector graphics API. Even though very peowerful, this API is not a panacea. I have found limitations that restrict its use for very complex and more professional applications. For example, clipping doesn't work properly if used more than once. What is missing is a library offering operations to join, subtract and intersect vector objects to generate more complex objects, such as the ones found in Java's awt `Area`. These operations can also be found in many vector graphics editors such as Illustrator and Inkscape.
 
-Figma is almost certainly using such a library, probably in WebAssembly. One of the problem withs Figma is that it is a closed environment as cited previously. But such a library as an open source project would not only allow free and general use of these features but also solve any security issues concerning the code since its source code anybody can see. In an industrial environment these libraries can be modified for specific use. For example, the internal representation of objects could be different to avoid having their designs stolen.
+Figma is almost certainly using such a library, probably in WebAssembly. One of the problem withs Figma is that it is a closed environment as cited previously. But such a library as an open source project would not only allow free and general use of these features but also solve any security issues concerning the code since its source code anybody can see. In an industrial environment these libraries can be modified for specific use. For example, the internal representation of objects could be different to avoid having their designs stolen.<a name="VGUIeverywhere_html_anchor"></a>
 
 ### Vector GUI Everywhere
 
-As we can see, what is proposed here is a coherent and portable way of building GUIs based on code that can be used everywhere including (and particularly) on the web. The best language to code completely portable interfaces according to nowadays availability of WebAssembly compilers as well as vector graphics support is probably **Go**. This has to be demonstrated.
+As we can see, what is proposed here is a coherent and portable way of building GUIs based on code that can be used everywhere including (and particularly) on the web. The best language to code completely portable interfaces according to nowadays availability of WebAssembly compilers as well as vector graphics support is probably **Go**. This still has to be demonstrated, but Figma is enough proof that this concept works.
 
-<a name="activities_html_anchor"></a>
+The idea of using **Go** is that the same interface that can be compiled to a particular machine code (to be used in a desktop or mobile) can also be compiled to WebAssembly to be used on the web with only very small changes. The simplicity of **Go** and the ability to perform custom memory management also helps a lot in terms of portability and perfromance.
+
+It is also prossible to use Java but its use and compilation to WebAssembly is not as straighforward as with **Go** that seems to be the ideal language to build interfaces in the near future. Of course that with the generalization of WebAssembly also to desktop and mobiles, any language could be sued but rare are the languages having the vectors graphics supprt of **Go** language. **Go** is maybe here to stay if one thinks about vector GUIs everywhere.<a name="activities_html_anchor"></a>
 
 <hr>
 

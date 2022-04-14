@@ -132,7 +132,7 @@ As we can see, what is proposed here is a coherent and portable way of building 
 
 The idea of using **Go** is that the same interface that can be compiled to a particular machine code (to be used in a desktop or mobile) can also be compiled to WebAssembly to be used on the web with only very small changes. The simplicity of **Go** and the ability to perform custom memory management also helps a lot in terms of portability and performance.
 
-It is also prossible to use Java but its use and compilation to WebAssembly is not as straighforward as with **Go** that seems to be the ideal language to build interfaces in the near future. Of course that with the generalization of WebAssembly also to desktop and mobiles, any language could be sued but rare are the languages having the vectors graphics supprt of **Go** language. **Go** is maybe here to stay if one thinks about vector GUIs everywhere.<a name="activities_html_anchor"></a>
+It is also prossible to use Java but its use and compilation to WebAssembly is not as straighforward as with **Go** that seems to be the ideal language to build interfaces in the near future. Of course that with the generalization of WebAssembly also to desktop and mobiles, any language could be used but rare are the languages having the vectors graphics supprt of **Go** language. **Go** is maybe here to stay if one thinks about vector GUIs everywhere.<a name="activities_html_anchor"></a>
 
 <hr>
 

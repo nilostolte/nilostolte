@@ -39,12 +39,12 @@
 
 ## Introduction
 
-Citizen of Canada and France, I am creative, autonomous, experienced, self-motivated, and after an entire career of **software engineer**, **researcher in Computer Science**, and **university professor**, having extensive experience in **C++** and **Java** programming (desktop and Android), in enterprise management, and in research, I am nowadays focusing in innovative graphics user interfaces (GUIs) using **vector graphics** in Java desktop applications as well as in Android, with impressive results in appearance, performance and display independence. This work has a tremendous reach in terms of longevity as well as in reduction of costs of graphics user interfaces. The vector graphics paradigm is almost universal and has been available in some languages and it has been recently migrating to hardware in the form of standard APIs.<a name="vg_guis_html_anchor"></a><br>
+Citizen of Canada and France, I am creative, autonomous, experienced, self-motivated, and after an entire career of **software engineer**, **researcher in Computer Science**, and **university professor**, having extensive experience in **C++** and **Java** programming (desktop and Android), in enterprise management, and in research, I am nowadays focusing in innovative graphics user interfaces (GUIs) using **vector graphics** in Java desktop applications as well as in Android, now using [HTML 5 Canvas with Javascript](https://nilostolte.github.io/) and other languages, with impressive results in appearance, performance and display independence. This work has a tremendous reach in terms of longevity as well as in reduction of costs of graphics user interfaces. The vector graphics paradigm is almost universal and has been available in some languages and it has been recently migrating to hardware in the form of standard APIs.<a name="vg_guis_html_anchor"></a><br>
 
 ### Vector graphics as a portable solution for GUIs
 
 Since [vector graphics paths](https://github.com/nilostolte/ClockWidget/blob/main/README.md#path-commands) are very high level abstractions, although able to define complex low level shapes, they can also be seen as part of a **generic metalanguage** which is platform, operating system and language independent. In other words, one can define GUIs using vector graphics primitives which are at the same time efficient (since we are actually dealing with the lowest level layer of vector graphics pipeline) and portable, since these primitives are practically universal, having only tiny differences between different languages and platforms. 
-This means that it is theoretically very easy to port a vector graphics GUI from one language to another, or from a platform to another, or an operating system to another. Not only that but the automatization of this trasnformations is not at all rocket science and actually not very complex. These **transcompilers**, though, may be quite labor intensive depending on the level of details of their implementation.<a name="graphics_designers_html_anchor"></a>
+This means that it is very easy to port a vector graphics GUI from one language to another, or from a platform to another, or an operating system to another. Not only that but the automatization of this trasnformations is not at all rocket science and actually not very complex. These **transcompilers**, though, may be quite labor intensive depending on the level of details of their implementation.<a name="graphics_designers_html_anchor"></a>
 
 ### Graphics designers as vector graphics GUI creators.
 
@@ -62,7 +62,7 @@ These aspects come as an **option**, and they generally only improve with the ex
 But it is also possible that Google is just another victim falling in the **trap of imposing a framework** desguised behind a language instead of offering a complete vector graphics language, or offering both side by side. The declarative nature of Dart doesn't actually promote the use of vector graphics primitives. The whole **marketing** behind Flutter seems to actually hide that and rather stress how easy it is to produce applications. Therefore the whole thing seems rather just like a framework. 
 We have already seen that frameworks are **complex** as well as **difficult to customize** and to learn. Thus, the intention here seems to be not only to hide vector graphics primitives but also to hide the limitations of an underlying framework-like environment. Maybe the intention is to integrate in the language new ways to do interfaces as they appear. But if they can't appear in Dart we are assuming it is appearing somewhere else and this means that it is maybe an approach of staying one step behind, never being a vector of change.<a name="flutter_skia_html_anchor"></a>
 
-### FLutter is just Skia disguised behind the scenes. Could Dart survive?
+### Flutter is just Skia disguised behind the scenes. Could Dart survive?
 
 What is behind Flutter is **Skia**, a vector graphics library for **C++**. It is a quite complex and heavy library but it can be seen as a very good alternative for building vector graphics GUIs in C++ instead of **Qt**, since Qt is just a framework. This bring us to the fundamental limitation of Flutter and Dart for this score. It is designed to generate **machine language**, not **high level** and **portable** building blocks like vector graphics primitives.
 
@@ -80,7 +80,13 @@ There is no better example of how typography performs badly on the web than this
 
 What is really wrong there? What's wrong is that when one modifies the size of the window the text never scales properly. What they use to try to paliate the problem is a complex animation based scale change of fonts to make it appear similar to actually scaling the page, but that obviously not what is happening there. Why not scaling the page entirely? Because it requires vector graphics and in the web nowadays it is not enoughly "responsive".
 
-What is needed is actual WYSIWYG (What You See Is What You Get) in the web experience. One can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can only be obtained by rendering the window contents as vector graphics that are very easily scalable.
+I have seen claims that what Temptura is aiming is size-specific adjustments to type designs as proposed by Tim Ahrens and Shoko Mugikura in ["Size-specific adjustments to type designs – An investigation of the principles guiding the design of optical sizes"](https://justanotherfoundry.com/size-specific-adjustments-to-type-designs). In this proposal the _shapes_ of the glyphs change with the scale as it has been observed in typography for many centuries and thanks to new psychological research in this subject. Here it is an example of how a metal typography font would change according to the scale:
+
+![optical-sizes-atf-garamond](https://user-images.githubusercontent.com/80269251/163443530-68295ed5-b39b-4ad5-9aa3-f9338d3a37c9.png)
+
+If there is a future of typography on the web or in electronic typography in general, this would be it for sure. But this is not what Typetura is doing. Typetura is merely scaling fonts and not changing their shapes according to the scale as proposed by Tim Ahrens and Shoko Mugikura. In other words, what Typetura is actually doing is just trying to adapt WYSIWYG (What You See Is What You Get) to the web as it is now.
+
+However, one can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can only be obtained by rendering the window contents as vector graphics that are very easily scalable.
 
 The solution is maybe through an open source library offering to render vector graphics in WebAssembly. Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. When a software is open source it is scrutinized by programmers who will identify malicious code if is exists.<a name="vaadin_html_anchor"></a>
 
@@ -92,7 +98,18 @@ Vaadin is a tentative to use Java on web programming but unfortunately in the wr
   <img src="https://user-images.githubusercontent.com/80269251/158072042-3b265bda-9db5-456a-9c08-6353bb7e1fc4.png" width="683" height="384">
 </a><br><br>
 
-The problem with Vaadin is that exactly the framework aspect is what should be thrown away.<a name="activities_html_anchor"></a>
+The problem with Vaadin is that exactly the framework aspect is what should be thrown away.
+
+#### Figma - The Ultimate Solution
+
+Figma is definitely the ultimate solution of vector graphics for the web and the future of GUI/UI on the web is in this kind of solution. Although Figma is very good, their solution is quite expensive, because it offers not only an integrated environment for vector graphics production but also to manage and integrate different designs to construct a whole application without any need of programming.
+
+Nevertheless, what's behind Figma is nothing more than what is proposed in this site, but not explicitly. In Figma, the marketing gimmick hides all implementation details. As far as one can see, it looks obvious that Figma is using WebAssembly not only to accelerate but also to possibly circumvent some bugs that HTML 5 Canvas vector graphics API (generally used with Javascript) clearly have. These bugs are not generally talked about, but they hind conplex and more professional vector graphics.
+
+#### HTML 5 Canvas vector Graphics API
+
+
+<a name="activities_html_anchor"></a>
 
 <hr>
 

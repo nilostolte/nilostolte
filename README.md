@@ -70,7 +70,11 @@ What is behind Flutter is **Skia**, a vector graphics library for **C++**. It is
 
 This also brings us to the ultimate conclusion that there is probably no way to escape from **vector graphics primitives** to produce applications that have really portable GUIs. Does that mean that **Dart is a dead end?** Not necessarily. We know Flutter and Dart are **open source**. If Dart doesn't limit any vector graphics primitives for being accessed directly there is a chance to shortcircuit the compiler to accept only these constructions and to use it as a transcompiler. If it does limit them, direct access to these primitives must be added, but a new language would be created, since it is not actually Dart. In this way, in the case of a compiled language the normal compilation would take place to generate machine language. In the case one wishes to use a language having acces to its own vector graphics primitives, the compiler would generate high level code in that language, thus totally bypassing Skia.<a name="vectweb_html_anchor"></a>
 
-### The problem of responsive vector graphics in the web<a name="typoweb_html_anchor"></a>
+### The problem of vector graphics on the web
+
+Vector graphics on the web exists for a very long time with SVG (Scalable Vector Graphics). SVG, however, is approriate for static designs but not for active and live features such as in animations and widgets. The problem is that it is not efficient enough for real time interactivity. But there is a recent solution nowadays, and I explain that at the [end of this section](html5_html_anchor).
+
+Besides active and live contents we also have problems with fonts on the web. Even if the problem of vector fonts is solved as we can see below, it is the structure and the rendering of html itself that became a problem, as far as zooming capabilities are concerned.<a name="typoweb_html_anchor"></a>
 
 #### The problem of typography on the web
 
@@ -83,7 +87,6 @@ There is no better example of how typography performs badly on the web than this
 What is really wrong there? What's wrong is that when one modifies the size of the window the text never scales properly. What they use to try to paliate the problem is a complex animation based scale change of fonts to make it appear similar to actually scaling the page, but that obviously not what is happening there. Why not scaling the page entirely? Because it requires vector graphics and in the web nowadays it is not enoughly "responsive".
 
 I have seen claims that what Temptura is aiming is size-specific adjustments to type designs as proposed by Tim Ahrens and Shoko Mugikura in ["Size-specific adjustments to type designs – An investigation of the principles guiding the design of optical sizes"](https://justanotherfoundry.com/size-specific-adjustments-to-type-designs). In this proposal the _shapes_ of the glyphs change with the scale as it has been observed in typography for many centuries and thanks to new psychological research in this subject. Here it is an example of how a metal typography font would change according to the scale:
-
 
 <p >
 <img = src="https://user-images.githubusercontent.com/80269251/163443530-68295ed5-b39b-4ad5-9aa3-f9338d3a37c9.png" width="70%" height="70%"><br>
@@ -110,10 +113,21 @@ The problem with Vaadin is that exactly the framework aspect is what should be t
 
 Figma is definitely the ultimate solution of vector graphics for the web and the future of GUI/UI on the web is in this kind of solution. Although Figma is very good, their solution is quite expensive, because it offers not only an integrated environment for vector graphics production but also to manage and integrate different designs to construct a whole application without any need of programming.
 
-Nevertheless, what's behind Figma is nothing more than what is proposed in this site, but not explicitly. In Figma, the marketing gimmick hides all implementation details. As far as one can see, it looks obvious that Figma is using WebAssembly not only to accelerate but also to possibly circumvent some bugs that HTML 5 Canvas vector graphics API (generally used with Javascript) clearly have. These bugs are not generally talked about, but they hind conplex and more professional vector graphics.<a name="html5_html_anchor"></a>
+Nevertheless, what's behind Figma is nothing more than what is proposed in this site, but not explicitly. In Figma, the marketing gimmick hides all implementation details. As far as one can see, it looks obvious that Figma is using WebAssembly not only to accelerate but also to possibly circumvent some bugs that HTML 5 Canvas vector graphics API (generally used with Javascript) clearly have. These bugs are not generally talked about, but they hind conplex and more professional vector graphics.
 
-#### HTML 5 Canvas vector Graphics API
+The use of WebAssembly in closed enviroments such as Figma gives origin to security issues, because one never knows what a WebAssembly code is actually doing. The solution to this problem is open source code. This will be impossible using Figma though, exctly because it is not open source.<a name="html5_html_anchor"></a>
 
+#### HTML 5 Canvas Vector Graphics API
+
+This API is significantly faster than SVG and it allows (with some clever workaround) to have efficient as well as scalable live vector designs. Some people claim that `Canvas` is a bitmap feature and not really vectorial. This is not entirely correct. `Canvas` itself is a bitmap representation, but the vector graphics API allows building scalable graphics by just increasing the size of the `Canvas` dynamically in the cases when the scale changes. `Canvas` is a fairly recent addition to W3C standards and it is what allows games to be able to be ported for the web as we have been seen.
+
+But games are not the only applications that can be done with it. One can also code a whole web application using `Canvas` and vector graphics API. Even though very peowerful, this API is not a panacea. I have found limitations that restrict its use for very complex and more professional applications. For example, clipping doesn't work properly if used more than once. What is missing is a library offering operations to join, subtract and intersect vector objects to generate more complex objects, such as the ones found in Java's awt `Area`. These operations can also be found in many vector graphics editors such as Illustrator and Inkscape.
+
+Figma is almost certainly using such a library, probably in WebAssembly. One of the problem withs Figma is that it is a closed environment as cited previously. But such a library as an open source project would not only allow free and general use of these features but also solve any security issues concerning the code since its source code anybody can see. In an industrial environment these libraries can be modified for specific use. For example, the internal representation of objects could be different to avoid having their designs stolen.
+
+### Vector GUI Everywhere
+
+As we can see, what is proposed here is a coherent and portable way of building GUIs based on code that can be used everywhere including (and particularly) on the web. The best language to code completely portable interfaces according to nowadays availability of WebAssembly compilers as well as vector graphics support is probably **Go**. This has to be demonstrated.
 
 <a name="activities_html_anchor"></a>
 

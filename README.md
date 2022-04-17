@@ -100,7 +100,7 @@ If there is a future of typography on the web or in electronic typography in gen
 
 However, one can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can only be obtained by rendering the window contents as vector graphics that are very easily scalable.
 
-The solution is maybe through an open source library offering to render vector graphics in WebAssembly. Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. When a software is open source it is scrutinized by programmers who will identify malicious code if is exists.<a name="vaadin_html_anchor"></a>
+The solution is maybe through an open source library offering to render vector graphics in WebAssembly. Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. <a name="vaadin_html_anchor"></a>When a software is open source it is scrutinized by programmers who will identify malicious code if is exists.
 
 #### Vaadin - How to not use Java on the web
 
@@ -110,7 +110,8 @@ Vaadin is a tentative to use Java on web programming but unfortunately in the wr
   <img src="https://user-images.githubusercontent.com/80269251/158072042-3b265bda-9db5-456a-9c08-6353bb7e1fc4.png" width="683" height="384">
 </a><br><br>
 
-The problem with Vaadin is that exactly the framework aspect is what should be thrown away.<a name="figma_html_anchor"></a>
+<a name="figma_html_anchor"></a>
+The problem with Vaadin is that exactly the framework aspect is what should be thrown away.
 
 #### Figma - The Ultimate Solution
 
@@ -118,7 +119,7 @@ Figma is definitely the ultimate solution of vector graphics for the web and the
 
 Nonetheless, Figma's approach is very similar to what I propose, with the difference that Figma allows you to build designs over the web, making it ideal for working in groups, particularly remotely. Although there are a few points where I disagree with Figma's philosophy, I almost entirely agree with it. I believe that designing for the web is a fantastic idea. Figma, on the other hand, does not fully integrate the design into a programming context. The benefit of directly generating code is that it may be readily incorporated and reused in a variety of environments, including the web in WebAssembly. 
 
-Security difficulties arise from the use of WebAssembly in closed environments like Figma, because no one knows what a WebAssembly function is doing. Open source programming is the answer to this problem. <a name="learnfromfigma_html_anchor"></a>However, because Figma is not open source, this will be impossible to achieve.
+<a name="learnfromfigma_html_anchor"></a>Security difficulties arise from the use of WebAssembly in closed environments like Figma, because no one knows what a WebAssembly function is doing. Open source programming is the answer to this problem. However, because Figma is not open source, this will be impossible to achieve.
 
 #### What can we learn from Figma?
 
@@ -151,7 +152,7 @@ This API is significantly faster than SVG and it allows (with some clever workar
 
 But games are not the only applications that can be done with it. One can also code a whole web application using `Canvas` and vector graphics API. Even though very powerful, this API is not a panacea. I have found limitations that restrict its use for very complex and more professional applications. For example, clipping doesn't work properly if used more than once. What is missing is a library offering operations to join, subtract and intersect vector objects to generate more complex objects, such as the ones found in Java's awt `Area`. These operations can also be found in many vector graphics editors such as Illustrator and Inkscape.
 
-Figma is almost certainly using such a library, probably in WebAssembly. One of the problems with Figma is that it is a closed environment as cited previously. But such a library as an open source project would not only allow free and general use of these features but also solve any security issues concerning the code since its source code anybody can see. In an industrial environment these libraries can be modified for specific use. For example, the internal representation of objects could be different to avoid having their designs stolen. <a name="VGUIeverywhere_html_anchor"></a>
+Figma is using such a library, probably in WebAssembly. One of the problems with Figma is that it is a closed environment as cited previously. But such a library as an open source project would not only allow free and general use of these features but also solve any security issues concerning the code since its source code anybody can see.  <a name="VGUIeverywhere_html_anchor"></a>In an industrial environment these libraries can be modified for specific use. For example, the internal representation of objects could be different to avoid having their designs stolen.
 
 ### Vector GUI Everywhere
 

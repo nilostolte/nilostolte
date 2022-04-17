@@ -17,6 +17,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [The problem of typography on the web](https://github.com/nilostolte#typoweb_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Vaadin - How to not use Java on the web](https://github.com/nilostolte#vaadin_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Figma - The Ultimate Solution](https://github.com/nilostolte#figma_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [What can we learn from Figma?](https://github.com/nilostolte#learnfromfigma_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [HTML 5 Canvas vector Graphics API](https://github.com/nilostolte#html5_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Vector GUI Everywhere](https://github.com/nilostolte#VGUIeverywhere_html_anchor)
   
@@ -113,11 +114,36 @@ The problem with Vaadin is that exactly the framework aspect is what should be t
 
 #### Figma - The Ultimate Solution
 
-Figma is definitely the ultimate solution of vector graphics for the web and the future of GUI/UI on the web is in this kind of solution. Although Figma is very good, their solution is quite expensive, because it offers not only an integrated environment for vector graphics production but also to manage and integrate different designs to construct a whole application without any need of programming.
+Figma is definitely the ultimate solution of vector graphics for the web and the future of GUI/UI on the web is in this kind of solution. Although Figma is very good, their solution is quite expensive, because it offers not only an integrated environment for vector graphics production but also to manage and integrate different designs to construct a whole application without programming.
 
-Nevertheless, what's behind Figma is nothing more than what is proposed in this site, but not explicitly. In Figma, the marketing gimmick hides all implementation details. As far as one can see, it looks obvious that Figma is using WebAssembly not only to accelerate but also to possibly circumvent some bugs that HTML 5 Canvas vector graphics API (generally used with Javascript) clearly have. These bugs are not generally talked about, but they hind complex and more professional vector graphics.
+Nonetheless, Figma's approach is very similar to what I propose, with the difference that Figma allows you to build designs over the web, making it ideal for working in groups, particularly remotely. Although there are a few points where I disagree with Figma's philosophy, I almost entirely agree with it. I believe that designing for the web is a fantastic idea. Figma, on the other hand, does not fully integrate the design into a programming context. The benefit of directly generating code is that it may be readily incorporated and reused in a variety of environments, including the web in WebAssembly. 
 
-The use of WebAssembly in closed enviroments such as Figma gives origin to security issues, because one never knows what a WebAssembly code is actually doing. The solution to this problem is open source code. This will be impossible using Figma though, exactly because it is not open source.<a name="html5_html_anchor"></a>
+Security difficulties arise from the use of WebAssembly in closed environments like Figma, because no one knows what a WebAssembly function is doing. Open source programming is the answer to this problem. <a name="learnfromfigma_html_anchor"></a>However, because Figma is not open source, this will be impossible to achieve.
+
+#### What can we learn from Figma?
+
+Figma, on the other hand, gives us a great deal of useful information. We can benefit from their expertise because we'll already know which points don't work and which do. Here are some of their [conclusions](https://www.figma.com/blog/building-a-professional-design-tool-on-the-web/#rendering):
+
+> * _HTML and SVG contain a lot of baggage and are often much slower than the 2D canvas API due to DOM access. These are usually optimized for scrolling, not zooming, and geometry is often re-tessellated after every scale change._
+> * _There is no guarantee about GPU acceleration and many things are still rendered on the CPU, which can be quite slow in certain cases._
+> * _Support for masking, blurring, and blend modes in HTML and SVG varies wildly between browsers and is often not anti-aliased or is too low resolution on high-DPI displays._
+> * _The 2D canvas API is an immediate mode API instead of a retained mode API so all geometry has to be re-uploaded to the graphics card every frame. This is needlessly wasteful and can become a bottleneck._
+> * _Text layout is inconsistent between browsers and is even inconsistent between the same browser on different platforms._
+> * _We wanted to be able to add features such as angular gradients which are not supported by any of these rendering APIs._
+
+We resonate a lot with these conclusions and these are points we have already explicitly or implicitly evoked here. But their analysis coincide even more with my observations and longly spoken about in many repositories here:
+
+> * _Our biggest pain point is lack of access to glyph outlines and kerning tables which there currently isn’t any way of getting at. One of the primary concerns is fingerprinting, but that battle has already been lost. We’re hoping access to font data can be exposed behind a user permission prompt like other privacy-sensitive APIs. Chrome has come up with a proposal for a fix that’s currently in the works (they’ve been really helpful!) but there’s nothing else on the horizon for other browsers._
+
+I have solved this problem by using fonts directly and reading all the needed information using [OpenType.js](https://github.com/nilostolte/Projects-Presentations/blob/main/Automatic%20Vector%20Fonts%20Generator%20Project.md#automatic-vector-fonts-generator-project--glyphs-their-widths-and-kerning-pairs) and by developing my own [right justification of texts](https://github.com/nilostolte/Projects-Presentations/blob/main/BreakIntoLines.md#breakintolines-project). In other words I implemented my own font rendering engine.
+The inconvenient is that the selection of texts must be also handled internally as it is done in PDF viewers and that the text is not searchable, which is a classical problem PDF documents also have. But our goal is not to be searchable but to be portable across every platfrom, including the web.
+
+> * _We would love to add support for common clipboard formats (.ai, .pdf, etc.) but the web has no way to do this. The only formats in the spec are text/plain and text/html (our Figma clipboard “format” is text/html with binary data encoded in an HTML comment)._
+
+This is a very clever idea of copying a portion of the screen and pasting as text and html with binary content in HTML comments.
+
+<a name="html5_html_anchor"></a>
+Many other ideas of the difficulties found and several solutions are also mentioned in [this original document](https://www.figma.com/blog/building-a-professional-design-tool-on-the-web).
 
 #### HTML 5 Canvas Vector Graphics API
 

@@ -109,8 +109,8 @@ Vaadin is a tentative to use Java on web programming but unfortunately in the wr
 <a href="https://www.youtube.com/watch?v=TGSDz-_dNhI">
   <img src="https://user-images.githubusercontent.com/80269251/158072042-3b265bda-9db5-456a-9c08-6353bb7e1fc4.png" width="683" height="384">
 </a><br><br>
-
 <a name="figma_html_anchor"></a>
+
 The problem with Vaadin is that exactly the framework aspect is what should be thrown away.
 
 #### Figma - The Ultimate Solution

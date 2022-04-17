@@ -77,7 +77,7 @@ This also brings us to the ultimate conclusion that there is probably no way to 
 
 Vector graphics on the web exists for a very long time with SVG (Scalable Vector Graphics). SVG, however, is approriate for static designs but not for active and live features such as in animations and widgets. The problem is that it is not efficient enough for real time interactivity. But there is a recent solution nowadays, and I explain that at the [end of this section](https://github.com/nilostolte#html5_html_anchor).
 
-Besides active and live contents we also have problems with fonts on the web. <a name="typoweb_html_anchor"></a>Even if the problem of vector fonts is solved as we can see below, it is the structure and the rendering of html itself that became a problem, as far as zooming capabilities are concerned.
+Besides active and live contents we also have problems with fonts on the web. Even if the problem of vector fonts is solved as we can see below, <a name="typoweb_html_anchor"></a>it is the structure and the rendering of html itself that became a problem, as far as zooming capabilities are concerned.
 
 #### The problem of typography on the web
 

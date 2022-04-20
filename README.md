@@ -34,8 +34,9 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Major recent projects](https://github.com/nilostolte#previous_activity_4_html_anchor)
   
 ★ &nbsp;[**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Visualization of the execution of a JVM function](https://github.com/nilostolte#hint_1_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [UTF-8 the ultimate standard for UNICODE texts](https://github.com/nilostolte#hint_2_html_anchor) <a name="introduction_html_anchor"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [UTF-8 the ultimate standard for UNICODE texts](https://github.com/nilostolte#doubleb_html_anchor) <a name="introduction_html_anchor"></a>
   
 ★ &nbsp;[**Art**](https://github.com/nilostolte#art_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Art-Vector](https://github.com/nilostolte#art_html_anchor): Vector Art portfolio showing several vector graphics designs I have developed for different reasons.\
@@ -198,6 +199,13 @@ more flexible and extensible approach for function implementations using lambda 
 <hr>
 
 ## Hints and programming hacks <a name="hint_1_html_anchor"></a>
+
+### Visualization of the execution of a JVM function
+
+<kbd>
+<img src="https://user-images.githubusercontent.com/80269251/164289592-93b2fdca-9b62-4412-be46-40e6ec759653.gif"></img>
+</kbd>
+<a name="doubleb_html_anchor"></a><br>
 
 ### Java `Graphics2D`: you don't need double buffering
 

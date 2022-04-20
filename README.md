@@ -35,8 +35,8 @@
   
 ★ &nbsp;[**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Visualization of the execution of a JVM function](https://github.com/nilostolte#hint_1_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#hint_1_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [UTF-8 the ultimate standard for UNICODE texts](https://github.com/nilostolte#doubleb_html_anchor) <a name="introduction_html_anchor"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#doubleb_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [UTF-8 the ultimate standard for UNICODE texts](https://github.com/nilostolte#utf8_html_anchor) <a name="introduction_html_anchor"></a>
   
 ★ &nbsp;[**Art**](https://github.com/nilostolte#art_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Art-Vector](https://github.com/nilostolte#art_html_anchor): Vector Art portfolio showing several vector graphics designs I have developed for different reasons.\
@@ -219,7 +219,7 @@ But that is not the only advantage. It also allows easily zooming your entire wi
 
 It might sound weird to talk about vector graphics and a pixelized `BufferedImage` at the same time. However, a `Shape` is first scan-converted before being displayed. By using a buffer you are just anticipating and cutting down scan-conversion time. This is extremely useful in complex vector graphics interfaces. It is a know fact that what is deterring the generalized use of vector graphics in GUIs, either in embedded applications, either on the web, is that it is quite time consuming.
 
-This will likely change in the near future when hyper high resolution screens will appear and programs will have to deal with a wide range of screen resolutions. Vector graphics will then be the most elegant solution to this problem. Using lots of photos and images in your web sites? If they are only for decoration you will probably be in trouble when this arrives. <a name="hint_2_html_anchor"></a>
+This will likely change in the near future when hyper high resolution screens will appear and programs will have to deal with a wide range of screen resolutions. Vector graphics will then be the most elegant solution to this problem. <a name="utf8_html_anchor"></a>Using lots of photos and images in your web sites? If they are only for decoration you will probably be in trouble when this arrives. 
 
 
 ### UTF-8 the ultimate standard for UNICODE texts

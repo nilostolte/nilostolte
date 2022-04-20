@@ -205,9 +205,8 @@ more flexible and extensible approach for function implementations using lambda 
 <kbd>
 <img src="https://user-images.githubusercontent.com/80269251/164289592-93b2fdca-9b62-4412-be46-40e6ec759653.gif"></img>
 </kbd>
-<a name="doubleb_html_anchor"></a><br>
 
-### Java `Graphics2D`: you don't need double buffering
+### Java `Graphics2D`: you don't need double buffering <a name="doubleb_html_anchor"></a>
 
 If you are into Java programming this might sound to you as a big surprise and almost as a huge heresy. No, you just don't need a `JPanel` and you definitely don't need double buffering.
 

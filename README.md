@@ -34,7 +34,8 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Major recent projects](https://github.com/nilostolte#previous_activity_4_html_anchor)
   
 ★ &nbsp;[**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Visualization of the execution of a JVM function](https://github.com/nilostolte#hint_1_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java SIMD Vector API supports ARM SVE!](https://github.com/nilostolte#hint_1_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Visualization of the execution of a JVM function](https://github.com/nilostolte#jvmvis_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#doubleb_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [UTF-8 the ultimate standard for UNICODE texts](https://github.com/nilostolte#utf8_html_anchor) <a name="introduction_html_anchor"></a>
   
@@ -199,6 +200,34 @@ more flexible and extensible approach for function implementations using lambda 
 <hr>
 
 ## Hints and programming hacks <a name="hint_1_html_anchor"></a>
+
+### Java SIMD Vector API supports ARM SVE!
+
+[OpenJDK](https://openjdk.java.net/jeps/417) announced that platform agnostic API for SIMD instructions supports ARM SVE!
+
+This [example illustrates](https://openjdk.java.net/jeps/417) how this works:
+
+```Java
+static final VectorSpecies<Float> SPECIES = FloatVector.SPECIES_PREFERRED;
+
+void vectorComputation(float[] a, float[] b, float[] c) {
+    int i = 0;
+    int upperBound = SPECIES.loopBound(a.length);
+    for (; i < upperBound; i += SPECIES.length()) {
+        // FloatVector va, vb, vc;
+        var va = FloatVector.fromArray(SPECIES, a, i);
+        var vb = FloatVector.fromArray(SPECIES, b, i);
+        var vc = va.mul(va)
+                   .add(vb.mul(vb))
+                   .neg();
+        vc.intoArray(c, i);
+    }
+    for (; i < a.length; i++) {
+        c[i] = (a[i] * a[i] + b[i] * b[i]) * -1.0f;
+    }
+}
+```
+<a name="jvmvis_html_anchor"></a>More details on ARM SVE can be found [here](https://arxiv.org/pdf/1803.06185.pdf).
 
 ### Visualization of the execution of a JVM function
 

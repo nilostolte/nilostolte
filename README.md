@@ -34,7 +34,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Major recent projects](https://github.com/nilostolte#previous_activity_4_html_anchor)
   
 ★ &nbsp;[**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java SIMD Vector API supports ARM SVE!](https://github.com/nilostolte#hint_1_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java SIMD Vector API supports ARM SVE!](https://github.com/nilostolte#armsimd_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Visualization of the execution of a JVM function](https://github.com/nilostolte#jvmvis_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#doubleb_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [UTF-8 the ultimate standard for UNICODE texts](https://github.com/nilostolte#utf8_html_anchor) <a name="introduction_html_anchor"></a>
@@ -199,7 +199,7 @@ more flexible and extensible approach for function implementations using lambda 
   - [Java Vector GUI](https://github.com/nilostolte/Java-Vector-GUI/tree/main/MenuInfographics6#menuinfographics6): This project shows how a vector GUI can be coded. This code has been used for other projects like in MicroVBA.<a name="hints_html_anchor"></a>
 <hr>
 
-## Hints and programming hacks <a name="hint_1_html_anchor"></a>
+## Hints and programming hacks <a name="armsimd_html_anchor"></a>
 
 ### Java SIMD Vector API supports ARM SVE!
 

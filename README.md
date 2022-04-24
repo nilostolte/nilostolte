@@ -206,11 +206,11 @@ more flexible and extensible approach for function implementations using lambda 
 
 Useful to enhance picking time (O(log N)) in an unstructured GUI. Binary partition, aka BSP, is the easiest to implement. Using three borders is good to quickly discard empty regions as well (as clearly seen in the picture). One can also partition space regularly in a low resolution grid where each position contains a list of the objects within its borders for a potentially constant time picking in the case no synonyms exist (good for sparcely distrinuted objects). 
 
-<p>                                                            
+<kbd>                                                            
 <img src="https://user-images.githubusercontent.com/80269251/164982194-1b0d79e3-5a80-4a59-93fc-00fa2e46f23f.jpg"></img>
-</p>
+</kbd>
 
- <a name="armsimd_html_anchor"></a><br>
+ <a name="armsimd_html_anchor"></a><br><br>
 
 ### Java SIMD Vector API supports ARM SVE!
 

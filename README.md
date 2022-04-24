@@ -34,6 +34,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Major recent projects](https://github.com/nilostolte#previous_activity_4_html_anchor)
   
 ★ &nbsp;[**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Classification in GUIs and 2D graphics](https://github.com/nilostolte#classif_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java SIMD Vector API supports ARM SVE!](https://github.com/nilostolte#armsimd_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Visualization of the execution of a JVM function](https://github.com/nilostolte#jvmvis_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java `Graphics2D`: you don't need double buffering](https://github.com/nilostolte#doubleb_html_anchor)\
@@ -199,7 +200,17 @@ more flexible and extensible approach for function implementations using lambda 
   - [Java Vector GUI](https://github.com/nilostolte/Java-Vector-GUI/tree/main/MenuInfographics6#menuinfographics6): This project shows how a vector GUI can be coded. This code has been used for other projects like in MicroVBA.<a name="hints_html_anchor"></a>
 <hr>
 
-## Hints and programming hacks <a name="armsimd_html_anchor"></a>
+## Hints and programming hacks <a name="classif_html_anchor"></a>
+
+### Classification in GUIs and 2D graphics
+
+Useful to enhance picking time (O(log N)) in an unstructured GUI. Binary partition, aka BSP, is the easiest to implement. Using three borders is good to quickly discard empty regions as well (as clearly seen in the picture). One can also partition space regularly in a low resolution grid where each position contains a list of the objects within its borders for a potentially constant time picking in the case no synonyms exist (good for sparcely distrinuted objects). 
+
+<p>                                                            
+<img src="https://user-images.githubusercontent.com/80269251/164982194-1b0d79e3-5a80-4a59-93fc-00fa2e46f23f.jpg"></img>
+</p>
+
+ <a name="armsimd_html_anchor"></a><br>
 
 ### Java SIMD Vector API supports ARM SVE!
 

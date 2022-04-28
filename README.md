@@ -79,13 +79,13 @@ This also brings us to the ultimate conclusion that there is probably no way to 
 
 ### The problem of vector graphics on the web
 
-Vector graphics on the web exists for a very long time with SVG (Scalable Vector Graphics). SVG, however, is approriate for static designs but not for active and live features such as in animations and widgets. The problem is that it is not efficient enough for real time interactivity. But there is a recent solution nowadays, and I explain that at the [end of this section](https://github.com/nilostolte#html5_html_anchor).
+Vector graphics on the web exists for a very long time with **SVG** (Scalable Vector Graphics). SVG, however, is approriate for static designs but not for active and live features such as in animations and widgets. The problem is that it is not efficient enough for real time interactivity. But there is a recent solution nowadays, and I explain that at the [end of this section](https://github.com/nilostolte#html5_html_anchor).
 
-Besides active and live contents we also have problems with fonts on the web. Even if the problem of vector fonts is solved as we can see below, <a name="typoweb_html_anchor"></a>it is the structure and the rendering of html itself that became a problem, as far as zooming capabilities are concerned.
+Besides active and live contents we also have problems with **fonts** on the web. Even if the problem of vector fonts is solved as we can see below, <a name="typoweb_html_anchor"></a>it is the structure and the rendering of html itself that became a problem, as far as zooming capabilities are concerned.
 
 #### The problem of typography on the web
 
-There is no better example of how typography performs badly on the web than this video from Kevin Powell about "responsive typography" on the web:
+There is no better example of how **typography** performs badly on the web than this video from Kevin Powell about "responsive typography" on the web:
 
 <a href="https://www.youtube.com/watch?v=fs9uJ7I4a70">
   <img src="https://user-images.githubusercontent.com/80269251/158063377-7dcceb74-6909-4a0b-9bce-1653bf12e67b.png" width="683" height="384" >
@@ -93,22 +93,22 @@ There is no better example of how typography performs badly on the web than this
 
 What is really wrong there? What's wrong is that when one modifies the size of the window the text never scales properly. What they use to try to paliate the problem is a complex animation based scale change of fonts to make it appear similar to actually scaling the page, but that is obviously not what is happening there. Why not scaling the page entirely? Because it requires vector graphics and in the web nowadays it is not enoughly "responsive".
 
-I have seen claims that what Typetura is aiming is size-specific adjustments to type designs as proposed by Tim Ahrens and Shoko Mugikura in ["Size-specific adjustments to type designs – An investigation of the principles guiding the design of optical sizes"](https://justanotherfoundry.com/size-specific-adjustments-to-type-designs). In this proposal the _shapes_ of the glyphs change with the scale as it has been observed in typography for many centuries and thanks to new psychological research in this subject. Here it is an example of how a metal typography font would change according to the scale:
+I have seen claims that what **Typetura** is aiming is size-specific adjustments to type designs as proposed by Tim Ahrens and Shoko Mugikura in ["Size-specific adjustments to type designs – An investigation of the principles guiding the design of optical sizes"](https://justanotherfoundry.com/size-specific-adjustments-to-type-designs). In this proposal the _shapes_ of the glyphs change with the scale as it has been observed in typography for many centuries and thanks to new psychological research in this subject. Here it is an example of how a metal typography font would change according to the scale:
 
 <p >
 <img = src="https://user-images.githubusercontent.com/80269251/163443530-68295ed5-b39b-4ad5-9aa3-f9338d3a37c9.png" width="70%" height="70%"><br>
 <i>ATF Garamond, from left to right: 6, 8, 10, 12, 14, 16, 18, 24, 72 pt</i>
 </p>
 
-If there is a future of typography on the web or in electronic typography in general, this would be it for sure. But this is not what Typetura is doing. Typetura is merely scaling fonts and not changing their shapes according to the scale as proposed by Tim Ahrens and Shoko Mugikura. In other words, what Typetura is actually doing is just trying to adapt WYSIWYG (What You See Is What You Get) to the web as it is now.
+If there is a future of **typography** on the web or in electronic typography in general, this would be it for sure. But this is not what Typetura is doing. Typetura is merely scaling fonts and not changing their shapes according to the scale as proposed by Tim Ahrens and Shoko Mugikura. In other words, what Typetura is actually doing is just trying to adapt WYSIWYG (What You See Is What You Get) to the web as it is now.
 
 However, one can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can only be obtained by rendering the window contents as vector graphics that are very easily scalable.
 
-The solution is maybe through an open source library offering to render vector graphics in WebAssembly. Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. <a name="vaadin_html_anchor"></a>When a software is open source it is scrutinized by programmers who will identify malicious code if is exists.
+The solution is maybe through an open source library offering to render vector graphics in WebAssembly. Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. <a name="vaadin_html_anchor"></a>When a software is open source it is scrutinized by programmers who will identify malicious code if it exists.
 
 #### Vaadin - How to not use Java on the web
 
-Vaadin is a tentative to use Java on web programming but unfortunately in the wrong way. Vaadin actually tries to imitate UI frameworks such as the one found in Android or Java Core for desktop, but forgetting the most important stuff: `awt` JRE libraries and vector graphics primitives. In the video below one can clearly see how Vadiin is not the solution for Java UI on the web, because of its very obscure API and framework oriented structure:
+Vaadin is a tentative to use **Java** on web programming but unfortunately in the wrong way. Vaadin actually tries to imitate UI frameworks such as the one found in Android or Java Core for desktop, but forgetting the most important stuff: `awt` JRE libraries and vector graphics primitives. In the video below one can clearly see how Vadiin is not the solution for Java UI on the web, because of its very obscure API and framework oriented structure:
 
 <a href="https://www.youtube.com/watch?v=TGSDz-_dNhI">
   <img src="https://user-images.githubusercontent.com/80269251/158072042-3b265bda-9db5-456a-9c08-6353bb7e1fc4.png" width="683" height="384">
@@ -118,7 +118,7 @@ The problem with Vaadin is that exactly the framework aspect is what should be t
 
 #### Figma - The Ultimate Solution
 
-Figma is definitely the ultimate solution of vector graphics for the web and the future of GUI/UI on the web is in this kind of solution. Although Figma is very good, their solution is quite expensive, because it offers not only an integrated environment for vector graphics production but also to manage and integrate different designs to construct a whole application without programming.
+**Figma** is definitely the ultimate solution of vector graphics for the web and the future of GUI/UI on the web is in this kind of solution. Although Figma is very good, their solution is quite expensive, because it offers not only an integrated environment for vector graphics production but also to manage and integrate different designs to construct a whole application without programming.
 
 Nonetheless, Figma's approach is very similar to what I propose, with the difference that Figma allows you to build designs over the web, making it ideal for working in groups, particularly remotely. Although there are a few points where I disagree with Figma's philosophy, I almost entirely agree with it. I believe that designing for the web is a fantastic idea. Figma, on the other hand, does not fully integrate the design into a programming context. The benefit of directly generating code is that it may be readily incorporated and reused in a variety of environments, including the web in WebAssembly. 
 

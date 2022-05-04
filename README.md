@@ -205,7 +205,8 @@ more flexible and extensible approach for function implementations using lambda 
   - [Java Vector GUI](https://github.com/nilostolte/Java-Vector-GUI/tree/main/MenuInfographics6#menuinfographics6): This project shows how a vector GUI can be coded. This code has been used for other projects like in MicroVBA.<a name="articles_html_anchor"></a>
 <hr>
 
-## Interesting Articles <a name="moore_html_anchor"></a>
+<a name="moore_html_anchor"></a>
+## Interesting Articles
 
 ### We’re not prepared for the end of Moore’s Law
 

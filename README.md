@@ -33,6 +33,9 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Functionalities using PDFBox](https://github.com/nilostolte#previous_activity_2_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Functionalities using FreeHEP](https://github.com/nilostolte#previous_activity_3_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Major recent projects](https://github.com/nilostolte#previous_activity_4_html_anchor)
+
+★ &nbsp;[**Interesting Articles**](https://github.com/nilostolte#articles_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [We’re not prepared for the end of Moore’s Law](https://github.com/nilostolte#moore_html_anchor)
   
 ★ &nbsp;[**Hints and programming hacks**](https://github.com/nilostolte#hints_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Classification in GUIs and 2D graphics](https://github.com/nilostolte#classif_html_anchor)\
@@ -199,7 +202,17 @@ more flexible and extensible approach for function implementations using lambda 
   - [String Vectorizer Project](https://github.com/nilostolte/Projects-Presentations/blob/main/String%20Vectorizer.md#string-vectorizer-project): This project is about a program that vectorizes strings into Java Path2D.Float paths.
   - [BreakIntoLines](https://github.com/nilostolte/Projects-Presentations/blob/main/BreakIntoLines.md#breakintolines): This project is about a Java program that vectorizes a string into Java Path2D.Float paths, breaking it into lines and right justifying the text.
   - [Converting PostScript to Java](https://github.com/nilostolte/PostScript/tree/main/Examples/Convertion%20to%20Java/ExclamationIcon#exclamationicon): This project shows how to convert PostScript files into Java classes semi-automatically.
-  - [Java Vector GUI](https://github.com/nilostolte/Java-Vector-GUI/tree/main/MenuInfographics6#menuinfographics6): This project shows how a vector GUI can be coded. This code has been used for other projects like in MicroVBA.<a name="hints_html_anchor"></a>
+  - [Java Vector GUI](https://github.com/nilostolte/Java-Vector-GUI/tree/main/MenuInfographics6#menuinfographics6): This project shows how a vector GUI can be coded. This code has been used for other projects like in MicroVBA.<a name="articles_html_anchor"></a>
+<hr>
+
+## Interesting Articles <a name="moore_html_anchor"></a>
+
+### We’re not prepared for the end of Moore’s Law
+
+[This report](https://www.technologyreview.com/2020/02/24/905789/were-not-prepared-for-the-end-of-moores-law/?utm_source=LinkedIn&utm_campaign=site_visitor.unpaid.engagement&utm_medium=tr_social) from David Rotman (MIT) is very interesting. Retracing Moore's law, he exposes the new tendency of nowadays chip technology of not following this "law" (which is more a self-fulfilling prophecy than anything else) anymore. It is all a matter of investments and investment returns and chip manufactories not willing to take risks.
+
+Even though largely declared as dead in the media and by the obvious stagnation of chip's technology growth in the last decade,<a name="hints_html_anchor"></a> Moore's law seems still alive thanks to 3D chip manufactury, new transistor designs (particularly vertically build as recently announced by IBM), as well as multi-core architectures that have only started to be exploited.
+
 <hr>
 
 ## Hints and programming hacks <a name="classif_html_anchor"></a>

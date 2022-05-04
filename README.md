@@ -213,6 +213,16 @@ more flexible and extensible approach for function implementations using lambda 
 
 Even though largely declared as dead in the media and by the obvious stagnation of chip's technology growth in the last decade,<a name="hints_html_anchor"></a> Moore's law seems still alive thanks to 3D chip manufactury, new transistor designs (particularly vertically build as recently announced by IBM), as well as multi-core architectures that have only started to be exploited.
 
+Here it is an excerpt:
+
+> _Neil Thompson is an economist, but his office is at CSAIL, MIT’s sprawling AI and computer center, surrounded by roboticists and computer scientists, including his collaborator Leiserson. In a new paper, the two document **ample room for improving computational performance through better software, algorithms, and specialized chip architecture**._
+
+> _One opportunity is in slimming down so-called software bloat to wring the most out of existing chips. When chips could always be counted on to get faster and more powerful, programmers didn’t need to worry much about writing more efficient code. And they **often failed to take full advantage of changes in hardware architecture, such as the multiple cores, or processors, seen in chips used today**._
+
+> _Thompson and his colleagues showed that they could get a computationally intensive calculation to run some 47 times faster just by switching from Python, a popular general-purpose programming language, to the more efficient C. That’s because C, while it requires more work from the programmer, greatly reduces the required number of operations, making a program run much faster. Further tailoring the code **to take full advantage of a chip with 18 processing cores sped things up even more. In just 0.41 seconds, the researchers got a result that took seven hours with Python code**._
+
+> _That sounds like good news for continuing progress, but Thompson worries it also signals **the decline of computers as a general purpose technology**. Rather than “lifting all boats,” as Moore’s Law has, by offering ever faster and cheaper chips that were universally available, **advances in software and specialized architecture** will now start to selectively target specific problems and business opportunities, favoring those with sufficient money and resources._
+
 <hr>
 
 ## Hints and programming hacks <a name="classif_html_anchor"></a>

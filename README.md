@@ -46,7 +46,7 @@
   
 ★ &nbsp;[**Art**](https://github.com/nilostolte#art_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Art-Vector](https://github.com/nilostolte#art_html_anchor): Vector Art portfolio showing several vector graphics designs I have developed for different reasons.\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Meme](https://github.com/nilostolte#meme_html_anchor): some humor to start with?
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Memes](https://github.com/nilostolte#meme_html_anchor): some humor to start with?
 <hr>
 
 ## Introduction
@@ -304,9 +304,13 @@ This will likely change in the near future when hyper high resolution screens wi
   <img src="https://user-images.githubusercontent.com/80269251/111004449-130dd880-8357-11eb-972c-35b9618ce2ac.jpg" width="464" height="443">
 </p> <a name="meme_html_anchor"></a>
 
-### Meme
+### Memes
 
-<p align="left">
+<kbd>
   <img src="https://user-images.githubusercontent.com/80269251/156929643-db1e72e8-c622-4a80-8f8a-6c57d1b6d42d.jpg" width="414" height="453">
-</p>
+</kbd>
+<br>                                                                                                                                           
+<kbd>
+  <img src="https://user-images.githubusercontent.com/80269251/167037365-9aa39b06-88da-4b55-ae25-99ba70cb5d21.jpg" width="414" height="515">
+</kbd>
 

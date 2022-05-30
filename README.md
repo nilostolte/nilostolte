@@ -4,6 +4,15 @@
 <a href="https://github.com/nilostolte"><img src="github-logo.svg" style="width:4%; height: 4%; vertical-align: bottom; padding-top: 0.5%; padding-left: 0.25%; padding-right: 0.375%;"></a>&nbsp; <a href="https://twitter.com/nilostolte"><img src="twitter-logo.svg" style="width:4%; height: 4%; vertical-align: bottom; padding-left: 0.25%; padding-bottom: 0.15%; padding-right: 0.25%;"></a>&nbsp; <a href="https://dev.to/nilostolte"><img src="dev-logo.svg" style="width:4%; height: 4%; vertical-align: bottom; padding-left: 0.375%;"></a>
 <!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)-->
 
+<div style="width:50%;">
+<img src="java-badge.svg">
+<img src="cpp-badge.svg">
+<img src="HTML5-badge.svg">
+<img src="eclipse-badge.svg">
+<img src="android-badge.svg">
+<img src="JS-badge.svg">
+<div style="margin-left:17%; width:100%;">
+
 ## Summary
 ★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf): this letter is a foreword to the work I have been doing lately in terms of research and development.
 

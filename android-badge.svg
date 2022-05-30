@@ -4,8 +4,8 @@
 	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
 	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
 ]>
-<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" overflow="visible"  xml:space="preserve">
-<!-- 69.5  || 914.502 * scale -->
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="91.4502" height="20.9"
+	 viewBox="0 0 91.4502 20.9" overflow="visible" enable-background="new 0 0 91.4502 20.9" xml:space="preserve">
 <g shape-rendering="geometricPrecision" transform="scale(0.1 0.1)">
 <path stroke="#000000" stroke-width="5" d="M42.5,2.5H872c22.092,0,40.002,17.908,40.002,39.998v124
 	c0,22.092-17.91,40.002-40.002,40.002H42.5c-22.091,0-40-17.91-40-40.002v-124C2.5,20.408,20.409,2.5,42.5,2.5z"/>

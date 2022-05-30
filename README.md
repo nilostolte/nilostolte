@@ -1,15 +1,15 @@
 <a href="https://nilostolte.github.io/">
 <img src="twitter-banner.svg" style="width:100%; height: 100%;>
 </a>
-<a href="https://github.com/nilostolte"><img src="github-logo.svg" style="width:4%; height: 4%; vertical-align: bottom; padding-top: 0.5%; padding-left: 0.25%; padding-right: 0.375%;"></a>&nbsp; <a href="https://twitter.com/nilostolte"><img src="twitter-logo.svg" style="width:4%; height: 4%; vertical-align: bottom; padding-left: 0.25%; padding-bottom: 0.15%; padding-right: 0.25%;"></a>&nbsp; <a href="https://dev.to/nilostolte"><img src="dev-logo.svg" style="width:4%; height: 4%; vertical-align: bottom; padding-left: 0.375%;"></a>
+<a href="https://github.com/nilostolte"><img src="github-logo.svg" style="width:4%; height: 4%; vertical-align: bottom; padding-top: 0.5%; padding-left: 0.25%; padding-right: 0.375%;"></a>&nbsp; <a href="https://twitter.com/nilostolte"><img src="twitter-logo.svg" style="width:4%; height: 4%; vertical-align: bottom; padding-left: 0.25%; padding-bottom: 0.15%; padding-right: 0.25%;"></a>&nbsp; <a href="https://dev.to/nilostolte"><img src="dev-logo.svg" style="width:4%; height: 4%; vertical-align: bottom; padding-left: 0.375%;"></a><br><br>
 <!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)-->
 
 
 <img style="width:12%; height: 12%;" src="java-badge.svg"> <img style="width:12%; height: 12%;" src="cpp-badge.svg">
 <img style="width:12%; height: 12%;" src="HTML5-badge.svg">
-<img style="width:12%; height: 12%;" src="eclipse-badge.svg">
-<img style="width:13%; height: 13%;" src="android-badge.svg">
-<img src="JS-badge.svg">
+<img style="width:13%; height: 13%;" src="eclipse-badge.svg">
+<img style="width:16%; height: 16%;" src="android-badge.svg">
+<img style="width:16%; height: 16%;" src="JS-badge.svg">
 
 
 ## Summary

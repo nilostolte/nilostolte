@@ -4,8 +4,9 @@
 	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
 	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
 ]>
-<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="914.502" height="209"
-	 viewBox="0 0 914.502 209" overflow="visible" enable-background="new 0 0 914.502 209" xml:space="preserve">
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="91.4502" height="20.9"
+	 viewBox="0 0 91.4502 20.9" overflow="visible" enable-background="new 0 0 91.4502 20.9" xml:space="preserve">
+<g shape-rendering="geometricPrecision" transform="scale(0.1 0.1)">
 <path stroke="#000000" stroke-width="5" d="M42.5,2.5H872c22.092,0,40.002,17.908,40.002,39.998v124
 	c0,22.092-17.91,40.002-40.002,40.002H42.5c-22.091,0-40-17.91-40-40.002v-124C2.5,20.408,20.409,2.5,42.5,2.5z"/>
 <path fill="#FFFFFF" d="M219.862,2.5H42.5c-22.091,0-40,17.908-40,39.998v124c0,22.092,17.909,40.002,40,40.002h177.362V2.5z"/>
@@ -44,5 +45,6 @@
 		c-12.373,0-22.408-10.003-22.408-22.359c0-12.341,10.035-22.354,22.408-22.354c12.37,0,22.395,10.012,22.395,22.354
 		C705.727,118.295,695.702,128.298,683.332,128.298"/>
 	<rect x="737.883" y="69.719" fill="#FFFFFF" width="16.946" height="74.877"/>
+</g>
 </g>
 </svg>

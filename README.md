@@ -5,11 +5,7 @@
 <!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)-->
 
 
-<img style="width:12%; height: 12%;" src="java-badge.svg"> <img style="width:12%; height: 12%;" src="cpp-badge.svg">
-<img style="width:12%; height: 12%;" src="HTML5-badge.svg">
-<img style="width:13%; height: 13%;" src="eclipse-badge.svg">
-<img style="width:16%; height: 16%;" src="android-badge.svg">
-<img style="width:16%; height: 16%;" src="JS-badge.svg">
+<img style="width:10%; height: 10%;" src="java-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="cpp-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="HTML5-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="SVG-badge.svg">&nbsp;<img style="width:11%; height: 11%;" src="eclipse-badge.svg">&nbsp;<img style="width:13%; height: 13%;" src="android-badge.svg">&nbsp;<img style="width:13%; height: 13%;" src="JS-badge.svg">
 
 
 ## Summary

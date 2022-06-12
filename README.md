@@ -332,13 +332,14 @@ This will likely change in the near future when hyper high resolution screens wi
 <kbd>
   <img src="https://user-images.githubusercontent.com/80269251/168429533-cdb08466-8eee-475c-ae72-25562fc99698.jpg" width="414" height="616">
 </kbd>
-
 <br><br> 
                                                                                                                                            
 <kbd>
   <img src="https://user-images.githubusercontent.com/80269251/168430775-63ad068b-4e91-4f4f-bcbe-b419c82b316d.jpg" width="414" height="399">
 </kbd>
+<br><br>                                                                                                                                        
 
-
-
+<kbd>
+  <img src="https://user-images.githubusercontent.com/80269251/173236963-fd23cff9-aaba-422a-8616-91b9c19458a1.jpg" width="414" height="316">
+</kbd>
 

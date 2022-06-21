@@ -342,4 +342,9 @@ This will likely change in the near future when hyper high resolution screens wi
 <kbd>
   <img src="https://user-images.githubusercontent.com/80269251/173236963-fd23cff9-aaba-422a-8616-91b9c19458a1.jpg" width="414" height="316">
 </kbd>
+<br><br> 
+
+<kbd>
+  <img src="https://user-images.githubusercontent.com/80269251/174879612-c5672d27-0d0f-422a-96de-016c458491fd.jpg" width="414" height="444">
+</kbd>
 

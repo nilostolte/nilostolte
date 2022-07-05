@@ -348,8 +348,14 @@ This will likely change in the near future when hyper high resolution screens wi
   <img src="https://user-images.githubusercontent.com/80269251/174879612-c5672d27-0d0f-422a-96de-016c458491fd.jpg" width="414" height="444">
 </kbd>
 <br><br>
+
 <kbd>
   <img src="https://user-images.githubusercontent.com/80269251/174884243-f8f4f8e4-0668-4366-adfc-fc2497525e20.jpg" width="414" height="328">
+</kbd>
+<br><br>
+
+<kbd>
+  <img src="https://user-images.githubusercontent.com/80269251/177409058-bf974844-3b63-4993-a2bd-3a1a987a4737.jpg" width="414" height="489">
 </kbd>
 
 

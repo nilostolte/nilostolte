@@ -153,8 +153,10 @@ The inconvenient is that the selection of texts must be also handled internally 
 
 This is a very clever idea of copying a portion of the screen and pasting as text and html with binary content in HTML comments.
 
-<a name="html5_html_anchor"></a>
 Many other ideas of the difficulties found and several solutions are also mentioned in [this original document](https://www.figma.com/blog/building-a-professional-design-tool-on-the-web).
+
+<a name="html5_html_anchor"></a>
+We can conclude that GUI tools for the web don't seem to be the solution for portable interfaces basically due to portability issues among different browsers and even among the same browsers in different systems. Figma experience seems to corroborate my views. Interestingly enough, the concerns in Figma, according to to their observations shared above, seem strangely similar to my own. As far as GUI design and GUI portability are concerned, the current approach on the web might be actually hinting us that what we are doing is the opposite of what is actually required.
 
 #### HTML 5 Canvas Vector Graphics API
 

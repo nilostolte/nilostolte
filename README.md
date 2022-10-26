@@ -89,6 +89,17 @@ Java Android, for example) or even outside of the context of the initial languag
 supporting vector graphics). This _extra work_ is seen here as the price to pay to have a highly _decoupled_ code. A 
 _decoupled_ code is much easier to port and to be reused elsewehere, and most times it is simpler and esier to understand.
 
+JavaFX is also a GUI framework now offered separately of Java Core, but it also supplies a `Path` feature, which
+would in normal ciscunstances be considered a quite interesting feature. Differently than Android's `Path` and AWT's
+`Path.Float`, though, it not only exclusively uses _double_ values, but also its internal code is considerably more 
+cumbersome and intrincate, indulging maybe far too much in object oriented design and transforming something that was
+once simple, to a bloated and difficult to understand piece of code. JavaFX has been also the target of critics for its
+unusual usage of CSS (which in itself has already a quite awkward syntax), its low performance, its lack of many features 
+and of being difficult to use or to accomplish desired effects. We recognize in some of these criticisms the "_footprint_" 
+of many other GUI frameworks such as GTK, Qt, Motif and many others. The common ground of all of them is that the
+resulting interface is often considered ugly, outdated, and the framework itself bloated, not well documented, too many 
+useless features, and so on.
+
 ### Google did it: Dart and Flutter
 
 Not everybody ignored all the vector graphics advantages in GUI contruction. **Google** didn't. That's the reason Google created **Flutter** and the language **Dart**. Dart can be seen as an enhanced revamped version of a vector graphics programming language and Flutter is its graphics environment. Dart and Flutter seem to be the solution for constructing GUIs and GUI-based applications. Despite its growing popularity, **Dart and Flutter have caveats**. The main one is the fact of that they return the creative aspect back to programmers. As we have seen previously that is a mistake. Only a small amount of graphics designers would be interested in doing **design and programming**, and few will have both skills at reasonable level. In average one side could be good but the other sacrified. We have already forced artists to learn vector graphics production. Even though interactive tools make this task easier to them, artists had to adapt to all idiosyncrasies of vector graphics, particularly using **Bezier curves**. All mathematical aspects of Bezier curves are hidden to them, but some practical aspects are often missed, like setting control points touching the curve in minimal and maximal points. 

@@ -15,6 +15,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Vector graphics as a portable solution for GUIs](https://github.com/nilostolte#vg_guis_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Graphics designers as vector graphics GUI creators.](https://github.com/nilostolte#graphics_designers_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Future high resolution screens](https://github.com/nilostolte#hd_screens_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java Android, AWT, JavaFX, and Swing](https://github.com/nilostolte#java_frame_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Google did it: Dart and Flutter](https://github.com/nilostolte#dart_flutter_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter_skia_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [The problem of responsive vector graphics in the web](https://github.com/nilostolte#vectweb_html_anchor)\
@@ -68,7 +69,7 @@ The main advantage of using vector graphics primitives for GUI contruction on th
 
 ### Future high resolution screens
 
-But these are not the only advantages of using vector graphics for GUI creation. Its known intrinsic characteristic is of being **insensitive to the screen resolution**. One can for example zoom any part of the interface [without any loss of quality](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#basic-definitions). This not only means that one can design far different GUIs having **zooming** as part of its interactive process but also that the same interface can run in a variety of different screen resolutions. With the advent of **4K** and **8K** monitors and panels, and maybe even higher resolutions in the future, this is a fundamental feature for the **portability** of the same interface in different screen resolutions. With screen technology growing faster than the hardware to display the information, vector graphics can be seen as the graal for solving this kind of problem. <a name="dart_flutter_html_anchor"></a>What's amazing is that barely no one is using it nowadays, and we will eventually have a problem where all applications will need to migrate to vector GUIs anyway.
+But these are not the only advantages of using vector graphics for GUI creation. Its known intrinsic characteristic is of being **insensitive to the screen resolution**. One can for example zoom any part of the interface [without any loss of quality](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#basic-definitions). This not only means that one can design far different GUIs having **zooming** as part of its interactive process but also that the same interface can run in a variety of different screen resolutions. With the advent of **4K** and **8K** monitors and panels, and maybe even higher resolutions in the future, this is a fundamental feature for the **portability** of the same interface in different screen resolutions. With screen technology growing faster than the hardware to display the information, vector graphics can be seen as the graal for solving this kind of problem. <a name="java_frame_html_anchor"></a>What's amazing is that barely no one is using it nowadays, and we will eventually have a problem where all applications will need to migrate to vector GUIs anyway.
 
 ### Java Android, AWT, JavaFX, and Swing
 
@@ -96,9 +97,9 @@ cumbersome and intrincate, indulging maybe far too much in object oriented desig
 once simple, to a bloated and difficult to understand piece of code. JavaFX has been also the target of critics for its
 unusual usage of CSS (which in itself has already a quite awkward syntax), its low performance, its lack of many features 
 and of being difficult to use or to accomplish desired effects. We recognize in some of these criticisms the "_footprint_" 
-of many other GUI frameworks such as GTK, Qt, Motif and many others. The common ground of all of them is that the
-resulting interface is often considered ugly, outdated, and the framework itself bloated, not well documented, too many 
-useless features, and so on.
+of many other GUI frameworks such as GTK, Qt, Motif and many others. <a name="dart_flutter_html_anchor"></a>The common ground
+of all of them is that the resulting interface is often considered ugly, outdated, and the framework itself bloated, not 
+well documented, too many useless features, and so on.
 
 ### Google did it: Dart and Flutter
 

@@ -94,7 +94,7 @@ JavaFX is also a GUI framework now offered separately of Java Core, but it also 
 would in normal ciscunstances be considered a quite interesting feature. Differently than Android's `Path` and AWT's
 `Path.Float`, though, it not only exclusively uses _double_ values, but also its internal code is considerably more 
 cumbersome and intrincate, indulging maybe far too much in object oriented design and transforming something that was
-once simple, to a bloated and difficult to understand piece of code. JavaFX has been also the target of critics for its
+once simple, into a bloated and difficult to understand piece of code. JavaFX has been also the target of critics for its
 unusual usage of CSS (which in itself has already a quite awkward syntax), its low performance, its lack of many features 
 and of being difficult to use or to accomplish desired effects. We recognize in some of these criticisms the "_footprint_" 
 of many other GUI frameworks such as GTK, Qt, Motif and many others. <a name="dart_flutter_html_anchor"></a>The common ground

@@ -61,7 +61,7 @@ Citizen of Canada and France, I am creative, autonomous, experienced, self-motiv
 ### Vector graphics as a portable solution for GUIs
 
 Since [vector graphics paths](https://github.com/nilostolte/ClockWidget/blob/main/README.md#path-commands) are very high level abstractions, although able to define complex low level shapes, they can also be seen as part of a **generic metalanguage** which is platform, operating system and language independent. In other words, one can define GUIs using vector graphics primitives which are at the same time efficient (since we are actually dealing with the lowest level layer of vector graphics pipeline) and portable, since these primitives are practically universal, having only tiny differences between different languages and platforms. 
-This means that it is very easy to port a vector graphics GUI from one language to another, or from a platform to another, or an operating system to another. Not only that but the automatization of these transformations is not at all rocket science and actually not very complex. <a name="graphics_designers_html_anchor"></a>These **transcompilers**, though, may be quite labor intensive depending on the level of details of their implementation.
+This means that it is very easy to port a vector graphics GUI from one language to another, or from a platform to another, or an operating system to another. <a name="graphics_designers_html_anchor"></a>Not only that but the automatization of these transformations is not at all rocket science and actually not very complex. These **transcompilers**, though, may be quite labor intensive depending on the level of details of their implementation.
 
 ### Graphics designers as vector graphics GUI creators.
 

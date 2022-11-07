@@ -106,7 +106,7 @@ is often considered as cumbersome or _extra work_. The advantage of doing that, 
 particular framework dependency and it can be often reused in other contexts within the same language (as in
 Java Android, for example) or even outside of the context of the initial language (as in other programming languages 
 supporting vector graphics). This _extra work_ is seen here as the price to pay to have a highly _decoupled_ code. A 
-_decoupled_ code is much easier to port and to be reused elsewehere, and most times it is simpler and esier to understand.
+_decoupled_ code is much easier to port and to be reused elsewehere, and most times it is simpler and easier to understand.
 
 JavaFX is also a GUI framework now offered separately of Java Core, but it also supplies a `Path` feature, which
 would in normal ciscunstances be considered a quite interesting feature. Differently than Android's `Path` and AWT's
@@ -156,7 +156,7 @@ cut of Dart is that it is a language of great importance for Google, since it is
  <img src="https://user-images.githubusercontent.com/80269251/200322246-329b35cc-ae6b-437d-8a94-3e8ce499df45.png" width="683" height="503" >
 </a><br><br>
 
-**Fuschia** could be the answer for an efficient desktop operating system as well as for smaller embedded
+**Fuchsia** could be the answer for an efficient desktop operating system as well as for smaller embedded
 platforms. Future versions of Android operating system will accept 
 [**Fuchsia archive format (FAR)**](https://fuchsia.dev/fuchsia-src/development/source_code/archive_format).
 This alone is quite telling and might indicate that the new operating system will substitute Android. All this might also indicate that 

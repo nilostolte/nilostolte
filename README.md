@@ -115,7 +115,7 @@ once simple, into a bloated and difficult to understand piece of code. JavaFX ha
 unusual usage of CSS (which in itself has already a quite awkward syntax), its low performance, its lack of many features 
 and of being difficult to use or to accomplish desired effects. We recognize in some of these criticisms the "_footprint_" 
 of many other GUI frameworks such as GTK, Qt, Motif and many others. The common ground of all of them is that the resulting 
-<a name="dart_flutter_html_anchor"></a>interface is often considered ugly, outdated, and the framework itself bloated, not 
+interface is often considered ugly, outdated, and the framework itself bloated, <a name="dart_flutter_html_anchor"></a>not 
 well documented, too many useless features, and so on.
 
 ### Google did it: Dart and Flutter

@@ -154,8 +154,12 @@ cut of Dart is that it is a language of great importance for Google, since it is
  <img src="https://user-images.githubusercontent.com/80269251/200322246-329b35cc-ae6b-437d-8a94-3e8ce499df45.png" width="683" height="503" >
 </a><br><br>
 
-**Fuschia** <a name="vectweb_html_anchor"></a>could be the answer for an efficient desktop operating system as well as for smallar embedded
-platforms. Future versions of Android operating system will accept (
+**Fuschia** could be the answer for an efficient desktop operating system as well as for smaller embedded
+platforms. Future versions of Android operating system will accept 
+[**Fuchsia archive format (FAR)](https://fuchsia.dev/fuchsia-src/development/source_code/archive_format). <a name="vectweb_html_anchor"></a>
+This alone is quite telling and might indicate that the new operating system will substitute Android. All this might also indicate that 
+Google is probably developing something similar to what Apple did with iOS, but completely open source. This is apparently a completely 
+new universe that Google is creating, although the plans for thi new OS still remains misterious nowadays.
 
 ### The problem of vector graphics on the web
 

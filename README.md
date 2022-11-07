@@ -18,6 +18,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Java Android, AWT, JavaFX, and Swing](https://github.com/nilostolte#java_frame_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Google did it: Dart and Flutter](https://github.com/nilostolte#dart_flutter_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [FLutter is just Skia disguised behind the scenes. Could Dart survive?](https://github.com/nilostolte#flutter_skia_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Qt - The vector graphics GUI framework for C++ and other languages](https://github.com/nilostolte#Qt_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [The problem of vector graphics on the web](https://github.com/nilostolte#vectweb_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [The problem of typography on the web](https://github.com/nilostolte#typoweb_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Vaadin - How to not use Java on the web](https://github.com/nilostolte#vaadin_html_anchor)\
@@ -114,7 +115,7 @@ cumbersome and intrincate, indulging maybe far too much in object oriented desig
 once simple, into a bloated and difficult to understand piece of code. JavaFX has been also the target of critics for its
 unusual usage of CSS (which in itself has already a quite awkward syntax), its low performance, its lack of many features 
 and of being difficult to use or to accomplish desired effects. We recognize in some of these criticisms the "_footprint_" 
-of many other GUI frameworks such as GTK, Qt, Motif and many others. The common ground of all of them is that the resulting 
+of many other GUI frameworks such as GTK, Motif and many others. The common ground of all of them is that the resulting 
 interface is often considered ugly, outdated, and the framework itself bloated, <a name="dart_flutter_html_anchor"></a>not 
 well documented, too many useless features, and so on.
 
@@ -140,7 +141,8 @@ actually in the presence of a new programming language that is supposed to be po
 ### Flutter is just Skia disguised behind the scenes. Could Dart survive?
 
 What is behind Flutter is **Skia**, a vector graphics library for **C++**. It is a quite complex and heavy library but it can
-be seen as a very good alternative for building vector graphics GUIs in C++ instead of **Qt**, since Qt is just a framework. 
+be seen as a very good alternative for building vector graphics GUIs in C++ instead of **Qt**, even though Qt has
+[**QPainterPath**](https://doc.qt.io/qt-5/qpainterpath.html#details) that also gives access to **vector graphics primitives**. 
 This bring us to the fundamental limitation of Flutter and Dart for this score. It is designed to generate **machine language**, 
 not **high level** and **portable** building blocks like vector graphics primitives.
 
@@ -156,10 +158,23 @@ cut of Dart is that it is a language of great importance for Google, since it is
 
 **Fuschia** could be the answer for an efficient desktop operating system as well as for smaller embedded
 platforms. Future versions of Android operating system will accept 
-[**Fuchsia archive format (FAR)**](https://fuchsia.dev/fuchsia-src/development/source_code/archive_format). <a name="vectweb_html_anchor"></a>
+[**Fuchsia archive format (FAR)**](https://fuchsia.dev/fuchsia-src/development/source_code/archive_format).
 This alone is quite telling and might indicate that the new operating system will substitute Android. All this might also indicate that 
-Google is probably developing something similar to what Apple did with iOS, but completely open source. This is apparently a completely 
-new universe that Google is creating, although the plans for this new OS still remain mysterious nowadays.
+Google is probably developing something similar to what Apple did with iOS, but completely open source. <a name="Qt_html_anchor"></a>
+This is apparently a completely new universe that Google is creating, although the plans for this new OS still remain mysterious nowadays.
+
+### Qt - The vector graphics GUI framework for C++ and other languages
+
+Qt is a vector graphics framework that allows creating portable GUIs across different platforms, having biddings for C++,
+Python, JavaScript, C#, Rust, and other languages.
+
+Qt gives access to **vector graphics primitives** through its class 
+[**QPainterPath**](https://doc.qt.io/qt-5/qpainterpath.html#details) as illustrated below.
+
+<img src="https://user-images.githubusercontent.com/80269251/200349746-a440abc0-c48f-4a66-b0e9-00be5fd31ba7.png" width="683" height="281" >
+
+<a name="vectweb_html_anchor"></a>The real inconvenience of Qt is that it is far too bulky, similarly to what happens with **Skia** 
+and **Flutter**, but it's undobtably a very popular framework, particularly for C++.
 
 ### The problem of vector graphics on the web
 

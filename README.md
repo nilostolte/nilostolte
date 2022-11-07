@@ -114,8 +114,8 @@ cumbersome and intrincate, indulging maybe far too much in object oriented desig
 once simple, into a bloated and difficult to understand piece of code. JavaFX has been also the target of critics for its
 unusual usage of CSS (which in itself has already a quite awkward syntax), its low performance, its lack of many features 
 and of being difficult to use or to accomplish desired effects. We recognize in some of these criticisms the "_footprint_" 
-of many other GUI frameworks such as GTK, Qt, Motif and many others. <a name="dart_flutter_html_anchor"></a>The common ground
-of all of them is that the resulting interface is often considered ugly, outdated, and the framework itself bloated, not 
+of many other GUI frameworks such as GTK, Qt, Motif and many others. The common ground of all of them is that the resulting 
+<a name="dart_flutter_html_anchor"></a>interface is often considered ugly, outdated, and the framework itself bloated, not 
 well documented, too many useless features, and so on.
 
 ### Google did it: Dart and Flutter
@@ -133,9 +133,9 @@ real programing language that also allows the use vector graphics primitives thr
 only inconvenient is that it only offers parameters in **double**, instead of Java that also offers **float** parameters.
 The language has many similarities with **JavaScript** and **Java**.
 
-The whole **marketing** behind Flutter seems to actually hide that and rather stresses how easy it is to produce applications.
-Therefore the whole thing is sold as just like another framework, although we are actually in the presence of a new programming
-language that is supposed to be portable with portable GUIs.
+The whole **marketing** behind Flutter seems to actually hide that and rather stresses how easy it is to produce applications. 
+<a name="flutter_skia_html_anchor"></a>Therefore the whole thing is sold as just like another framework, although we are 
+actually in the presence of a new programming language that is supposed to be portable with portable GUIs.
 
 ### Flutter is just Skia disguised behind the scenes. Could Dart survive?
 

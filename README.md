@@ -65,7 +65,24 @@ This means that it is very easy to port a vector graphics GUI from one language 
 
 ### Graphics designers as vector graphics GUI creators.
 
-The main advantage of using vector graphics primitives for GUI contruction on the other hand, are neither one cited above. The actual quite important consequence of such choice is to be able to use vector graphics art conceaved by **graphics designers** to define the GUI shapes and their appearence. For a long time GUIs were exclusively designed by programmers, not artists, and had terrible appearences and no appeal. Not only that but **frameworks** for GUI construction, which are basically designed by programmers, are extremely standardized, difficult to be customized and complex to learn and use. With the possibility to use **artwork from graphics designers** this whole perspective radically changes. In addition to that graphics designers are much cheaper and more creative than programmers. <a name="hd_screens_html_anchor"></a>It looks obvious that vector graphics is definitely the solution for modern and fancy GUIs.
+The main advantage of using vector graphics primitives for GUI contruction on the other hand, are neither one cited above. The actual quite important
+consequence of such choice is to be able to use vector graphics art conceaved by **graphics designers** to define the GUI shapes and their appearence.
+For a long time GUIs were exclusively designed by programmers, not artists, and had terrible appearences and no appeal. Not only that but **frameworks** 
+for GUI construction, which are basically designed by programmers, are extremely standardized, difficult to be customized and complex to learn and use.
+
+But now **web development** enthusiasts are trying to convince artists that **programming is easy** and **JavaScript** is seen like a panacea. Artists
+had already a hard time to adapt to **Illustrator**, but now we are telling them to go a step further and submit to a totally **abstract way** of
+producing their art.
+
+Only a small amount of graphics designers would be interested in doing **design and programming**, and few will have both skills at reasonable level.
+In average one side could be good but the other sacrified. We have already forced artists to learn vector graphics production. Even though interactive
+tools make this task easier to them, artists had to adapt to all idiosyncrasies of vector graphics, particularly using **Bezier curves**. All
+mathematical aspects of Bezier curves are hidden to them, but some practical aspects are often missed, like setting control points touching the curve
+in minimal and maximal points. These aspects come as an **option**, and they generally only improve with the experience.
+
+With the possibility to use **artwork from graphics designers** this whole perspective radically changes. In addition to that graphics designers are
+much cheaper and more creative than programmers. <a name="hd_screens_html_anchor"></a>It looks obvious that vector graphics is definitely the solution
+for modern and fancy GUIs.
 
 ### Future high resolution screens
 
@@ -103,17 +120,42 @@ well documented, too many useless features, and so on.
 
 ### Google did it: Dart and Flutter
 
-Not everybody ignored all the vector graphics advantages in GUI contruction. **Google** didn't. That's the reason Google created **Flutter** and the language **Dart**. Dart can be seen as an enhanced revamped version of a vector graphics programming language and Flutter is its graphics environment. Dart and Flutter seem to be the solution for constructing GUIs and GUI-based applications. Despite its growing popularity, **Dart and Flutter have caveats**. The main one is the fact of that they return the creative aspect back to programmers. As we have seen previously that is a mistake. Only a small amount of graphics designers would be interested in doing **design and programming**, and few will have both skills at reasonable level. In average one side could be good but the other sacrified. We have already forced artists to learn vector graphics production. Even though interactive tools make this task easier to them, artists had to adapt to all idiosyncrasies of vector graphics, particularly using **Bezier curves**. All mathematical aspects of Bezier curves are hidden to them, but some practical aspects are often missed, like setting control points touching the curve in minimal and maximal points. 
-These aspects come as an **option**, and they generally only improve with the experience. But now Google is trying to convince artists that **programming is easy**. We have already seen this before with web programming and **JavaScript**. Artists had already a hard time to adapt to **Illustrator**, but now we are telling them to go a step further and submit to a totally **abstract way** of producing their art.
+Not everybody ignored all the vector graphics advantages in GUI contruction. **Google** didn't. That's the reason Google 
+created **Flutter** and the language **Dart**. Dart can be seen as an enhanced revamped version of a vector graphics 
+programming language and Flutter is cross-platform application development framework. Dart and Flutter seem to be the 
+solution for constructing GUIs and GUI-based applications. Despite its growing popularity, **Dart and Flutter have caveats**. 
+The main one is the fact of that Flutter is bulky and quite complex. 
 
-But it is also possible that Google is just another victim falling in the **trap of imposing a framework** desguised behind a language instead of offering a complete vector graphics language, or offering both side by side. The declarative nature of Dart doesn't actually promote the use of vector graphics primitives. The whole **marketing** behind Flutter seems to actually hide that and rather stress how easy it is to produce applications. Therefore the whole thing seems rather just like a framework. 
-We have already seen that frameworks are **complex** as well as **difficult to customize** and to learn. Thus, the intention here seems to be not only to hide vector graphics primitives but also to hide the limitations of an underlying framework-like environment. Maybe the intention is to integrate in the language new ways to do interfaces as they appear. <a name="flutter_skia_html_anchor"></a>But if they can't appear in Dart we are assuming it is appearing somewhere else and this means that it is maybe an approach of staying one step behind, never being a vector of change.
+But Google just didn't fall in the **trap of imposing a framework** desguised behind a programming language. Dart is a 
+real programing language that also allows the use vector graphics primitives through the class 
+[`Path`](https://api.flutter.dev/flutter/dart-ui/Path-class.html) in the 
+[**painting**](https://api.flutter.dev/flutter/painting/painting-library.html) library, similarly than in Java. The 
+only inconvenient is that it only offers parameters in **double**, instead of Java that also offers **float** parameters.
+The language has many similarities with **JavaScript** and **Java**.
+
+The whole **marketing** behind Flutter seems to actually hide that and rather stresses how easy it is to produce applications.
+Therefore the whole thing is sold as just like another framework, although we are actually in the presence of a new programming
+language that is supposed to be portable with portable GUIs.
 
 ### Flutter is just Skia disguised behind the scenes. Could Dart survive?
 
-What is behind Flutter is **Skia**, a vector graphics library for **C++**. It is a quite complex and heavy library but it can be seen as a very good alternative for building vector graphics GUIs in C++ instead of **Qt**, since Qt is just a framework. This bring us to the fundamental limitation of Flutter and Dart for this score. It is designed to generate **machine language**, not **high level** and **portable** building blocks like vector graphics primitives.
+What is behind Flutter is **Skia**, a vector graphics library for **C++**. It is a quite complex and heavy library but it can
+be seen as a very good alternative for building vector graphics GUIs in C++ instead of **Qt**, since Qt is just a framework. 
+This bring us to the fundamental limitation of Flutter and Dart for this score. It is designed to generate **machine language**, 
+not **high level** and **portable** building blocks like vector graphics primitives.
 
-This also brings us to the ultimate conclusion that there is probably no way to escape from **vector graphics primitives** to produce applications that have really portable GUIs. Does that mean that **Dart is a dead end?** Not necessarily. We know Flutter and Dart are **open source**. If Dart doesn't limit any vector graphics primitives for being accessed directly there is a chance to shortcircuit the compiler to accept only these constructions and to use it as a transcompiler. If it does limit them, direct access to these primitives must be added, but a new language would be created, since it is not actually Dart. In this way, in the case of a compiled language the normal compilation would take place to generate machine language. <a name="vectweb_html_anchor"></a>In the case one wishes to use a language having acces to its own vector graphics primitives, the compiler would generate high level code in that language, thus totally bypassing Skia.
+This also brings us to the ultimate conclusion that there is probably no way to escape from **vector graphics primitives** 
+to produce applications that have really portable GUIs. Does that mean that **Dart is a dead end?** The answer is no. We know 
+Flutter and Dart are **open source**. Dart doesn't limit any vector graphics primitives for being accessed directly. The final
+cut of Dart is that it is a language of great importance for Google, since it is part of 
+[**Fushia**](https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/architecture) operating system as indicated below:
+                                                                                                       
+<a href="https://fuchsia.dev/fuchsia-src/get-started/sdk/learn/intro/architecture">
+ <img src="https://user-images.githubusercontent.com/80269251/200322246-329b35cc-ae6b-437d-8a94-3e8ce499df45.png" width="683" height="503" >
+</a><br><br>
+
+**Fuschia** <a name="vectweb_html_anchor"></a>could be the answer for an efficient desktop operating system as well as for smallar embedded
+platforms. Future versions of Android operating system will accept (
 
 ### The problem of vector graphics on the web
 

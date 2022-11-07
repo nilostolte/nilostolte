@@ -159,7 +159,7 @@ platforms. Future versions of Android operating system will accept
 [**Fuchsia archive format (FAR)**](https://fuchsia.dev/fuchsia-src/development/source_code/archive_format). <a name="vectweb_html_anchor"></a>
 This alone is quite telling and might indicate that the new operating system will substitute Android. All this might also indicate that 
 Google is probably developing something similar to what Apple did with iOS, but completely open source. This is apparently a completely 
-new universe that Google is creating, although the plans for thi new OS still remains misterious nowadays.
+new universe that Google is creating, although the plans for this new OS still remains misterious nowadays.
 
 ### The problem of vector graphics on the web
 

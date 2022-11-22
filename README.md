@@ -66,7 +66,7 @@ This means that it is very easy to port a vector graphics GUI from one language 
 
 ### Graphics designers as vector graphics GUI creators.
 
-The main advantage of using vector graphics primitives for GUI contruction on the other hand, are neither one cited above. The actual quite important
+The main advantage of using vector graphics primitives for GUI construction on the other hand, are neither one cited above. The actual quite important
 consequence of such choice is to be able to use vector graphics art conceaved by **graphics designers** to define the GUI shapes and their appearence.
 For a long time GUIs were exclusively designed by programmers, not artists, and had terrible appearences and no appeal. Not only that but **frameworks** 
 for GUI construction, which are basically designed by programmers, are extremely standardized, difficult to be customized and complex to learn and use.
@@ -121,7 +121,7 @@ well documented, too many useless features, and so on.
 
 ### Google did it: Dart and Flutter
 
-Not everybody ignored all the vector graphics advantages in GUI contruction. **Google** didn't. That's the reason Google 
+Not everybody ignored all the vector graphics advantages in GUI construction. **Google** didn't. That's the reason Google 
 created **Flutter** and the language **Dart**. Dart can be seen as an enhanced revamped version of a vector graphics 
 programming language and Flutter is cross-platform application development framework. Dart and Flutter seem to be the 
 solution for constructing GUIs and GUI-based applications. Despite its growing popularity, **Dart and Flutter have caveats**. 

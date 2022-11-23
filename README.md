@@ -270,7 +270,7 @@ It is also possible to use Java but its use and compilation to WebAssembly is no
 <hr>
 
 ## Activities <a name="current_activities_html_anchor"></a>
-<a name="pixijs_html_anchor"</a>
+<a name="pixijs_html_anchor"></a>
 
 ### Current Activities
 - **Efficient and portable front-end web solution**: Using **PixiJS** vector primitives and other support tools as a way to 

@@ -5,7 +5,7 @@
 <!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)-->
 
 
-<img style="width:10%; height: 10%;" src="java-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="cpp-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="HTML5-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="SVG-badge.svg">&nbsp;<img style="width:11%; height: 11%;" src="eclipse-badge.svg">&nbsp;<img style="width:13%; height: 13%;" src="android-badge.svg">&nbsp;<img style="width:13%; height: 13%;" src="JS-badge.svg">
+<img style="width:10%; height: 10%;" src="java-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="cpp-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="HTML5-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="SVG-badge.svg">&nbsp;<img style="width:11%; height: 11%;" src="eclipse-badge.svg">&nbsp;<img style="width:13%; height: 13%;" src="android-badge.svg">&nbsp;<img style="width:13%; height: 13%;" src="JS-badge.svg">&nbsp;<a href="https://jb.gg/OpenSourceSupport"><img src="jb_beam.svg" align="right" style="width:14%; height: 14%;"></a>
 
 
 ## Summary

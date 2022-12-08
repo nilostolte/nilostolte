@@ -179,7 +179,43 @@ and **Flutter**, but it's undobtably a very popular framework, particularly for 
 
 ### The problem of vector graphics on the web
 
-Vector graphics on the web exists for a very long time with **SVG** (Scalable Vector Graphics). SVG, however, is approriate for static designs but not for active and live features such as in animations and widgets. The problem is that it is not efficient enough for real time interactivity. But there is a recent solution nowadays, and I explain that at the [end of this section](https://github.com/nilostolte#html5_html_anchor).
+Vector graphics on the web exists for a very long time with **SVG** (Scalable Vector Graphics). SVG, however, was approriate for static designs but not for active and live features such as in animations and widgets, until now. The problem is that it was not efficient enough for real time interactivity. But this changed a lot with JIT JavaScript compilation. Now, animation is possible as explained in this video:
+
+<a href="https://www.youtube.com/watch?v=UTHgr6NLeEw">
+  <img src="https://user-images.githubusercontent.com/80269251/206476180-04fac011-2ce1-4165-bf8c-c0b7593136b4.png" width="683" height="384" >
+</a><br><br>
+
+Even though one can easily see the value of building animations using standard **CSS** and **SVG** (which is great), there
+is a much better alternative: **Bodymovin**. One would argue why a proprietary standard would be better than such an open
+and proper way of doing things. There are many reasons for that, but probably the main ones are **portability** and 
+**versatility**.
+
+**Bodymovin** uses a **JSON** string to represent the vector models and the animation. It's far more **compact** and 
+**portable** because the Bodymovin viewer exists not only in **JavaScript**, but also in other languages, as, for example,
+**C++**. The approach proposed in the video above only works on the web. 
+
+The second problem concerns **SVG** itself. As one can easily notice in this video, SVG is practically dealt as an
+unreadable format, particularly for paths, and it's hidden behind applications such as **Figma** or **Illustrator**, 
+almost as a warning of the type "Danger! Don't even approach it." It's so unfortunate that SVG standard practically
+sealed it's fate by becoming too complex and unbearable for human users, while initially it was supposed to be exactly 
+the opposite and that's the reason this format has been in text format from the start. 
+
+Shape definitions in [Bodymovin **JSON** format](https://lottiefiles.github.io/lottie-docs/) are very simple and easy to 
+understand. The JSON is processed by Bodymovin viewer and can be rendered in SVG (but also in a Canvas if one wishes) on
+the web. The conversion is done **dynamically** and one doesn't even see it explicitly unless one is using "Inspect." 
+
+Here is the most sensational advantage of [Bodymovin **JSON** format](https://lottiefiles.github.io/lottie-docs/), it's
+**metaprogramming paradigm**. Adobe cleverly used a simpler and more **abstract metalanguage** to express the vectors
+as well as the animations in order to dynamicall convert the format to any possible vector representation. One may argue
+that its format is intricate and not readable. 
+
+At this point the discussion becomes interesting, because indeed one might quickly become overwhelmed by the format structure.
+The reason for that is that not only the vector models are represented but also the complete animation setting (it's a
+complete and independent animation script) as opposed to the method exposed in the video above. One might still argue that
+the file format is proprietary and impenetrable. Not anymore. It became open-source thanks to 
+[Lottie](https://lottiefiles.com/) and it's growing very quickly as the "new industry standard."
+
+But there is a recent solution nowadays, and I explain that at the [end of this section](https://github.com/nilostolte#html5_html_anchor).
 
 Besides active and live contents we also have problems with **fonts** on the web. Even if the problem of vector fonts is solved as we can see below, <a name="typoweb_html_anchor"></a>it is the structure and the rendering of html itself that became a problem, as far as zooming capabilities are concerned.
 

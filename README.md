@@ -29,7 +29,7 @@
   
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Bodymovin and Lottie JSON format as a file representation for vector graphics and animation](https://github.com/nilostolte#bodymovin_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Bodymovin JSON format as a file representation for vector graphics and animation](https://github.com/nilostolte#bodymovin_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Efficient and portable front-end web solution](https://github.com/nilostolte#pixijs_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Modification of SVG-Edit](https://github.com/nilostolte#svgedit_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [GitHub web site](https://github.com/nilostolte#gitsite_html_anchor)\
@@ -217,7 +217,7 @@ the file format is proprietary and impenetrable. Not anymore. It became open-sou
 [Lottie](https://lottiefiles.com/) and it's growing very quickly as the "new industry standard."
 
 This might be the solution as a **metalanguage** for representation of vector graphics (and animation), as far as 
-portability, efficiency and flexibility for vector GUIs in general are concerned. See [**Bodymovin and Lottie JSON format 
+portability, efficiency and flexibility for vector GUIs in general are concerned. See [**Bodymovin JSON format 
 as a file representation for vector graphics and animation**](https://github.com/nilostolte#bodymovin_html_anchor).
 
 Besides active and live contents we also have problems with **fonts** on the web. Even if the problem of vector fonts is solved as we can see below, <a name="typoweb_html_anchor"></a>it is the structure and the rendering of html itself that became a problem, as far as zooming capabilities are concerned.
@@ -312,7 +312,7 @@ It is also possible to use Java but its use and compilation to WebAssembly is no
 <a name="bodymovin_html_anchor"></a>
 
 ### Current Activities
-- **Bodymovin and Lottie JSON format as a file representation for vector graphics and animation**: Bodymoving is the new
+- **Bodymovin JSON format as a file representation for vector graphics and animation**: Bodymoving is the new
 industry standard for animations not only on the web but also practically everywhere. The 
 [whole file format](https://lottiefiles.github.io/lottie-docs/) <a name="pixijs_html_anchor"></a>can be used as a 
 portable representation for vector animations, and a subset of it used as a portable representation for static vector graphics. 

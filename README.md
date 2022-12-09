@@ -247,7 +247,10 @@ I have seen claims that what **Typetura** is aiming is size-specific adjustments
 <i>ATF Garamond, from left to right: 6, 8, 10, 12, 14, 16, 18, 24, 72 pt</i>
 </p>
 
-If there is a future of **typography** on the web or in electronic typography in general, this would be it for sure. But this is not what Typetura is doing. Typetura is merely scaling fonts and not changing their shapes according to the scale as proposed by Tim Ahrens and Shoko Mugikura. In other words, what Typetura is actually doing is just trying to adapt WYSIWYG (What You See Is What You Get) to the web as it is now.
+If there is a future of **typography** on the web or in electronic typography in general, this would be it for sure. But this is not what Typetura
+is doing. Typetura is merely scaling fonts and not changing their shapes according to the scale as proposed by Tim Ahrens and Shoko Mugikura. This
+is only achieved with a smart use of **variable fonts**, which is the huge novelty in typography, not only on the web, but especially on the web.
+ **Glyphs**, a program running on iOS, is probably the responssible for this breakthrough with its new text-based file format.
 
 However, one can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can only be obtained by rendering the window contents as vector graphics that are very easily scalable, as seen [here](https://nilostolte.github.io/). But the solution shown in [this site](https://nilostolte.github.io/) only works well for static sites.
 

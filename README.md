@@ -243,7 +243,7 @@ techonology in general, and Bodymovin and Lottie vector animations, as stated
 I have seen claims that what **Typetura** is aiming is size-specific adjustments to type designs as proposed by Tim Ahrens and Shoko Mugikura in ["Size-specific adjustments to type designs – An investigation of the principles guiding the design of optical sizes"](https://justanotherfoundry.com/size-specific-adjustments-to-type-designs). In this proposal the _shapes_ of the glyphs change with the scale as it has been observed in typography for many centuries and thanks to new psychological research in this subject. Here it is an example of how a metal typography font would change according to the scale:
 
 <p >
-<img = src="https://user-images.githubusercontent.com/80269251/163443530-68295ed5-b39b-4ad5-9aa3-f9338d3a37c9.png" width="70%" height="70%"><br>
+<img src="https://user-images.githubusercontent.com/80269251/163443530-68295ed5-b39b-4ad5-9aa3-f9338d3a37c9.png" width="70%" height="70%"><br>
 <i>ATF Garamond, from left to right: 6, 8, 10, 12, 14, 16, 18, 24, 72 pt</i>
 </p>
 
@@ -265,6 +265,15 @@ Vaadin is a tentative to use **Java** on web programming but unfortunately in th
 </a><br><a name="figma_html_anchor"></a><br>
 
 The problem with Vaadin is that exactly the framework aspect is what should be thrown away.
+
+However, when thinking about web applications, web servers, etc., Java is still a good bet and if one thinks about doing it with Springboot, one cannot just ignore Vaddin if one gets the useful advantage of getting rid of REST.
+
+<p>
+<img src="https://user-images.githubusercontent.com/80269251/209391767-fa92be13-b6c0-4a88-94e2-9cff0cf62fb1.png" width="683" height="380"><br>
+<i>Using Vaadin might be extremely useful to get rid of REST API in Springboot</i>
+</p>
+
+Thus, Vaadin indeed adds a lot of value by allowing applications to run faster bypassing REST and accessing services or repositories directly.
 
 #### Figma - The Ultimate Solution
 

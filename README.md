@@ -252,9 +252,11 @@ is doing. Typetura is merely scaling fonts and not changing their shapes accordi
 is only achieved with a smart use of **variable fonts**, which is the huge novelty in typography, not only on the web, but especially on the web.
  **Glyphs**, a program running on iOS, is probably the responssible for this breakthrough with its new text-based file format.
 
-However, one can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can only be obtained by rendering the window contents as vector graphics that are very easily scalable, as seen [here](https://nilostolte.github.io/). But the solution shown in [this site](https://nilostolte.github.io/) only works well for static sites.
+However, one can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can be easily obtained by rendering the window contents as vector graphics, that are known to be scalable, as seen [here](https://nilostolte.github.io/). A dynamic solution is possible using Bodimovin or Lottie, that allow rendering responsive SVG animations on the web.
 
-If the solution should include dynamic content, it is maybe through an open source library offering to render vector graphics in WebAssembly. Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. <a name="vaadin_html_anchor"></a>When a software is open source it is scrutinized by programmers who will identify malicious code if it exists.
+If the solution should include not only dynamic content, but also highly responsive interactivity, it would be maybe through an open source library offering to render vector graphics directly on hardware, in the GPU. 
+
+Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. <a name="vaadin_html_anchor"></a>When a software is open source it is scrutinized by programmers who will identify malicious code if it exists.
 
 #### Vaadin - How to not use Java on the web
 

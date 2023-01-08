@@ -252,15 +252,17 @@ is doing. Typetura is merely scaling fonts and not changing their shapes accordi
 is only achieved with a smart use of **variable fonts**, which is the huge novelty in typography, not only on the web, but especially on the web.
  **Glyphs**, a program running on iOS, is probably the responssible for this breakthrough with its new text-based file format.
 
-However, one can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can be easily obtained by rendering the window contents as vector graphics, that are known to be scalable, as seen [here](https://nilostolte.github.io/). A dynamic solution is possible using Bodimovin or Lottie, that allow rendering responsive SVG animations on the web.
+Threre was a time when WYSIWYG was not applied only on editing contexts that would be printed with the same formatting as while editing. It could also mean that something is displayed as it was meant, it's identical everywhere, but this concept practically disappeared on displaying stuff on the web, except in editing.
 
-If the solution should include not only dynamic content, but also highly responsive interactivity, it would be maybe through an open source library offering to render vector graphics directly on hardware, in the GPU. 
+However, one can easily see that what you get with the solution in the video is not what you want to see. The solution is a real responsive WYSIWYG experience that scales the text as one increases and decreases the size of the window, that is, actually scaling the whole contents according to the size of the window. This can be easily obtained by rendering the window contents as vector graphics, which are known to be scalable, as seen [here](https://nilostolte.github.io/). Dynamic and scalable solutions exist thanks to Bodymovin and Lottie, that bring responsive animations in SVG to the web.
 
-Why open source? Because although WebAssembly is very powerful it is also very dangerous because it can convey malicious code without the user noticing. <a name="vaadin_html_anchor"></a>When a software is open source it is scrutinized by programmers who will identify malicious code if it exists.
+If the solution should include not only dynamic contents, but also responsive interactivity it would be probably with an open source library offering to render vector graphics in hardware, directly on the GPU. PixiJS is a partial solution to the problem (see a demo [here](https://nilostolte.github.io/pixijs/vector-demo.html)). It renders vectors using the GPU in HTML Canvas that can be scaled properly according to the viewport. PixiJS unfortunately lacks vector gradients. Using Canvas could also be seen as a limitation, since Bodymovin, for example, can be rendered in SVG quite efficiently. Also, it is not clear if PixiJS scales well in complex GUIs. But the disadvantage of not supporting vector gradients don't actually encourages using it as a complete vector graphics GUI renderer.
+
+It is clear that allowing direct access to vector primitives, allowing animations and real time interactivity with them would be ideally done with hardware support. In addition to that, allowing scripting the GUIs with a proper, device independent, and portable file format, as used in JSON Bodymovin animations definitions, would also be quite desirable. The reality is that one only sees specific solutions for specific problems, and not usually with hardware support. Hardware support for vector graphics is already a problem in many languages, not only on the web. A classical example is in Java, where path rendering in `Graphics2D` is typically done in software as in many other languages.
 
 #### Vaadin - How to not use Java on the web
 
-Vaadin is a tentative to use **Java** on web programming but unfortunately in the wrong way. Vaadin actually tries to imitate UI frameworks such as the one found in Android or Java Core for desktop, but forgetting the most important stuff: `awt` JRE libraries and vector graphics primitives. In the video below one can clearly see how Vadiin is not the solution for Java UI on the web, because of its very obscure API and framework oriented structure:
+Vaadin is a tentative to use **Java** on web programming but unfortunately in the wrong way. Vaadin actually tries to imitate UI frameworks such as the one found in Android or Java Core for desktop, but forgetting the most important stuff: `awt` JRE libraries and vector graphics primitives (`Graphics2D`). In the video below one can clearly see how Vadiin is not the solution for Java UI on the web, because of its very obscure API and framework oriented structure:
 
 <a href="https://www.youtube.com/watch?v=TGSDz-_dNhI">
   <img src="https://user-images.githubusercontent.com/80269251/158072042-3b265bda-9db5-456a-9c08-6353bb7e1fc4.png" width="683" height="384">
@@ -275,7 +277,7 @@ However, when thinking about web applications, web servers, etc., Java is still 
 <i>Using Vaadin might be extremely useful to get rid of REST API in Springboot</i>
 </p>
 
-Thus, Vaadin indeed adds a lot of value by allowing applications to run faster bypassing REST and accessing services or repositories directly.
+Thus, Vaadin indeed adds a lot of value by allowing applications to run faster bypassing REST and accessing services or repositories directly. Also, Vaadin main problem with vector UI primitives might be the lack of hardware support for them in Java iself. Thus, a standardized and portable way to access vector primitives with hardware support is definitely what seems to be lacking and what would solve this problem universally, once and for all.
 
 #### Figma - The Ultimate Solution
 

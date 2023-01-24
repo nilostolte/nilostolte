@@ -114,7 +114,11 @@ JavaFX is also a GUI framework now offered separately of Java Core, but it also 
 would in normal ciscunstances be considered a quite interesting feature. Differently than Android's `Path` and AWT's
 `Path.Float`, though, it not only exclusively uses _double_ values, but also its internal code is considerably more 
 cumbersome and intrincate, indulging maybe far too much in object oriented design and transforming something that was
-once simple, into a bloated and difficult to understand piece of code. JavaFX has been also the target of critics for its
+once simple, into a bloated and difficult to understand piece of code. This is a classical problem of high granularity
+that many other codes in any OOP language might have. It's characterized by an exagerated amount of quite small classes.
+Since in Java each class has to be defined in a different file, it will result in a code that has too many files. This
+obfuscates the code since each file will have only a few number of lines of code, making it difficult to grasp its
+overall logic. JavaFX has been also the target of critics for its
 unusual usage of CSS (which in itself has already a quite awkward syntax), its low performance, its lack of many features 
 and of being difficult to use or to accomplish desired effects. We recognize in some of these criticisms the "_footprint_" 
 of many other GUI frameworks such as GTK, Motif and many others. The common ground of all of them is that the resulting 

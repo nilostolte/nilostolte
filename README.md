@@ -361,7 +361,7 @@ more flexible and extensible approach for function implementations using lambda 
 
 <a name="future_activity_1_html_anchor"></a>
 ### Future Activities
-- thinking about it <a name="previous_activities_html_anchor"></a>
+- Zig? <a name="previous_activities_html_anchor"></a>
 
 <a name="previous_activity_1_html_anchor"></a>
 ### Previous Activities

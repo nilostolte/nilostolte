@@ -29,6 +29,7 @@
   
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Sudoku solver using binary representation of digits](https://github.com/nilostolte#sudoku_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Bodymovin JSON format as a file representation for vector graphics and animation](https://github.com/nilostolte#bodymovin_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Efficient and portable front-end web solution](https://github.com/nilostolte#pixijs_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Modification of SVG-Edit](https://github.com/nilostolte#svgedit_html_anchor)\
@@ -337,9 +338,10 @@ It is also possible to use Java but its use and compilation to WebAssembly is no
 <hr>
 
 ## Activities <a name="current_activities_html_anchor"></a>
-<a name="bodymovin_html_anchor"></a>
+<a name="sudoku_html_anchor"></a>
 
 ### Current Activities
+- [**Sudoku solver using binary representation of digits**](https://github.com/nilostolte/Sudoku): <a name="bodymovin_html_anchor"></a>Simple 9x9 Sudoku brute force solver with intrinsic parallel candidate set processing thanks to the use of bit representation for the 1-9 digits as well as bitwise operations allowing to test all the candidates at once.
 - **Bodymovin JSON format as a file representation for vector graphics and animation**: Bodymoving is the new
 industry standard for animations not only on the web but also practically everywhere. The 
 [whole file format](https://lottiefiles.github.io/lottie-docs/) <a name="pixijs_html_anchor"></a>can be used as a 

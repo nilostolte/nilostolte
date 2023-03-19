@@ -326,13 +326,13 @@ This API is significantly faster than SVG and it allows (with some clever workar
 
 But games are not the only applications that can be done with it. One can also code a whole web application using `Canvas` and vector graphics API. Even though very powerful, this API is not a panacea. I have found limitations that restrict its use for very complex and more professional applications. For example, clipping doesn't work properly if used more than once. What is missing is a library offering operations to join, subtract and intersect vector objects to generate more complex objects, such as the ones found in Java's awt `Area` or in Android's [`Path`](https://android.googlesource.com/platform/prebuilts/fullsdk/sources/android-30/+/refs/heads/androidx-main-release/android/graphics/Path.java). These operations can also be found in many vector graphics editors such as Illustrator and Inkscape.
 
-Figma is using such a library, probably in WebAssembly. One of the problems with Figma is that it is a closed environment as cited previously. But such a library as an open source project would not only allow free and general use of these features but also solve any security issues concerning the code since its source code anybody can see.  <a name="VGUIeverywhere_html_anchor"></a>In an industrial environment these libraries can be modified for specific use. For example, the internal representation of objects could be different to avoid having their designs stolen.
+Figma is using such a library, probably in WebAssembly. One of the problems with Figma is that it is a closed environment as cited previously. But such a library as an open source project would not only allow free and general use of these features but also solve any security issues concerning the code since its source code anybody can see. In an industrial environment these libraries can be modified for specific use. <a name="frameworks_html_anchor"></a>For example, the internal representation of objects could be different to avoid having their designs stolen.
 
 #### Why All Frontend Frameworks Suck?
 
 The [video](https://www.youtube.com/watch?v=TGSDz-_dNhI) shown below summarizes the reality of frontend frameworks in terms 
 of performance. The benchmarks show that React, Vue, Svelte, and even Rust+WebAssembly frameworks (except maybe Sledghammer) 
-are all slower than vanilla JavaScript.<a name="frameworks_html_anchor"></a>
+are all slower than vanilla JavaScript.
 
 <p><br><a href="https://www.youtube.com/watch?v=TGSDz-_dNhI">
   <img src="https://user-images.githubusercontent.com/80269251/226181415-523aa04c-10bd-40bc-9918-2b34e7ead5e7.png" width="683" height="384">
@@ -344,8 +344,8 @@ Therefore, we not only have a problem that it's difficult to move from one frame
 take time to understand and code, but also they significantly degrade the rendering performance.
 
 The solution of Rust+WebAssembly is still not ideal because one needs to pass through JavaScript glue code to access the DOM. What
-is particularly bad is that Rust works tith string UTF-8 strings and Javascript works with UTF-16, which means that everything
-that passes through the JavaScript glue code needs to be converted from one format to the other all the time.
+is particularly bad is that Rust works tith string UTF-8 strings and Javascript works with UTF-16, <a name="VGUIeverywhere_html_anchor"></a>
+which means that everything that passes through the JavaScript glue code needs to be converted from one format to the other all the time.
 
 ### Vector GUI Everywhere
 

@@ -343,7 +343,7 @@ Therefore, we not only have a problem that it's difficult to move from one frame
 take time to understand and code, but also they significantly degrade the rendering performance.
 
 The solution of Rust+WebAssembly is still not ideal because one needs to pass through JavaScript glue code to access the DOM. What
-is particularly bad is that Rust works with string UTF-8 strings and Javascript works with UTF-16, 
+is particularly bad is that Rust works with UTF-8 strings and JavaScript works with UTF-16 strings, 
 <a name="VGUIeverywhere_html_anchor"></a> which means that everything that passes through the JavaScript glue code needs to 
 be converted from one format to the other all the time.
 

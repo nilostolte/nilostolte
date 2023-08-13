@@ -23,8 +23,6 @@
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Simple, scalable, and portable front-end web solution](https://github.com/nilostolte#SVG_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Bodymovin JSON format as a file representation for vector graphics and animation](https://github.com/nilostolte#bodymovin_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Modification of SVG-Edit](https://github.com/nilostolte#svgedit_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [GitHub web site](https://github.com/nilostolte#gitsite_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [𝝅 desktop calculator](https://github.com/nilostolte#𝝅calc_html_anchor)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Future Activities**](https://github.com/nilostolte#future_activities_html_anchor)\
@@ -372,16 +370,9 @@ It is also possible to use Java but its use and compilation to WebAssembly is no
 ### Current Activities <a name="SVG_html_anchor"></a>
 - **Simple, scalable, and portable front-end web solution**: Using inline and dynamically generated **SVG** vector primitives as a basic web development tool and as a 
 way to implement simple, scalable, and portable vector GUIs using **JavaScript**. 
-This allows GUIs with vector definitions almost identical to those used to represent the design in a vector graphics editor such as **Illustrator**, thus, potentially allowing automatic convertion of the design to **JavaScript** code. <a name="bodymovin_html_anchor"></a>. Using metaprogramming thanks to dynamic SVG creation in **JavaScript** for generating SVG widgets semi-automatically. Also using dynamic inline SVG updates to create animating effects in custom widgets features, such as copy-paste, selections, etc.
-- **Bodymovin JSON format as a file representation for vector graphics and animation**: Bodymoving is the new
-industry standard for animations not only on the web but also practically everywhere. The 
-[whole file format](https://lottiefiles.github.io/lottie-docs/) <a name="pixijs_html_anchor"></a>can be used as a 
-portable representation for vector animations, and a subset of it used as a portable representation for static vector graphics. 
-
-<a name="svgedit_html_anchor"></a>This possibiliity is being examined with semi-automatic tools used in previous projects. 
-A demo demonstrating this process is appearing soon. 
-- **Modification of SVG-Edit**: <a name="gitsite_html_anchor"></a>(paused)installation of SVG-Edit in order to modify it to export code in Java and other languages from SVG designs.
-- [**GitHub web site**](https://nilostolte.github.io/): (paused) this website is a proof of concept of the use of vector graphics on the web using HTML 5 Canvas and its vector graphics API. Nowadays using Javascript to build the shapes and to use the API. <a name="𝝅calc_html_anchor"></a>The objective is to pass to WebAssembly possibly using **Go** language for portability of the code everywhere and for performance.<a name="𝝅calc_html_anchor"></a>
+This allows GUIs with vector definitions almost identical to those used to represent the design in a vector graphics editor such as **Illustrator**, thus, potentially allowing automatic convertion of the design to **JavaScript** code. <a name="bodymovin_html_anchor"></a>. Using metaprogramming thanks to dynamic SVG creation in **JavaScript** for generating SVG widgets semi-automatically. Also using dynamic inline SVG updates to create animating effects in custom widgets features, such as copy-paste, selections, etc. A demo demonstrating this process is appearing soon. 
+<a name="svgedit_html_anchor"></a>
+- [**GitHub web site**](https://nilostolte.github.io/): (paused) this website is a proof of concept of the use of vector graphics on the web using inline SVG and dynamically generated SVG. Nowadays using Javascript to build the shapes and to use the API. <a name="𝝅calc_html_anchor"></a>
 - 𝝅 **desktop calculator**: (paused) a revamping of my [previous multi-precision scientific calculator](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system) for Android known as MaxCalc. This version is a desktop version that is a much more flexible application, not only integrating new features such as complex numbers, parenthesis prioritized operations, new computation calculus libraries, copy-pasting of values, etc., but it also implements a GUI entirely based on vector graphics primitives (previously it used a homemade framework library of widgets as explained [here](https://github.com/nilostolte/Projects-Presentations/blob/main/%CF%80%20Vector%20GUI%20for%20Java%20and%20Android.md#origins-of-the-system)), uses a much more flexible and extensible approach for function implementations using lambda expressions, variable sized and zoomable window,etc. This application is going to be offered as an open source software on GitHub once it is completed. The main idea is to use it as a demo for vector graphics GUI.<a name="future_activities_html_anchor"></a>
 
 <a name="future_activity_1_html_anchor"></a>

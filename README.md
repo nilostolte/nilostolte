@@ -11,17 +11,26 @@
 ## Summary
 ★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf): this letter is a foreword to the work I have been doing lately in terms of research and development.
 
+★ &nbsp;**Prefered dish**
+
+![Sashimi](https://github.com/nilostolte/nilostolte/assets/80269251/6bdc7f4a-316c-40b2-8293-7022ecb76e6e)
+
+★ &nbsp;[**Preferred game**](https://github.com/nilostolte/Sudoku)
+
+![image](https://github.com/nilostolte/nilostolte/assets/80269251/44cb1890-f7de-4627-af30-36dda656eaee)
+
+
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Sudoku solver using binary representation of digits](https://github.com/nilostolte#sudoku_html_anchor)\
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Simple, scalable, and portable front-end web solution](https://github.com/nilostolte#SVG_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Bodymovin JSON format as a file representation for vector graphics and animation](https://github.com/nilostolte#bodymovin_html_anchor)\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Efficient and portable front-end web solution](https://github.com/nilostolte#pixijs_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Modification of SVG-Edit](https://github.com/nilostolte#svgedit_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [GitHub web site](https://github.com/nilostolte#gitsite_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [𝝅 desktop calculator](https://github.com/nilostolte#𝝅calc_html_anchor)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Future Activities**](https://github.com/nilostolte#future_activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [thinking about it](https://github.com/nilostolte#future_activity_1_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Previous Activities**](https://github.com/nilostolte#previous_activities_html_anchor)\
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Sudoku solver using binary representation of digits](https://github.com/nilostolte#sudoku_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Examples of vector graphics in Java](https://github.com/nilostolte#previous_activity_1_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Functionalities using PDFBox](https://github.com/nilostolte#previous_activity_2_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Functionalities using FreeHEP](https://github.com/nilostolte#previous_activity_3_html_anchor)\
@@ -358,20 +367,17 @@ It is also possible to use Java but its use and compilation to WebAssembly is no
 <hr>
 
 ## Activities <a name="current_activities_html_anchor"></a>
-<a name="sudoku_html_anchor"></a>
+<a name="SVG_html_anchor">
 
 ### Current Activities
-- [**Sudoku solver using binary representation of digits**](https://github.com/nilostolte/Sudoku): <a name="bodymovin_html_anchor"></a>Simple 9x9 Sudoku brute force solver with intrinsic parallel candidate set processing thanks to the use of bit representation for the 1-9 digits as well as bitwise operations allowing to test all the candidates at once.
+- **Simple, scalable, and portable front-end web solution**: Using inline and dynamically generated **SVG** vector primitives as a basic web development tool and as a 
+way to implement simple, scalable, and portable vector GUIs using **JavaScript**. 
+This allows GUIs with vector definitions almost identical to those used to represent the design in a vector graphics editor such as **Illustrator**, thus, potentially allowing automatic convertion of the design to **JavaScript** code. <a name="bodymovin_html_anchor"></a>. Using metaprogramming thanks to dynamic SVG creation in **JavaScript** for generating SVG widgets semi-automatically. Also using dynamic inline SVG updates to create animating effects in custom widgets features, such as copy-paste, selections, etc.
 - **Bodymovin JSON format as a file representation for vector graphics and animation**: Bodymoving is the new
 industry standard for animations not only on the web but also practically everywhere. The 
 [whole file format](https://lottiefiles.github.io/lottie-docs/) <a name="pixijs_html_anchor"></a>can be used as a 
 portable representation for vector animations, and a subset of it used as a portable representation for static vector graphics. 
-- **Efficient and portable front-end web solution**: (paused) Using **PixiJS** vector primitives and other support tools as a 
-way to implement portable, extremely fast and live (animations) vector GUIs using **JavaScript**. See the scalable example 
-I have coded and published [here](https://nilostolte.github.io/pixijs/vector-demo.html). PixiJS uses GPU support to 
-efficiently render vector graphics on a `Canvas` and implements basic support for _picking_ and animation. This allows 
-GUIs with vector definitions almost identical to those used to represent the design in a vector graphics editor such as 
-**Illustrator**, thus, potentially allowing automatic convertion of the design to **JavaScript** code. 
+
 <a name="svgedit_html_anchor"></a>This possibiliity is being examined with semi-automatic tools used in previous projects. 
 A demo demonstrating this process is appearing soon. 
 - **Modification of SVG-Edit**: <a name="gitsite_html_anchor"></a>(paused)installation of SVG-Edit in order to modify it to export code in Java and other languages from SVG designs.
@@ -383,8 +389,9 @@ more flexible and extensible approach for function implementations using lambda 
 ### Future Activities
 - Zig? <a name="previous_activities_html_anchor"></a>
 
-<a name="previous_activity_1_html_anchor"></a>
+<a name="previous_activity_1_html_anchor"></a><a name="sudoku_html_anchor"></a>
 ### Previous Activities
+- [**Sudoku solver using binary representation of digits**](https://github.com/nilostolte/Sudoku): Simple 9x9 Sudoku brute force solver with intrinsic parallel candidate set processing thanks to the use of bit representation for the 1-9 digits as well as bitwise operations allowing to test all the candidates at once.
 - **Examples of vector graphics in Java**
   -  [**ClockWidget**](https://github.com/nilostolte/ClockWidget): analog vector graphics clock in Java that gives the real time on a desktop (wholly developped in Java, but the design was inspired by a vector clock from freepik)
   -  [**ExclamationIcon**](https://github.com/nilostolte/PostScript/tree/main/Examples/Convertion%20to%20Java): static icon used as an error warning (automatically converted to Java from PostScript - [process described here](https://github.com/nilostolte/PostScript/tree/main/Examples/Convertion%20to%20Java/ExclamationIcon)).

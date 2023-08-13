@@ -367,7 +367,7 @@ It is also possible to use Java but its use and compilation to WebAssembly is no
 <hr>
 
 ## Activities <a name="current_activities_html_anchor"></a>
-<a name="SVG_html_anchor">
+<a name="SVG_html_anchor"></a>
 
 ### Current Activities
 - **Simple, scalable, and portable front-end web solution**: Using inline and dynamically generated **SVG** vector primitives as a basic web development tool and as a 

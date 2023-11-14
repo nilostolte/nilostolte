@@ -11,9 +11,12 @@
 ## Summary
 ★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf): this letter is a foreword to the work I have been doing lately in terms of research and development.
 
-★ &nbsp;**Prefered dish**
+★ &nbsp;**Prefered dishes**
 
 ![Sashimi](https://github.com/nilostolte/nilostolte/assets/80269251/6bdc7f4a-316c-40b2-8293-7022ecb76e6e)
+
+![image](https://github.com/nilostolte/nilostolte/assets/80269251/457fe595-d05c-4f9f-9241-76d265f4f917)
+
 
 ★ &nbsp;[**Preferred game**](https://github.com/nilostolte/Sudoku)
 

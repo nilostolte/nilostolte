@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="104.281" height="34.354"
+	 viewBox="0 0 104.281 34.354" overflow="visible" enable-background="new 0 0 104.281 34.354" xml:space="preserve">
+<path stroke="#000000" stroke-width="0.75" d="M8.255,2.5h87.771c3.178,0,5.756,2.577,5.756,5.755v17.842
+	c0,3.178-2.578,5.756-5.756,5.756H8.255c-3.179,0-5.755-2.578-5.755-5.756V8.255C2.5,5.077,5.077,2.5,8.255,2.5z"/>
+<path fill="#FFFFFF" d="M33.775,2.5H8.255C5.077,2.5,2.5,5.077,2.5,8.255v17.842c0,3.178,2.577,5.756,5.755,5.756h25.521V2.5z"/>
+<g>
+	<g>
+		<polygon fill="#F7A41D" points="13.377,10.342 10.549,13.799 9.135,11.599 		"/>
+		<polygon shape-rendering="crispEdges" fill="#F7A41D" points="13.377,10.342 11.335,12.071 10.549,13.799 9.606,13.799 
+			9.606,21.813 11.021,21.813 9.292,22.599 8.035,25.27 6.149,25.27 6.149,10.342 		"/>
+		<polygon fill="#F7A41D" points="11.021,21.813 8.035,25.27 6.777,23.542 		"/>
+	</g>
+	<g>
+		<polygon fill="#F7A41D" points="14.949,10.342 15.892,12.542 11.963,13.799 		"/>
+		<polygon shape-rendering="crispEdges" fill="#F7A41D" points="14.949,10.342 23.592,10.342 23.592,13.799 11.963,13.799 
+			14.949,11.914 		"/>
+		<polygon fill="#F7A41D" points="24.377,21.813 21.392,25.27 20.292,23.228 		"/>
+		<polygon shape-rendering="crispEdges" fill="#F7A41D" points="24.377,21.813 21.863,23.228 21.392,25.27 12.749,25.27 
+			12.749,21.813 		"/>
+		<polygon fill="#F7A41D" points="29.72,6.885 14.32,25.27 6.62,28.884 22.021,10.342 		"/>
+	</g>
+	<g>
+		<polygon fill="#F7A41D" points="28.306,10.342 28.149,13.171 25.32,13.956 		"/>
+		<polygon shape-rendering="crispEdges" fill="#F7A41D" points="30.192,10.342 30.192,25.27 22.806,25.27 25.006,23.384 
+			25.792,21.813 26.735,21.813 26.735,13.956 25.32,13.956 26.892,12.542 28.306,10.342 		"/>
+		<polygon fill="#F7A41D" points="25.792,21.813 26.578,24.169 22.806,25.27 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon shape-rendering="crispEdges" fill="#FFFFFF" points="63.619,9.708 63.619,12.198 58.472,12.696 49.843,12.696 
+			49.843,9.708 		"/>
+		<polygon fill="#FFFFFF" points="63.619,12.198 54.822,22.487 54.822,23.151 49.677,23.151 58.472,12.696 58.472,12.198 		"/>
+		<polygon shape-rendering="crispEdges" fill="#FFFFFF" points="63.785,22.487 63.785,25.473 49.677,25.473 49.677,23.151 
+			54.656,22.487 		"/>
+	</g>
+	<rect x="65.61" y="9.708" shape-rendering="crispEdges" fill="#FFFFFF" width="3.651" height="15.765"/>
+	<g>
+		<polygon shape-rendering="crispEdges" fill="#FFFFFF" points="85.86,17.177 85.86,23.649 82.871,23.649 82.871,19.499 
+			80.216,17.676 77.892,17.177 		"/>
+		<polygon fill="#FFFFFF" points="80.216,17.344 82.871,19.499 77.892,17.177 		"/>
+		<path fill="#FFFFFF" d="M85.86,23.649c-1.694,1.211-3.984,1.992-6.258,1.992c-4.814,0-8.481-3.454-8.481-8.018
+			c0-4.531,3.733-7.982,8.63-7.982c2.374,0,4.846,0.912,6.458,2.323l-2.158,2.491c-1.18-1.047-2.79-1.66-4.3-1.66
+			c-2.82,0-5.014,2.141-5.014,4.896c0,2.788,2.209,4.913,5.03,4.913c0.944,0,2.124-0.382,3.153-0.914L85.86,23.649z"/>
+	</g>
+</g>
+</svg>

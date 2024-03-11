@@ -5,7 +5,7 @@
 <!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)-->
 
 
-<img style="width:8vw;" src="c-badge.svg">&nbsp;<img style="width:8vw;" src="java-badge.svg">&nbsp;<img style="width:8vw;" src="zig-badge.svg">&nbsp;<img style="width:8vw;" src="SVG-badge.svg">&nbsp;<img style="width:11vw;" src="JS-badge.svg">&nbsp;<img style="width:9vw;" src="eclipse-badge.svg">&nbsp;<img style="width:11vw;" src="android-badge.svg">&nbsp;<img style="width:8vw;" src="cpp-badge.svg">&nbsp;<img style="width:8vw; " src="HTML5-badge.svg">&nbsp;<a href="https://jb.gg/OpenSourceSupport"><img src="jb_beam.svg" align="right" style="width:12%;"></a>
+<img style="width:8%;" src="c-badge.svg">&nbsp;<img style="width:8%;" src="java-badge.svg">&nbsp;<img style="width:8%;" src="zig-badge.svg">&nbsp;<img style="width:8%;" src="SVG-badge.svg">&nbsp;<img style="width:11%;" src="JS-badge.svg">&nbsp;<img style="width:9%;" src="eclipse-badge.svg">&nbsp;<img style="width:11%;" src="android-badge.svg">&nbsp;<img style="width:8%;" src="cpp-badge.svg">&nbsp;<img style="width:8%; " src="HTML5-badge.svg">&nbsp;<a href="https://jb.gg/OpenSourceSupport"><img src="jb_beam.svg" align="right" style="width:12%;"></a>
 
 
 ### Summary

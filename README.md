@@ -5,7 +5,7 @@
 <!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)-->
 
 
-<img style="width:8%; height: 8%;" src="c-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="java-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="zig-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="JS-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="SVG-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="eclipse-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="android-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="cpp-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="HTML5-badge.svg">&nbsp;<a href="https://jb.gg/OpenSourceSupport"><img src="jb_beam.svg" style="width:14%; height: 14%;"></a>
+<img style="width:8%; height: 8%;" src="c-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="java-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="zig-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="JS-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="SVG-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="eclipse-badge.svg">&nbsp;<img style="width:10%; height: 10%;" src="android-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="cpp-badge.svg">&nbsp;<img style="width:8%; height: 8%;" src="HTML5-badge.svg">&nbsp;<a href="https://jb.gg/OpenSourceSupport"><img src="jb_beam.svg" align="right" style="width:12%; height: 12%;"></a>
 
 
 ## Summary

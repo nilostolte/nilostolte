@@ -8,7 +8,9 @@
 <img style="width:8vw;" src="c-badge.svg">&nbsp;<img style="width:8vw;" src="java-badge.svg">&nbsp;<img style="width:8vw;" src="zig-badge.svg">&nbsp;<img style="width:8vw;" src="SVG-badge.svg">&nbsp;<img style="width:11vw;" src="JS-badge.svg">&nbsp;<img style="width:9vw;" src="eclipse-badge.svg">&nbsp;<img style="width:11vw;" src="android-badge.svg">&nbsp;<img style="width:8vw;" src="cpp-badge.svg">&nbsp;<img style="width:8vw; " src="HTML5-badge.svg">&nbsp;<a href="https://jb.gg/OpenSourceSupport"><img src="jb_beam.svg" align="right" style="width:12%;"></a>
 
 
-## Summary
+### Summary
+
+<hr>
 ★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf): this letter is a foreword to the work I have been doing lately in terms of research and development.
 
 ★ &nbsp;**Prefered dishes**

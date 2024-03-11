@@ -11,6 +11,7 @@
 ### Summary
 
 <hr>
+
 ★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf): this letter is a foreword to the work I have been doing lately in terms of research and development.
 
 ★ &nbsp;**Prefered dishes**

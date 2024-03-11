@@ -1,5 +1,5 @@
 <a href="https://nilostolte.github.io/">
-<img src="banner2.svg" style="width:100%; height: 100%;>
+<img src="banner3.svg" style="width:100%; height: 100%;>
 </a>
 <a href="https://linktr.ee/nilostolte"><img src="email-logo.svg" style="width:4%; height: 4%;"></a>&nbsp; <a href="https://nilostolte.github.io/"><img src="github-logo.svg" style="width:4%; height: 4%;"></a>&nbsp; <a href="https://twitter.com/nilostolte"><img src="twitter-logo.svg" style="width:4%; height: 4%;"></a>&nbsp; <a href="https://dev.to/nilostolte"><img src="dev-logo.svg" style="width:4%; height: 4%;"></a><br><br>
 <!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)-->

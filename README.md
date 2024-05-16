@@ -116,7 +116,7 @@ Swing is a GUI framework in Java Core that supplies a high level solution to con
 but it is only portable within the context of Java Core applications. The main problem with Swing is the problem of every GUI
 framework, that is, it pratically forces one to construct GUIs in a certain way. The approach is to offer predefined _widgets_
 that can be used to build the interface and some internal structuring of the interface. The goal is to accelerate GUI
-construction, but one often start spending considerable time into the idiosincrasies of the framework instead of doing actual
+construction, but one often start spending considerable time into the idiosyncrasies of the framework instead of doing actual
 real work. On the other hand, without predefined _widgets_ or internal structuring, one is obliged to code them oneself, which 
 is often considered as cumbersome or _extra work_. The advantage of doing that, though, is that the code is free from that
 particular framework dependency and it can be often reused in other contexts within the same language (as in
@@ -361,7 +361,7 @@ be converted from one format to the other all the time.
 
 ### Vector GUI Everywhere
 
-As we can see, what is proposed here is a coherent and portable way of building GUIs based on code that can be used everywhere including (and particularly) on the web. The best language to code completely portable interfaces is currently not quite clear. What is clear is that there must be a way to do that directly on hardware using GPUs. Therefore shader languages seem to be the most appropriate way to attack this problem. GLSL seems to be the simplest, the most popular, and the most convenient shader language, since it works in practically all platforms and OS, and its supported by OpenGL which is an open source library and already a standard in graphics for many decennials.
+As we can see, what is proposed here is a coherent and portable way of building GUIs based on code that can be used everywhere including (and particularly) on the web. The best language to code completely portable interfaces is currently not quite clear. What is clear is that there must be a way to do that directly on hardware using GPUs. Therefore shader languages seem to be the most appropriate way to attack this problem. GLSL seems to be the simplest, the most popular, and the most convenient shader language, since it works in practically all platforms and OS, and it's supported by OpenGL which is an open source library and already a standard in graphics for many decennials.
 
 I am currently examining the possibility of using [NanoSVG](https://github.com/nilostolte/nanosvg) GLSL shader code for displaying paths. The particularity of NanoSVG is that it converts all SVG paths primitives to cubic Bézier curves prior to display them using GLSL.
 
@@ -369,15 +369,15 @@ I have studied and modified NanoSVG path parser to be able to read SVG paths and
 
 I have been also experimenting with implicitly defined primitives in GLSL to be complementary to vector graphics with the goal of also using implicitly defined shapes in GUIs, thus, enriching the spectrum of possible forms that can be used in GUIs. These experiments were done in C language [here](https://github.com/nilostolte/OpenGL-GLSL/tree/main/glfw-3.3.8/examples/shaders) using GLFW for user interactions. Notwithstanding this aditional generality, implicit shapes must be coded directly in GLSL, which will unfortunatly discourage many artists and even programmers who are not familiar with GLSL.
 
-And this is exactly the worst disadvantage of GLSL as a language for portable GUIs everywhere. Despite its simplicity, it still is an uncommon way to do things due to GPUs idiosincrasies. Fortunately, GLSL hides these details but they are still quite obvious since it works quite differently than programming languages designed to run on CPUs. 
+And this is exactly the worst disadvantage of GLSL as a language for portable GUIs everywhere. Despite its simplicity, it still is an uncommon way to do things due to GPUs idiosyncrasies. Fortunately, GLSL hides these details but they are still quite obvious since it works quite differently than programming languages designed to run on CPUs. 
 
-In addition, font management is inexistant in GLSL. This means that font management must be done by hand, that is, by displaying glyphs as paths, one by one, using the glyphs advance widths as well as kerning information as I have done in [Java](https://github.com/nilostolte/Projects-Presentations/blob/main/Automatic%20Vector%20Fonts%20Generator%20Project.md), and even justifying text by hand as I have done [here](https://github.com/nilostolte/Projects-Presentations/blob/main/BreakIntoLines.md#breakintolines). In other words, I implemented my own font rendering engine.
+In addition, font management is inexistent in GLSL. This means that font management must be done by hand, that is, by displaying glyphs as paths, one by one, using the glyphs advance widths as well as kerning information as I have done in [Java](https://github.com/nilostolte/Projects-Presentations/blob/main/Automatic%20Vector%20Fonts%20Generator%20Project.md), and even justifying text by hand as I have done [here](https://github.com/nilostolte/Projects-Presentations/blob/main/BreakIntoLines.md#breakintolines). In other words, I implemented my own font rendering engine.
 
 This is obviously too much to ask for from an average programmer, even worse in the case of an artist.
 
-Therefore, portability as well as high rendering performance come with a price with nowadays technologies. Once one is willing to pay that price, though, a whole new universe unveils, with huge repercusions.
+Therefore, portability as well as high rendering performance come with a price with nowadays technologies. Once one is willing to pay that price, though, a whole new universe unveils, with huge repercussions.
 
-The question that remains is always the same: why this hasn't been done before and why these tools are not widely available? Probably because we gave priority to other technologies that are easier to use and learn, but that might one day disappear or drastically change, not only because of the limitations they impose, but also for the specific niche where they have been created for, and that for these reason, not portable.
+The question that remains is always the same: why this hasn't been done before and why these tools are not widely available? Probably because we gave priority to other technologies that are easier to use and learn, but that might one day disappear or drastically change, not only because of the limitations they impose, but also because of the specific niche they have been created for, and that for this reason, are not portable.
 
 Reusable code has always been the holy grail in programming, but unfortunately, as far as GUIs are concerned, this concept remained highly elusive, mainly because we developed technologies that actually prevent code reusability.<a name="activities_html_anchor"></a>
 

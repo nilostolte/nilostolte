@@ -361,11 +361,25 @@ be converted from one format to the other all the time.
 
 ### Vector GUI Everywhere
 
-As we can see, what is proposed here is a coherent and portable way of building GUIs based on code that can be used everywhere including (and particularly) on the web. The best language to code completely portable interfaces according to nowadays availability of WebAssembly compilers as well as vector graphics support is probably **Go**. This still has to be demonstrated, but Figma is enough proof that this concept works.
+As we can see, what is proposed here is a coherent and portable way of building GUIs based on code that can be used everywhere including (and particularly) on the web. The best language to code completely portable interfaces is currently not quite clear. What is clear is that there must be a way to do that directly on hardware using GPUs. Therefore shader languages seem to be the most appropriate way to attack this problem. GLSL seems to be the simplest, the most popular, and the most comvenient shader language, since it works in practically all platforms and OS, and its supported by OpenGL which is open source library and already a standard in graphics for many decennials.
 
-The idea of using **Go** is that the same interface that can be compiled to a particular machine code (to be used in a desktop or mobile) can also be compiled to WebAssembly to be used on the web with only very small changes. The simplicity of **Go** and the ability to perform custom memory management also helps a lot in terms of portability and performance.
+I am currently examining the possibility of using [NanoSVG](https://github.com/nilostolte/nanosvg) GLSL shader code for displaying paths. The particularity of NanoSVG is that it converts all SVG paths primitives to cubic Bezier prior to display them using GLSL.
 
-It is also possible to use Java but its use and compilation to WebAssembly is not as straighforward nowadays as with **Go**, which seems to be the ideal language to build interfaces in the near future. Of course that with the generalization of WebAssembly also to desktop and mobiles, any language could be used but rare are the languages having the vector graphics support of **Go** language. **Go** is maybe here to stay if one thinks about vector GUIs everywhere.<a name="activities_html_anchor"></a>
+I have studied and modified NanoSVG path parser to be able to read SVG paths and regenerate them either exclusively using absolute coordinates or relative coordinates, because the paths in SVG can contain a mix between these both kind of coordinates, which is not convenient in many cases. This application can be found [here](https://github.com/nilostolte/SVGPathParser), and can be used to easily assemble and to place SVG paths in a different scene or context by using script files to describe the scene. This parser can be eventually used to generate GLSL code directly from SVG, functioning as a transpiler.
+
+I have been also experimenting with implicitly defined primitives in GLSL to be complementary to vector graphics with the goal of also using implicitly defined shapes in GUIs, thus, enriching the spectrum of possible forms that can be used in GUIs. These experiments were done in C language [here](https://github.com/nilostolte/OpenGL-GLSL/tree/main/glfw-3.3.8/examples/shaders) using GLFW for user interactions. Notwithstanding this aditional generality, implicit shapes must be coded directly in GLSL, which will unfortunatly discourage many artists and even programmers who are not famliar with GLSL.
+
+And this is exactly the worst disadvantage of GLSL as a language for portable GUIs everywhere. Despite its simplicity, it still is an uncommon way to do things due to GPUs idiosincrasies. Fortunately, GLSL hides these details but they are still quite obvious since it works quite differently than programming languages designed to run on CPUs. 
+
+In addition, font management is inexistant in GLSL. This means that font management must be done by hand (that is, by displaying glyphs as paths, one by one, using the glyphs advance widths as well as kerning information as I have done in [Java](https://github.com/nilostolte/Projects-Presentations/blob/main/Automatic%20Vector%20Fonts%20Generator%20Project.md), and even justifying text by hand as I have done [here](https://github.com/nilostolte/Projects-Presentations/blob/main/BreakIntoLines.md#breakintolines). In other words, I implemented my own font rendering engine.
+
+This is obviously too much to ask for from an average programmer, even worse in the case of an artist.
+
+Therefore, portability as well as high rendering performance come with a price with nowadays technologies. Once one is willing to pay that price, though, a whole new universe unveils, with huge repercusions.
+
+The question that remains is always the same: why this hasn't been done before and why these tools are not widely available? Probably because we gave priority to other technologies that are easier to use and learn, but that might one day disappear or drastically change, not only because of the limitations they impose, but also for the specific niche where they have been created for, and that for these reason, not portable.
+
+Reusable code has always been the holy grail in programming, but unfortunately, as far as GUIs are concerned, this concept remained highly elusive, mainly because we developed technologies that actually prevent code reusability.<a name="activities_html_anchor"></a>
 
 <hr>
 

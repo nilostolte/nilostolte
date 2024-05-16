@@ -371,7 +371,7 @@ I have been also experimenting with implicitly defined primitives in GLSL to be 
 
 And this is exactly the worst disadvantage of GLSL as a language for portable GUIs everywhere. Despite its simplicity, it still is an uncommon way to do things due to GPUs idiosincrasies. Fortunately, GLSL hides these details but they are still quite obvious since it works quite differently than programming languages designed to run on CPUs. 
 
-In addition, font management is inexistant in GLSL. This means that font management must be done by hand (that is, by displaying glyphs as paths, one by one, using the glyphs advance widths as well as kerning information as I have done in [Java](https://github.com/nilostolte/Projects-Presentations/blob/main/Automatic%20Vector%20Fonts%20Generator%20Project.md), and even justifying text by hand as I have done [here](https://github.com/nilostolte/Projects-Presentations/blob/main/BreakIntoLines.md#breakintolines). In other words, I implemented my own font rendering engine.
+In addition, font management is inexistant in GLSL. This means that font management must be done by hand, that is, by displaying glyphs as paths, one by one, using the glyphs advance widths as well as kerning information as I have done in [Java](https://github.com/nilostolte/Projects-Presentations/blob/main/Automatic%20Vector%20Fonts%20Generator%20Project.md), and even justifying text by hand as I have done [here](https://github.com/nilostolte/Projects-Presentations/blob/main/BreakIntoLines.md#breakintolines). In other words, I implemented my own font rendering engine.
 
 This is obviously too much to ask for from an average programmer, even worse in the case of an artist.
 

@@ -4,16 +4,33 @@
 <a href="https://linktr.ee/nilostolte"><img src="email-logo.svg" style="width:4%; height: 4%;"></a>&nbsp; <a href="https://nilostolte.github.io/"><img src="github-logo.svg" style="width:4%; height: 4%;"></a>&nbsp; <a href="https://twitter.com/nilostolte"><img src="twitter-logo.svg" style="width:4%; height: 4%;"></a>&nbsp; <a href="https://dev.to/nilostolte"><img src="dev-logo.svg" style="width:4%; height: 4%;"></a><br><br>
 <!--★ &nbsp;Discord: ID nilostolte#1728, [Channel](https://discord.gg/ZZGWnZBups)-->
 
-
+<!--
 <img style="width:8%;" src="c-badge.svg">&nbsp;<img style="width:8%;" src="java-badge.svg">&nbsp;<img style="width:8%;" src="zig-badge.svg">&nbsp;<img style="width:8%;" src="SVG-badge.svg">&nbsp;<img style="width:11%;" src="JS-badge.svg">&nbsp;<img style="width:9%;" src="eclipse-badge.svg">&nbsp;<img style="width:11%;" src="android-badge.svg">&nbsp;<img style="width:8%;" src="cpp-badge.svg">&nbsp;<img style="width:8%; " src="HTML5-badge.svg">&nbsp;<a href="https://jb.gg/OpenSourceSupport"><img src="jb_beam.svg" align="right" style="width:12%;"></a>
-
+-->
 <hr>
 
 # Summary
 
 ★ &nbsp;[**Open Letter**](https://github.com/nilostolte/Projects-Presentations/blob/main/OpenLetter.pdf): this letter is a foreword to the work I have been doing lately in terms of research and development.
 
-★ &nbsp;**Prefered dishes**
+★ &nbsp;**Preferred technologies/languages**
+
+<p align="left">
+    <img src="all-logos.svg" style="width:70%;">
+</p>
+
+★ &nbsp;**Articles**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Scientific articles**](https://nilostolte.github.io/research/index.html)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ **Technical articles**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Optimize code using binary logic](https://archive.ph/LdV4r)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Top benefits of the Zig programming language](https://archive.ph/j46kq#selection-599.0-599.44)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Debugging Java programs with CLI (to appear)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Using `BigDecimal` In Java Applications (to appear)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ **Technical articles in this site**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [SVG radial gradients using Phong shading](https://nilostolte.github.io/tech/articles/SVGspecular.html)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Why is Zig so Cool?](https://nilostolte.github.io/tech/articles/ZigCool.html)
+
+★ &nbsp;**Preferred dishes**
 
 ![Sashimi](https://github.com/nilostolte/nilostolte/assets/80269251/6bdc7f4a-316c-40b2-8293-7022ecb76e6e)
 
@@ -24,7 +41,7 @@
 
 ![image](https://github.com/nilostolte/nilostolte/assets/80269251/44cb1890-f7de-4627-af30-36dda656eaee)
 
-
+<!--
 ★ &nbsp;[**Activities**](https://github.com/nilostolte#activities_html_anchor)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [**Current Activities**](https://github.com/nilostolte#current_activities_html_anchor)\
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Simple, scalable, and portable front-end web solution](https://github.com/nilostolte#SVG_html_anchor)\
@@ -70,6 +87,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Art-Vector](https://github.com/nilostolte#art_html_anchor): Vector Art portfolio showing several vector graphics designs I have developed for different reasons.\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▻ [Memes](https://github.com/nilostolte#meme_html_anchor): some humor to start with?
 <hr>
+-->
 
 ## Introduction
 
@@ -382,7 +400,7 @@ The question that remains is always the same: why this hasn't been done before a
 Reusable code has always been the holy grail in programming, but unfortunately, as far as GUIs are concerned, this concept remained highly elusive, mainly because we developed technologies that actually prevent code reusability.<a name="activities_html_anchor"></a>
 
 <hr>
-
+<!--
 ## Activities <a name="current_activities_html_anchor"></a>
 
 
@@ -420,6 +438,7 @@ This allows GUIs with vector definitions almost identical to those used to repre
   - [Converting PostScript to Java](https://github.com/nilostolte/PostScript/tree/main/Examples/Convertion%20to%20Java/ExclamationIcon#exclamationicon): This project shows how to convert PostScript files into Java classes semi-automatically.
   - [Java Vector GUI](https://github.com/nilostolte/Java-Vector-GUI/tree/main/MenuInfographics6#menuinfographics6): This project shows how a vector GUI can be coded. This code has been used for other projects like in MicroVBA.<a name="articles_html_anchor"></a>
 <hr>
+-->
 
 <a name="moore_html_anchor"></a>
 ## Interesting Articles

@@ -243,20 +243,22 @@ the web. The conversion is done **dynamically** and one doesn't even see it expl
 
 Here is the most sensational advantage of [Bodymovin **JSON** format](https://lottiefiles.github.io/lottie-docs/), it's
 **metaprogramming paradigm**. Adobe cleverly used a simpler and more **abstract metalanguage** to express the vectors
-as well as the animations in order to dynamicall convert the format to any possible vector representation. One may argue
+as well as the animations in order to dynamically convert the format to any possible vector representation. One may argue
 that its format is intricate and not readable. 
 
 At this point the discussion becomes interesting, because indeed one might quickly become overwhelmed by the format structure.
 The reason for that is that not only the vector models are represented but also the complete animation setting (it's a
 complete and independent animation script) as opposed to the method exposed in the video above. One might still argue that
 the file format is proprietary and impenetrable. Not anymore. It became open-source thanks to 
-[Lottie](https://lottiefiles.com/) and it's growing very quickly as the "new industry standard."
+[Lottie](https://lottiefiles.com/), but its promice to become the "new industry standard" faded.
 
-This might be the solution as a **metalanguage** for representation of vector graphics (and animation), as far as 
-portability, efficiency and flexibility for vector GUIs in general are concerned. See [**Bodymovin JSON format 
-as a file representation for vector graphics and animation**](https://github.com/nilostolte#bodymovin_html_anchor).
+This could have been the solution as a **metalanguage** for representation of vector graphics (and animation), as far as 
+portability, efficiency and flexibility for vector GUIs in general are concerned, but unfortunately, efforts to make a
+comprehensive documentation and to make it portable to many platforms apparently faded.
 
-Besides active and live contents we also have problems with **fonts** on the web. Even if the problem of vector fonts is solved as we can see below, <a name="typoweb_html_anchor"></a>it is the structure and the rendering of html itself that became a problem, as far as zooming capabilities are concerned.
+Besides active and live contents we also have problems with **fonts** on the web. Even if the problem of vector fonts is 
+solved as we can see below, <a name="typoweb_html_anchor"></a>it is the structure and the rendering of html itself that 
+became a problem, as far as zooming capabilities are concerned.
 
 #### The problem of typography on the web
 

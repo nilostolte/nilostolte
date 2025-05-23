@@ -274,9 +274,7 @@ the page, but that is obviously not what is happening there. Why not scaling the
 and in the web nowadays it is not enoughly "responsive", unless we are talking about a static design such as shown
 [here](https://nilostolte.github.io/). As we can see in [this site](https://nilostolte.github.io/) it is fairly easy to obtain
 "responsive" zoomable and near WYSIWYG vector typography and vector graphics on the web using conventional web technology, 
-provided the elements are static, not part of animations. However, this panorama has been changing a lot, thanks to JS JIT
-techonology in general, and Bodymovin and Lottie vector animations, as stated
-[above](https://github.com/nilostolte#vectweb_html_anchor).
+provided the elements are static, not part of animations. However, this panorama has been changing a lot, thanks to JS JIT.
 
 I have seen claims that what **Typetura** is aiming is size-specific adjustments to type designs as proposed by Tim Ahrens and Shoko Mugikura in ["Size-specific adjustments to type designs – An investigation of the principles guiding the design of optical sizes"](https://justanotherfoundry.com/size-specific-adjustments-to-type-designs). In this proposal the _shapes_ of the glyphs change with the scale as it has been observed in typography for many centuries and thanks to new psychological research in this subject. Here it is an example of how a metal typography font would change according to the scale:
 

@@ -286,7 +286,7 @@ I have seen claims that what **Typetura** is aiming is size-specific adjustments
 If there is a future of **typography** on the web or in electronic typography in general, this would be it for sure. But this is not what Typetura
 is doing. Typetura is merely scaling fonts and not changing their shapes according to the scale as proposed by Tim Ahrens and Shoko Mugikura. This
 is only achieved with a smart use of **variable fonts**, which is the huge novelty in typography, not only on the web, but especially on the web.
- **Glyphs**, a program running on iOS, is probably the responssible for this breakthrough with its new text-based file format.
+ **Glyphs**, a program running on iOS, is probably the responsible for this breakthrough with its new text-based file format.
 
 Threre was a time when WYSIWYG was not applied only on editing contexts that would be printed with the same formatting as while editing. It could also mean that something is displayed as it was meant, it's identical everywhere, but this concept practically disappeared on displaying stuff on the web, except in editing.
 
